@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="../resources/css/font.css">
+    <link rel="stylesheet" href="../resources/css/reset.css">
+    <link rel="stylesheet" href="../resources/css/common.css">
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="../resources/css/main.css">
+    <link rel="stylesheet" href="../resources/css/sub.css">
+    <link rel="stylesheet" href="../resources/css/sub_new.css">
+
+    <!-- 공통 js -->
+    <script type="text/javascript" src="../resources/js/common.js"></script>
+    <!-- 공통 js -->
+    <script type="text/javascript" src="../resources/js/sub.js"></script>
+
+    <title></title>
+</head>
+
+<body>
+
+    <!-- skipNav -->
+    <div id="skipNav">
+        <a href="#nav">주메뉴 바로가기</a>
+        <a href="#contents">본문 바로가기</a>
+    </div>
+    <!-- skipNav -->
+
+    <!-- header -->
+    <header class="common_header header" id="header">
+        <hgroup>
+            <h1><a href="#"><img src="../resources/images/common/logo.png" alt="한양사이버대학교 www.hycu.ac.kr"></a></h1>
+            <div class="menu_btn"><button><img src="../resources/images/common/menu_ico.png" alt="메뉴열기"></button></div>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">포트폴리오</a>
+                        <ul>
+                            <li><a href="#">이력서</a></li>
+                            <li><a href="#">자기소개서</a></li>
+                            <li><a href="#">나의 포트폴리오</a></li>
+                            <li><a href="#">우수 포트폴리오</a></li>
+                            <li><a href="#">Digital Badge</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">학습분석정보</a>
+                        <ul>
+                            <li><a href="#">학습분석 정보</a></li>
+                            <li><a href="#">학생통계 조회</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">역량-학습진단</a>
+                        <ul>
+                            <li><a href="#">나의 역량현황</a></li>
+                            <li><a href="#">핵심역량안내</a></li>
+                            <li><a href="#">역량-학습진단 검사</a></li>
+                            <li><a href="#">졸업자가진단</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">학습활동</a>
+                        <ul>
+                            <li><a href="#">배움 클래스</a></li>
+                            <li><a href="#">채움 클래스</a></li>
+                            <li><a href="#">이음 클래스</a></li>
+                            <li><a href="#">마일리지</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">진로/취업 </a>
+                        <ul>
+                            <li><a href="#">진로목표</a></li>
+                            <li><a href="#">로드맵</a></li>
+                            <li><a href="#">채용정보</a></li>
+                            <li><a href="#">취업자료실</a></li>
+                            <li><a href="#">진로/직무적성검사</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">통합상담</a>
+                        <ul>
+                            <li><a href="#">Q&amp;A</a></li>
+                            <li><a href="#">교수상담</a></li>
+                            <li><a href="#">심리상담</a></li>
+                            <li><a href="#">법률상담</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">커뮤니티</a>
+                        <ul>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">자료실</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header_right">
+                <button class="user_change">관리자변환</button>
+                <p class="user_name">홍길동(106003)</p>
+                <button class="user_ico"><img src="../resources/images/common/user_ico.png" alt="프로필관리"></button>
+                <button class="user_exit"><img src="../resources/images/common/user_exit.png" alt="로그아웃하기"></button>
+            </div>
+        </hgroup>
+
+        <!-- 모바일 네비게이션 -->
+        <div class="mobile_nav">
+            <div class="mnav_top">
+                <img src="../resources/images/common/m_logo.png" alt="">
+                <button class="close"><img src="../resources/images/common/menu_bk.png" alt="메뉴닫기"></button>
+            </div>
+            <ul class="drop_down">
+                <li class="dep2"><a href="javascript:;">교수활동지원</a>
+                    <ul>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dep2"><a href="javascript:;">학생기본정보</a>
+                    <ul>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dep2"><a href="javascript:;">학습활동</a>
+                    <ul>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dep2"><a href="javascript:;">역량-학습진단</a>
+                    <ul>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dep2"><a href="javascript:;">진로/취업</a>
+                    <ul>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dep2"><a href="javascript:;">포트폴리오</a>
+                    <ul>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dep2"><a href="javascript:;">통합상담</a>
+                    <ul>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dep2"><a href="javascript:;">커뮤니티</a>
+                    <ul>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <!--// 모바일 네비게이션 -->
+        <div class="header_back"></div>
+    </header>
+    <!--// header -->
+
+
+
+
+    <div id="contents" class="sub sub02">
+        <!-- container -->
+        <div class="container">
+            <!-- 레프트네비 -->
+            <div class="lnb">
+                <div class="lnb_name">
+                    <h2>1차 메뉴</h2>
+                </div>
+                <ul class="lnb_wrap">
+                    <li class="lnb_lst active"><a href="javascript:;">2차 메뉴</a><!-- 클래스명 active로 제어 -->
+                        <ul>
+                            <li class="active"><a href="javascript:;">- 3차 메뉴</a></li><!-- 클래스명 active로 제어 -->
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="no_depth"><a href="javascript:;">2차 메뉴</a></li>
+                    <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--//레프트 네비 -->
+
+            <div class="cont_wrap mentoring">
+                <!-- 페이지 상단 네비 -->
+                <div class="page_nav">
+                    <ul>
+                        <li><a href="javascript:;">멘토링</a></li>
+                        <li><a href="javascript:;">학업 멘토링</a></li>
+                        <li><a href="javascript:;">멘토링 운영관리</a></li>
+                    </ul>
+                </div>
+                <!--// 페이지 상단 네비 -->
+
+                <!-- 페이지 제목 -->
+                <h3 class="sub_title">멘토링 운영관리</h3>
+                <!--// 페이지 제목 -->
+
+                <!-- 탭버튼 -->
+                <div class="tab">
+                    <ul>
+                        <li class="active"><button>멘티 매칭</button></li>
+                        <li><button>만족도 평가</button></li>
+                        <li><button>멘토 활동 결과</button></li>
+                    </ul>
+                </div>
+                <!--// 탭버튼 -->
+
+                <!-- 모바일 셀렉트 -->
+                <div class="mobile_select">
+                    <span class="select_page"><button>멘티 매칭</button></span>
+                    <ul class="mselect_lst">
+                        <li><a href="">멘티 매칭</a></li>
+                        <li><a href="">만족도 평가</a></li>
+                        <li><a href="">멘토 활동 결과</a></li>
+                    </ul>
+                </div>
+                <!--// 모바일 셀렉트 -->
+
+                <!-- 내용 시작 -->
+                <div class="section_wrap tap_has"><!-- 위에 탭이 있는 페이지는 tap_has 추가-->
+
+                    <section class="mentoring_section">
+
+                        <div class="board_detail_title">
+                            <h4>멘토가 있다면 학업도 어렵지 않습니다.</h4>
+                            <ul>
+                                <li><span>멘토링 기간 </span>2023-00-00 ~ 2023-00-00</li>
+                                <li><span>멘티 매칭현황 </span>미완료</li>
+                            </ul>
+                        </div>
+
+
+
+                        <!-- 멘티 인원 박스 -->
+                        <div class="mentee_num_wrap sub0702_03_box">
+                            <div class="scroll_x">
+                                <div class="flex">
+                                    <div class="num_box num_box1">
+                                        <span class="ttl">수용 인원</span>
+                                        <span class="num"><b>10</b>명</span>
+                                    </div>
+                                    <div class="num_box num_box2">
+                                        <span class="ttl">신청 인원</span>
+                                        <span class="num"><b>12</b>명</span>
+                                    </div>
+                                    <div class="num_box num_box3">
+                                        <span class="ttl">수용 인원</span>
+                                        <span class="num"><b>12</b>명</span>
+                                    </div>
+                                </div>
+                                <div class="scroll_back"> <!-- 클릭시 display:none -->
+                                    <img src="../resources/images/sub/scroll_ico.png" alt="">
+                                    <p>화면을 터치한 후에 <br> 좌우로 스크롤하여 확인하세요.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- 멘티 인원 박스 -->
+
+                        <div class="lst_section">
+                            <!-- 게시판 상당 페이지-->
+                            <div class="page_info">
+                                <p class="all">총 게시물 <span>51</span></p>
+                                <p class="page">페이지 <span><b>1</b>/10</span></p>
+                            </div>
+                            <!--// 게시판 상당 페이지-->
+                            <!-- 게시판 -->
+                            <div class="board">
+                                <div class="scroll_box2">
+                                    <table class="common_table scroll_table fixed">
+                                        <caption>예약승인 및 결과입력 리스트</caption>
+                                        <colgroup>
+                                            <col width="7%">
+                                            <col width="8%">
+                                            <col width="13%">
+                                            <col width="15%">
+                                            <col width="13%">
+                                            <col width="11%">
+                                            <col width="12%">
+                                            <col width="12%">
+                                            <col width="9%">
+                                        </colgroup>
+                                        <thead>
+                                            <tr>
+                                                <th>번호</th>
+                                                <th>신청자</th>
+                                                <th>학번</th>
+                                                <th>이메일 주소</th>
+                                                <th>학적정보</th>
+                                                <th>신청동기</th>
+                                                <th><button class="ascending order_btn">신청일</button></th>
+                                                <th><button class="ascending order_btn">매칭현황</button></th>
+                                                <th>매칭</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>10</td>
+                                                <td>김상상</td>
+                                                <td>(T00000010)</td>
+                                                <td>kim@hycu.ac.kr</td>
+                                                <td>1학년 2학기 재학</td>
+                                                <td>
+                                                    <a class="btn in_w66" href="#" title="">
+                                                        <span>확인하기</span>
+                                                    </a>
+                                                </td>
+                                                <td>2023.09.13</td>
+                                                <td>완료</td>
+                                                <td>
+                                                    <input type="checkbox" id="toggle" hidden checked>
+
+                                                    <label for="toggle" class="toggleSwitch">
+                                                        <span class="toggleButton"></span>
+                                                    </label>
+                                                </td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>9</td>
+                                                <td>이상상</td>
+                                                <td>(T00000011)</td>
+                                                <td>lee@hycu.ac.kr</td>
+                                                <td>1학년 2학기 재학</td>
+                                                <td>
+                                                    <a class="btn in_w66" href="#" title="">
+                                                        <span>확인하기</span>
+                                                    </a>
+                                                </td>
+                                                <td>2023.09.12</td>
+                                                <td>하차</td>
+                                                <td>
+                                                    <input type="checkbox" id="toggle" hidden>
+
+                                                    <label for="toggle" class="toggleSwitch">
+                                                        <span class="toggleButton"></span>
+                                                    </label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>8</td>
+                                                <td>박상상</td>
+                                                <td>(T00000012)</td>
+                                                <td>park@hycu.ac.kr</td>
+                                                <td>1학년 2학기 재학</td>
+                                                <td>
+                                                    <a class="btn in_w66" href="#" title="">
+                                                        <span>확인하기</span>
+                                                    </a>
+                                                </td>
+                                                <td>2023.09.12</td>
+                                                <td>취소신청
+                                                    <a class="btn in_w55 in_ht25" href="javascript:void(0);" title="">
+                                                        <span>사유</span>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" id="toggle" hidden>
+
+                                                    <label for="toggle" class="toggleSwitch">
+                                                        <span class="toggleButton"></span>
+                                                    </label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>7</td>
+                                                <td>박상상</td>
+                                                <td>(T00000012)</td>
+                                                <td>park@hycu.ac.kr</td>
+                                                <td>1학년 2학기 재학</td>
+                                                <td>
+                                                    <a class="btn in_w66" href="#" title="">
+                                                        <span>확인하기</span>
+                                                    </a>
+                                                </td>
+                                                <td>2023.09.12</td>
+                                                <td>취소신청
+                                                    <a class="btn in_w55 in_ht25" href="javascript:void(0);" title="">
+                                                        <span>사유</span>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <input type="checkbox" id="toggle" hidden>
+
+                                                    <label for="toggle" class="toggleSwitch">
+                                                        <span class="toggleButton"></span>
+                                                    </label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>6</td>
+                                                <td>박상상</td>
+                                                <td>(T00000010)</td>
+                                                <td>kim@hycu.ac.kr</td>
+                                                <td>1학년 2학기 재학</td>
+                                                <td>
+                                                    <a class="btn in_w66" href="#" title="">
+                                                        <span>확인하기</span>
+                                                    </a>
+                                                </td>
+                                                <td>2023.09.12</td>
+                                                <td>대기</td>
+                                                <td>
+                                                    <input type="checkbox" id="toggle" hidden>
+
+                                                    <label for="toggle" class="toggleSwitch">
+                                                        <span class="toggleButton"></span>
+                                                    </label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>5</td>
+                                                <td>박상상</td>
+                                                <td>(T00000010)</td>
+                                                <td>kim@hycu.ac.kr</td>
+                                                <td>1학년 2학기 재학</td>
+                                                <td>
+                                                    <a class="btn in_w66" href="#" title="">
+                                                        <span>확인하기</span>
+                                                    </a>
+                                                </td>
+                                                <td>2023.09.12</td>
+                                                <td>대기</td>
+                                                <td>
+                                                    <input type="checkbox" id="toggle" hidden>
+
+                                                    <label for="toggle" class="toggleSwitch">
+                                                        <span class="toggleButton"></span>
+                                                    </label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>박상상</td>
+                                                <td>(T00000010)</td>
+                                                <td>kim@hycu.ac.kr</td>
+                                                <td>1학년 2학기 재학</td>
+                                                <td>
+                                                    <a class="btn in_w66" href="#" title="">
+                                                        <span>확인하기</span>
+                                                    </a>
+                                                </td>
+                                                <td>2023.09.12</td>
+                                                <td>대기</td>
+                                                <td>
+                                                    <input type="checkbox" id="toggle" hidden>
+
+                                                    <label for="toggle" class="toggleSwitch">
+                                                        <span class="toggleButton"></span>
+                                                    </label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>박상상</td>
+                                                <td>(T00000010)</td>
+                                                <td>kim@hycu.ac.kr</td>
+                                                <td>1학년 2학기 재학</td>
+                                                <td>
+                                                    <a class="btn in_w66" href="#" title="">
+                                                        <span>확인하기</span>
+                                                    </a>
+                                                </td>
+                                                <td>2023.09.12</td>
+                                                <td>대기</td>
+                                                <td>
+                                                    <input type="checkbox" id="toggle" hidden>
+
+                                                    <label for="toggle" class="toggleSwitch">
+                                                        <span class="toggleButton"></span>
+                                                    </label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>박상상</td>
+                                                <td>(T00000010)</td>
+                                                <td>kim@hycu.ac.kr</td>
+                                                <td>1학년 2학기 재학</td>
+                                                <td>
+                                                    <a class="btn in_w66" href="#" title="">
+                                                        <span>확인하기</span>
+                                                    </a>
+                                                </td>
+                                                <td>2023.09.12</td>
+                                                <td>대기</td>
+                                                <td>
+                                                    <input type="checkbox" id="toggle" hidden>
+
+                                                    <label for="toggle" class="toggleSwitch">
+                                                        <span class="toggleButton"></span>
+                                                    </label>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>박상상</td>
+                                                <td>(T00000010)</td>
+                                                <td>kim@hycu.ac.kr</td>
+                                                <td>1학년 2학기 재학</td>
+                                                <td>
+                                                    <a class="btn in_w66" href="#" title="">
+                                                        <span>확인하기</span>
+                                                    </a>
+                                                </td>
+                                                <td>2023.09.12</td>
+                                                <td>대기</td>
+                                                <td>
+                                                    <input type="checkbox" id="toggle" hidden>
+
+                                                    <label for="toggle" class="toggleSwitch">
+                                                        <span class="toggleButton"></span>
+                                                    </label>
+                                                </td>
+                                            </tr>
+
+                                            <tr class="no_result"><!-- 결과값이 없을때 -->
+                                                <th></th>
+                                                <td class="cont" colspan="9">
+                                                    검색 결과가 없습니다.
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="scroll_back2"> <!-- 클릭시 display:none -->
+                                        <img src="../resources/images/sub/scroll_ico.png" alt="">
+                                        <p>화면을 터치한 후에 <br> 좌우로 스크롤하여 확인하세요.</p>
+                                    </div>
+                                </div>
+
+
+                                <!-- 하단 페이지버튼 -->
+                                <div class="pagenation">
+                                    <button><img src="../resources/images/sub/prev_all.png" alt="맨앞으로 이동"></button>
+                                    <button><img src="../resources/images/sub/prev.png" alt="이전"></button>
+                                    <ul>
+                                        <li class="active"><button>1</button></li>
+                                        <li><button>2</button></li>
+                                        <li><button>3</button></li>
+                                        <li><button>4</button></li>
+                                        <li><button>5</button></li>
+                                    </ul>
+                                    <button><img src="../resources/images/sub/next.png" alt="이후"></button>
+                                    <button><img src="../resources/images/sub/next_all.png" alt="맨뒤로 이동"></button>
+                                </div>
+                                <!--// 하단 페이지버튼 -->
+                            </div>
+                        </div>
+
+                    </section>
+
+                </div>
+                <!--// 내용 끝 -->
+
+            </div>
+        </div>
+        <!-- container -->
+
+
+
+        <!-- 팝업 container 밖에 생성 --><!-- 이력서 팝업 추가(20230214) -->
+        <div class="popup mentoring_pop" style="display: block;"> <!-- display:none 처리되어있습니다 -->
+            <div class="popup_wrap">
+                <div class="top">
+                    <h2 class="ico_wh">신청 동기</h2>
+                    <button onclick="closePop(this);"><img src="../resources/images/common/popup_close.png" alt="팝업닫기"></button>
+                </div>
+
+                <div class="popup_cont">
+                    <div class="popup_cont_wrap">
+                        <!-- 신청자 정보 -->
+                        <div class="pop_section">
+                            <h3 class="ico_blue">신청자 정보</h3>
+                            <table class="popup_table mgb50">
+                                <colgroup>
+                                    <col width="33.33%">
+                                    <col width="33.33%">
+                                    <col width="33.33%">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>신청자</th>
+                                        <th>학번</th>
+                                        <th>이메일 주소</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>홍길동</td>
+                                        <td>(T00000010)</td>
+                                        <td>honggildong@hycu.ac.kr</td>
+                                    </tr>
+                                </tbody>
+                            </table>   
+                        </div>
+                        <!--// 신청자 정보 -->
+
+                        <!-- 멘토링 신청 동기 -->
+                        <div class="pop_section">
+                            <h3 class="ico_blue">신청자 정보</h3>
+                            <div class="txt box">
+                                <p>안녕하세요. 학업적으로 공유할 멘토가 필요하여 이렇게 멘토링을 신청하게 되었습니다.</p>                            
+                            </div>
+                        </div>
+                        <!--// 멘토링 신청 동기 -->
+
+                        <!-- popup2_btn -->
+                        <div class="popup2_btn">
+                            <button class="ask02">확인</button>
+                        </div>
+                        <!--// popup2_btn -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--// 팝업 -->
+
+        <!-- 팝업 container 밖에 생성 --><!-- 이력서 팝업 추가(20230214) -->
+        <div class="popup mentoring_pop" style="display: block;"> <!-- display:none 처리되어있습니다 -->
+            <div class="popup_wrap">
+                <div class="top">
+                    <h2 class="ico_wh">매칭 취소</h2>
+                    <button onclick="closePop(this);"><img src="../resources/images/common/popup_close.png" alt="팝업닫기"></button>
+                </div>
+
+                <div class="popup_cont">
+                    <div class="popup_cont_wrap">
+                        <!-- 신청자 정보 -->
+                        <div class="pop_section">
+                            <h3 class="ico_blue">신청자 정보</h3>
+                            <table class="mgb50 mentoring_pop_table">
+                                <colgroup>
+                                    <col width="33.33%">
+                                    <col width="33.33%">
+                                    <col width="33.33%">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>신청자</th>
+                                        <th>학번</th>
+                                        <th>이메일 주소</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>홍길동</td>
+                                        <td>(T00000010)</td>
+                                        <td>honggildong@hycu.ac.kr</td>
+                                    </tr>
+                                </tbody>
+                            </table>   
+                        </div>
+                        <!--// 신청자 정보 -->
+
+                        <!-- 매칭 취소 신청 사유 -->
+                        <div class="pop_section">
+                            <h3 class="ico_blue">매칭 취소 신청 사유</h3>
+                            <div class="txt box">
+                                <p class="cancel_why">
+                                    해당 멘티와 멘토링 중단하시려면 사유를 작성해주세요. <br>
+                                    작성 완료 시 해당 멘티의 매칭이 취소됩니다.
+                                </p>
+                            </div>
+                        </div>
+                        <!--// 멘토링 신청 동기 -->
+
+                        <!-- popup2_btn -->
+                        <div class="popup2_btn">
+                            <button class="ask02">등록</button>
+                        </div>
+                        <!--// popup2_btn -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--// 팝업 -->
+
+        <!-- 팝업 container 밖에 생성 --><!-- 이력서 팝업 추가(20230214) -->
+        <div class="popup mentoring_pop" style="display: block;"> <!-- display:none 처리되어있습니다 -->
+            <div class="popup_wrap">
+                <div class="top">
+                    <h2 class="ico_wh">사유 확인 </h2>
+                    <button onclick="closePop(this);"><img src="../resources/images/common/popup_close.png" alt="팝업닫기"></button>
+                </div>
+
+                <div class="popup_cont">
+                    <div class="popup_cont_wrap">
+                        <!-- 신청자 정보 -->
+                        <div class="pop_section">
+                            <h3 class="ico_blue">신청자 정보</h3>
+                            <table class="mgb50 mentoring_pop_table">
+                                <colgroup>
+                                    <col width="33.33%">
+                                    <col width="33.33%">
+                                    <col width="33.33%">
+                                </colgroup>
+                                <thead>
+                                    <tr>
+                                        <th>신청자</th>
+                                        <th>학번</th>
+                                        <th>이메일 주소</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>홍길동</td>
+                                        <td>(T00000010)</td>
+                                        <td>honggildong@hycu.ac.kr</td>
+                                    </tr>
+                                </tbody>
+                            </table>   
+                        </div>
+                        <!--// 신청자 정보 -->
+
+                        <!-- 매칭 취소 신청 사유 -->
+                        <div class="pop_section">
+                            <h3 class="ico_blue">매칭 취소 사유</h3>
+                            <div class="txt box">
+                                <p>
+                                    멘토링 진행이 불가하여 해당 멘티 매칭을 취소합니다.
+                                </p>
+                            </div>
+                        </div>
+                        <!--// 멘토링 신청 동기 -->
+
+                        <!-- popup2_btn -->
+                        <div class="popup2_btn">
+                            <button class="close02">수정</button>
+                            <button class="ask02">확인</button>
+                        </div>
+                        <!--// popup2_btn -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--// 팝업 -->
+
+
+
+
+
+
+        <!-- footer -->
+        <footer>
+            <a href="#" class="f_logo"><img src="../resources/images/common/f_logo.png" alt="hyuc 한양사이버대학교"></a>
+            <div class="f_cont">
+                <ul class="fnav">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                </ul>
+                <address><span>04763 서울시 성동구 왕십리로 220 한양사이버대학교</span><span>대표전화. 02-2290-0114</span><span>FAX.
+                        050-2290-0605</span></address>
+                <span class="copy">Copyright © HANYANG CYBER UNIVERSITY. All rights reserved</span>
+            </div>
+            <div class="family_site">
+                <select>
+                    <option value="" disabled selected>Family site</option>
+                    <option value="한양학원">한양학원</option>
+                    <option value="한양사이버대학교 대학원">한양사이버대학교 대학원</option>
+                    <option value="한양대학교">한양대학교</option>
+                    <option value="한양여자대학">한양여자대학</option>
+                    <option value="한양대학교의료원">한양대학교의료원</option>
+                </select>
+            </div>
+        </footer>
+        <!--// footer -->
+
+
+    </div>
+</body>
+
+</html>

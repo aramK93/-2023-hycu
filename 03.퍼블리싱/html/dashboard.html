@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="../resources/css/font.css">
+    <link rel="stylesheet" href="../resources/css/reset.css">
+    <link rel="stylesheet" href="../resources/css/common.css">
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="../resources/css/main.css">
+    <link rel="stylesheet" href="../resources/css/sub.css">
+    <link rel="stylesheet" href="../resources/css/swiper.min.css"><!-- 슬라이드 -->
+    <link rel="stylesheet" href="../resources/css/sub_new.css"> <!-- 추가css 파일 -->
+
+    <!-- 공통 js -->
+    <script type="text/javascript" src="../resources/js/common.js"></script>
+    <!-- 공통 js -->
+    <script type="text/javascript" src="../resources/js/sub.js"></script>
+    <script type="text/javascript" src="../resources/js/swiper.min.js"></script><!-- 슬라이드 -->
+    <script type="text/javascript" src="../resources/js/chart.min.js"></script><!-- 차트 그리는 플러그인 --> 
+
+    <title></title>
+</head>
+<body>
+
+    <!-- skipNav -->
+    <div id="skipNav">
+        <a href="#nav">주메뉴 바로가기</a>
+        <a href="#contents">본문 바로가기</a>
+    </div>
+    <!-- skipNav -->
+
+<!-- header -->
+<header class="common_header header" id="header"> 
+    <hgroup>
+        <h1><a href="#"><img src="../resources/images/common/logo.png" alt="한양사이버대학교 www.hycu.ac.kr"></a></h1>
+        <div class="menu_btn"><button><img src="../resources/images/common/menu_ico.png" alt="메뉴열기"></button></div>
+        
+        <nav class="nav">
+            <ul>
+                <li><a href="#">나의 로드맵</a>
+                    <ul>
+                        <li><a href="#">나의이해</a></li>
+                        <li><a href="#">로드맵</a></li>
+                        <li><a href="#">포트폴리오</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">학습정보</a>
+                    <ul>
+                        <li><a href="#">학습분석정보</a></li>
+                        <li><a href="#">학습팁 라이브러리</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">역량·학습진단</a>
+                    <ul>
+                        <li><a href="#">나의 역량현황</a></li>
+                        <li><a href="#">핵심역량안내</a></li>
+                        <li><a href="#">역량-학습진단 검사</a></li>
+                        <li><a href="#">졸업자가진단</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">학습활동</a>
+                    <ul>
+                        <li><a href="#">배움클래스</a></li>
+                        <li><a href="#">채움클래스</a></li>
+                        <li><a href="#">이음클래스</a></li>
+                        <li><a href="#">마일리지</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">진로/취·창업</a>
+                    <ul>
+                        <li><a href="#">진로목표</a></li>
+                        <li><a href="#">로드맵</a></li>
+                        <li><a href="#">채용정보</a></li>
+                        <li><a href="#">취업자료실</a></li>
+                        <li><a href="#">진로/직무적성검사</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">진로상담</a>
+                    <ul>
+                        <li><a href="#">Q&amp;A</a></li>
+                        <li><a href="#">교수상담</a></li>
+                        <li><a href="#">심리상담</a></li>
+                        <li><a href="#">법률상담</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">커뮤니티</a>
+                    <ul>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">자료실</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="header_right">
+            <p class="user_name">홍길동(106003)</p>
+            <button class="user_exit"><img src="../resources/images/common/user_exit.png" alt="로그아웃하기"></button>
+        </div>
+    </hgroup>
+
+    <!-- 모바일 네비게이션 -->
+    <div class="mobile_nav">
+        <div class="mnav_top">
+            <img src="../resources/images/common/m_logo.png" alt="">
+            <button class="close"><img src="../resources/images/common/menu_bk.png" alt="메뉴닫기"></button>
+        </div>
+        <ul class="drop_down">
+            <li class="dep2"><a href="javascript:;" onClick="dropDown();">교수활동지원</a>
+                <ul class="dep3">
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            
+            <li class="dep2"><a href="javascript:;">학생기본정보</a>
+                <ul class="dep3">
+                    <li ><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">학습활동</a>
+                <ul class="dep3">
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">역량-학습진단</a>
+                <ul class="dep3">
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">진로/취업</a>
+                <ul class="dep3">
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">포트폴리오</a>
+                <ul class="dep3">
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">통합상담</a>
+                <ul class="dep3">
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">커뮤니티</a>
+                <ul class="dep3">
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+           
+        </ul>
+    </div>
+    <!--// 모바일 네비게이션 -->
+    <div class="header_back"></div>
+</header>
+<!--// header -->
+
+
+<div id="contents" class="sub dashboard dashboard_new">
+    <div class="container">
+
+        <div class="inner">
+            <div class="dash_left">
+                <!-- board_box -->
+                <div class="board01 board_box">
+                    <span class="cont_title">MY DASHBOARD</span>
+
+                    <div class="dash_cont">
+                        <img src="../resources/images/main/my_dash.png" alt="">
+                        <p class="name">고길동님</p>
+                        <span>201977257</span>
+                        <p class="major">경영학과 / 재학생</p>
+
+                        <ul class="now_lst">
+                            <li><a href="javascript:void(0);">직업 멘토링 멘티 매칭</a><img src="../resources/images/new/common/ico_new.png" alt="새글 알림"></li>
+                            <li><a href="javascript:void(0);">학업 멘토링 신청현황</a><img src="../resources/images/new/common/ico_new.png" alt="새글 알림"></li>
+                            <li><a href="javascript:void(0);">직업 멘토링 신청현황</a><img src="../resources/images/new/common/ico_new.png" alt="새글 알림"></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--// board_box -->
+                <!-- board_box -->
+                <div class="board_box board02">
+                    <div class="board02_01">
+                        <a href="javascript:;">
+                            <span>나의 <br> 로드맵</span>
+                        </a>
+                    </div>
+                    <div class="board02_02">
+                        <a href="javascript:;">
+                            <span>나의 <br> 역량현황</span>
+                        </a>
+                    </div>
+                    <div class="board02_03">
+                        <a href="javascript:;">
+                            <span>학습분석 <br> 정보</span>
+                        </a>
+                    </div>
+                    <div class="board02_04">
+                        <a href="javascript:;">
+                            <span>일반/외부 <br> 채용정보</span>
+                        </a>
+                    </div>
+                </div>
+                <!--// board_box -->
+            </div>
+            <!--// dash_right -->
+            <div class="dash_right">
+                <div class="top">
+                    <!-- board_box -->
+                    <div class="board_box dash_chart">
+                        
+                        <!-- 그래프가 있을때 -->
+                        <div class="dash_graph">
+                                <div class="radar_box">
+                                    <div class="title_box">
+                                        <div class="dash_subtit">
+                                            <p>역량진단검사 결과</p>
+                                            <ul class="labels">
+                                                <li><span>나의 평균</span></li>
+                                                <li><span>전체 평균</span></li>
+                                            </ul>
+                                        </div>   
+
+                                        <!-- 버튼영역 -->
+                                        <div class="dash_btn">
+                                            <button class="dash_plus">
+                                                <img src="../resources/images/sub/dash_plus.png" alt="더보기">
+                                            </button>
+                                        </div>
+                                        <!--// 버튼영역 -->
+                                    </div>
+
+                                    <!-- 그래프 넣는 곳 -->
+                                    <div class="chart_wrap">
+                                        <div class="chart_box">
+                                            <canvas id="myChart" width="100%" height="100%"></canvas> <!-- 하단에 차트 스크립트 있습니다. -->
+                                        </div>
+
+                                        <div class="bar_chart_area">
+                                            <ul class="chart_lst">
+                                                <li>
+                                                    <div class="chart_txt_box">
+                                                        <span class="result_ttl">교양인</span>
+                                                        <span class="my_aver">4.6</span>
+                                                        <span class="all_aver">3.83</span>
+                                                    </div>
+                                                    <div class="chart_bar">
+                                                        <span class="my_average" style="width: 46%;"></span>
+                                                        <span class="all_average" style="width: 38.3%;"></span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="chart_txt_box">
+                                                        <span class="result_ttl">전문인</span>
+                                                        <span class="my_aver">4.6</span>
+                                                        <span class="all_aver">3.83</span>
+                                                    </div>
+                                                    <div class="chart_bar">
+                                                        <span class="my_average" style="width: 100%;"></span>
+                                                        <span class="all_average" style="width: 60%;"></span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="chart_txt_box">
+                                                        <span class="result_ttl">실용인</span>
+                                                        <span class="my_aver">4.6</span>
+                                                        <span class="all_aver">3.83</span>
+                                                    </div>
+                                                    <div class="chart_bar">
+                                                        <span class="my_average" style="width: 80%;"></span>
+                                                        <span class="all_average" style="width: 100%;"></span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="chart_txt_box">
+                                                        <span class="result_ttl">세계인</span>
+                                                        <span class="my_aver">4.6</span>
+                                                        <span class="all_aver">3.83</span>
+                                                    </div>
+                                                    <div class="chart_bar">
+                                                        <span class="my_average" style="width: 30%;"></span>
+                                                        <span class="all_average" style="width: 70%;"></span>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="chart_txt_box">
+                                                        <span class="result_ttl">세계인</span>
+                                                        <span class="my_aver">4.6</span>
+                                                        <span class="all_aver">3.83</span>
+                                                    </div>
+                                                    <div class="chart_bar">
+                                                        <span class="my_average" style="width: 20%;"></span>
+                                                        <span class="all_average" style="width: 60%;"></span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="line_chart_wrap">
+                                    <div class="title_box">
+                                        <div class="dash_subtit">
+                                            <p>학업성공지수 (주차별)</p>
+                                        </div>   
+
+
+                                         <!-- 버튼영역 -->
+                                         <div class="dash_btn">
+                                            <button class="dash_plus">
+                                                <img src="../resources/images/sub/dash_plus.png" alt="더보기">
+                                            </button>
+                                        </div>
+                                        <!--// 버튼영역 -->
+                                    </div>
+
+                                    <div class="line_chart_box">
+                                        <canvas id="lineChart"></canvas> <!-- 하단에 차트 스크립트 있습니다. -->
+                                    </div>
+
+
+                                </div>
+                            </div>     
+
+                        <!--// 그래프일때 -->
+                    </div>
+                    <!--// board_box -->
+                </div>
+                
+                
+                <div class="bottom">
+
+                    <div class="title_box">
+                        <div class="dash_subtit">
+                            <ul class="click_sub_ttl">
+                                <li class="active"><button>추천 학습활동</button></li>
+                                <li><button>학과 관련</button></li>
+                                <li><button>부족역량 관련</button></li>
+                            </ul>
+                        </div>   
+
+                        <!-- 버튼영역 -->
+                        <div class="dash_btn">
+                            <button class="dash_plus">
+                                <img src="../resources/images/sub/dash_plus.png" alt="더보기">
+                            </button>
+                        </div>
+                        <!--// 버튼영역 -->
+                    </div>
+
+                    <!-- board_box -->
+                    <div class="bottom_wrap_new">
+                        <!-- 탭하면 나오는 슬라이드1-->
+                        <div class="tab_sd active"> <!-- active -->
+                            <div class="recomm_slide">
+                                <!-- 보여지는 영역 -->
+                                <div class="swiper-wrapper">
+
+                                    <div class="swiper-slide" style="background: url(../resources/images/new/sub/recomm_slide_img.png) no-repeat center;background-size: cover;">
+                                        <a href="javasciprt:void(0);">
+                                            <div class="cont_box">
+                                                <div class="top_tag">
+                                                    <span class="tag blue">채움클래스</span>
+                                                    <span class="txt">모집 중</span>
+                                                </div>
+
+                                                <div class="txt_box">
+                                                    <b class="line1 txt_box_ttl">[HYCU 심리상담센터] 2023-2 무료심</b>
+                                                    <ul class="date_area">
+                                                        <li><span>신청기간:</span>2023.09.19 ~ 2023.09.21</li>
+                                                        <li><span>학습기간:</span>2023.09.20 ~ 2023.10.31</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide" style="background: url(../resources/images/new/sub/recomm_slide_img.png) no-repeat center;background-size: cover;">\
+                                        <a href="javasciprt:void(0);">
+                                            <div class="cont_box">
+                                                <div class="top_tag">
+                                                    <span class="tag green">채움클래스</span>
+                                                    <span class="txt">모집 중</span>
+                                                </div>
+
+                                                <div class="txt_box">
+                                                    <b class="line1 txt_box_ttl">[HYCU 심리상담센터] 2023-2 무료심</b>
+                                                    <ul class="date_area">
+                                                        <li><span>신청기간:</span>2023.09.19 ~ 2023.09.21</li>
+                                                        <li><span>학습기간:</span>2023.09.20 ~ 2023.10.31</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide" style="background: url(../resources/images/new/sub/recomm_slide_img.png) no-repeat center;background-size: cover;">
+                                        <a href="javasciprt:void(0);">
+                                            <div class="cont_box">
+                                                <div class="top_tag">
+                                                    <span class="tag blue">채움클래스</span>
+                                                    <span class="txt running">운영 중</span>
+                                                </div>
+
+                                                <div class="txt_box">
+                                                    <b class="line1 txt_box_ttl">[HYCU 심리상담센터] 2023-2 무료심</b>
+                                                    <ul class="date_area">
+                                                        <li><span>신청기간:</span>2023.09.19 ~ 2023.09.21</li>
+                                                        <li><span>학습기간:</span>2023.09.20 ~ 2023.10.31</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide" style="background: url(../resources/images/new/sub/recomm_slide_img.png) no-repeat center;background-size: cover;">
+                                        <a href="javasciprt:void(0);">
+                                            <div class="cont_box">
+                                                <div class="top_tag">
+                                                    <span class="tag blue">채움클래스</span>
+                                                    <span class="txt">모집 중</span>
+                                                </div>
+
+                                                <div class="txt_box">
+                                                    <b class="line1 txt_box_ttl">[HYCU 심리상담센터] 2023-2 무료심</b>
+                                                    <ul class="date_area">
+                                                        <li><span>신청기간:</span>2023.09.19 ~ 2023.09.21</li>
+                                                        <li><span>학습기간:</span>2023.09.20 ~ 2023.10.31</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-button-prev"><img src="../resources/images/new/sub/recomm_slide_prev.png" alt="이전으로"></div>
+                                <div class="swiper-button-next"><img src="../resources/images/new/sub/recomm_slide_next.png" alt="다음으로"></div>
+                            </div>
+                        </div>
+
+                        <!-- 탭하면 나오는 슬라이드2-->
+                        <div class="tab_sd">
+                            <div class="recomm_slide">
+                                <!-- 보여지는 영역 -->
+                                <div class="swiper-wrapper">
+
+                                    <div class="swiper-slide" style="background: url(../resources/images/new/sub/recomm_slide_img.png) no-repeat center;background-size: cover;">\
+                                        <a href="javasciprt:void(0);">
+                                            <div class="cont_box">
+                                                <div class="top_tag">
+                                                    <span class="tag green">채움클래스</span>
+                                                    <span class="txt">모집 중</span>
+                                                </div>
+
+                                                <div class="txt_box">
+                                                    <b class="line1 txt_box_ttl">[HYCU 심리상담센터] 2023-2 무료심</b>
+                                                    <ul class="date_area">
+                                                        <li><span>신청기간:</span>2023.09.19 ~ 2023.09.21</li>
+                                                        <li><span>학습기간:</span>2023.09.20 ~ 2023.10.31</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide" style="background: url(../resources/images/new/sub/recomm_slide_img.png) no-repeat center;background-size: cover;">
+                                        <a href="javasciprt:void(0);">
+                                            <div class="cont_box">
+                                                <div class="top_tag">
+                                                    <span class="tag blue">채움클래스</span>
+                                                    <span class="txt running">운영 중</span>
+                                                </div>
+
+                                                <div class="txt_box">
+                                                    <b class="line1 txt_box_ttl">[HYCU 심리상담센터] 2023-2 무료심</b>
+                                                    <ul class="date_area">
+                                                        <li><span>신청기간:</span>2023.09.19 ~ 2023.09.21</li>
+                                                        <li><span>학습기간:</span>2023.09.20 ~ 2023.10.31</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide" style="background: url(../resources/images/new/sub/recomm_slide_img.png) no-repeat center;background-size: cover;">
+                                        <a href="javasciprt:void(0);">
+                                            <div class="cont_box">
+                                                <div class="top_tag">
+                                                    <span class="tag blue">채움클래스</span>
+                                                    <span class="txt">모집 중</span>
+                                                </div>
+
+                                                <div class="txt_box">
+                                                    <b class="line1 txt_box_ttl">[HYCU 심리상담센터] 2023-2 무료심</b>
+                                                    <ul class="date_area">
+                                                        <li><span>신청기간:</span>2023.09.19 ~ 2023.09.21</li>
+                                                        <li><span>학습기간:</span>2023.09.20 ~ 2023.10.31</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide" style="background: url(../resources/images/new/sub/recomm_slide_img.png) no-repeat center;background-size: cover;">
+                                        <a href="javasciprt:void(0);">
+                                            <div class="cont_box">
+                                                <div class="top_tag">
+                                                    <span class="tag blue">채움클래스</span>
+                                                    <span class="txt">모집 중</span>
+                                                </div>
+
+                                                <div class="txt_box">
+                                                    <b class="line1 txt_box_ttl">[HYCU 심리상담센터] 2023-2 무료심</b>
+                                                    <ul class="date_area">
+                                                        <li><span>신청기간:</span>2023.09.19 ~ 2023.09.21</li>
+                                                        <li><span>학습기간:</span>2023.09.20 ~ 2023.10.31</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-button-prev"><img src="../resources/images/new/sub/recomm_slide_prev.png" alt="이전으로"></div>
+                                <div class="swiper-button-next"><img src="../resources/images/new/sub/recomm_slide_next.png" alt="다음으로"></div>
+                            </div>
+                        </div>
+
+                        <!-- 탭하면 나오는 슬라이드3 -->
+                        <div class="tab_sd">
+                            <div class="recomm_slide">
+                                <!-- 보여지는 영역 -->
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" style="background: url(../resources/images/new/sub/recomm_slide_img.png) no-repeat center;background-size: cover;">
+                                        <a href="javasciprt:void(0);">
+                                            <div class="cont_box">
+                                                <div class="top_tag">
+                                                    <span class="tag blue">채움클래스</span>
+                                                    <span class="txt running">운영 중</span>
+                                                </div>
+
+                                                <div class="txt_box">
+                                                    <b class="line1 txt_box_ttl">[HYCU 심리상담센터] 2023-2 무료심</b>
+                                                    <ul class="date_area">
+                                                        <li><span>신청기간:</span>2023.09.19 ~ 2023.09.21</li>
+                                                        <li><span>학습기간:</span>2023.09.20 ~ 2023.10.31</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide" style="background: url(../resources/images/new/sub/recomm_slide_img.png) no-repeat center;background-size: cover;">
+                                        <a href="javasciprt:void(0);">
+                                            <div class="cont_box">
+                                                <div class="top_tag">
+                                                    <span class="tag blue">채움클래스</span>
+                                                    <span class="txt">모집 중</span>
+                                                </div>
+
+                                                <div class="txt_box">
+                                                    <b class="line1 txt_box_ttl">[HYCU 심리상담센터] 2023-2 무료심</b>
+                                                    <ul class="date_area">
+                                                        <li><span>신청기간:</span>2023.09.19 ~ 2023.09.21</li>
+                                                        <li><span>학습기간:</span>2023.09.20 ~ 2023.10.31</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide" style="background: url(../resources/images/new/sub/recomm_slide_img.png) no-repeat center;background-size: cover;">
+                                        <a href="javasciprt:void(0);">
+                                            <div class="cont_box">
+                                                <div class="top_tag">
+                                                    <span class="tag blue">채움클래스</span>
+                                                    <span class="txt">모집 중</span>
+                                                </div>
+
+                                                <div class="txt_box">
+                                                    <b class="line1 txt_box_ttl">[HYCU 심리상담센터] 2023-2 무료심</b>
+                                                    <ul class="date_area">
+                                                        <li><span>신청기간:</span>2023.09.19 ~ 2023.09.21</li>
+                                                        <li><span>학습기간:</span>2023.09.20 ~ 2023.10.31</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="swiper-slide" style="background: url(../resources/images/new/sub/recomm_slide_img.png) no-repeat center;background-size: cover;">\
+                                        <a href="javasciprt:void(0);">
+                                            <div class="cont_box">
+                                                <div class="top_tag">
+                                                    <span class="tag green">채움클래스</span>
+                                                    <span class="txt">모집 중</span>
+                                                </div>
+
+                                                <div class="txt_box">
+                                                    <b class="line1 txt_box_ttl">[HYCU 심리상담센터] 2023-2 무료심</b>
+                                                    <ul class="date_area">
+                                                        <li><span>신청기간:</span>2023.09.19 ~ 2023.09.21</li>
+                                                        <li><span>학습기간:</span>2023.09.20 ~ 2023.10.31</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-prev"><img src="../resources/images/new/sub/recomm_slide_prev.png" alt="이전으로"></div>
+                                <div class="swiper-button-next"><img src="../resources/images/new/sub/recomm_slide_next.png" alt="다음으로"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--// dash_right -->
+        </div>
+    </div>
+
+
+<!-- 오른쪽 알림창 -->
+<div class="notice_window">
+    <div class="notice_open">
+        <button>
+            <img src="../resources/images/main/notice_ico01.png" alt="알림창열기">
+            <span class="new">5</span>
+        </button>
+    </div>
+    <div class="notice_cont">
+        
+        <div class="notice_cont01">
+            <span class="notice_ttl">알림</span>
+            <ul>
+                <li>
+                    <span class="new">2</span>
+                    <img src="../resources/images/main/notice_ico02.png" alt="바로가기">
+                    <p>전문상담</p>
+                </li>
+                <li>
+                    <span class="new">2</span>
+                    <img src="../resources/images/main/notice_ico03.png" alt="바로가기">
+                    <p>학생 Q&amp;A</p>
+                </li>
+                <li>                    
+                    <img src="../resources/images/main/notice_ico04.png" alt="바로가기">
+                    <p>법률상담</p>
+                </li>
+            </ul>
+        </div>
+        
+        
+        <div class="notice_cont02">
+            <span class="notice_ttl">나의 Badge 현황</span>
+            <div>
+                <!-- swiper슬라이더 메인컨테이너 -->
+                <div class="swiper-container2">
+                    <!-- 보여지는 영역 -->
+                    <div class="swiper-wrapper">                            
+                        <div class="swiper-slide">
+                            <img src="../resources/images/main/notice_bedge01.png" alt="">
+                            <p>Badge 이름</p>
+                            <span>취득일</span>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../resources/images/main/notice_bedge01.png" alt="">
+                            <p>Badge 이름</p>
+                            <span>취득일</span>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../resources/images/main/notice_bedge01.png" alt="">
+                            <p>Badge 이름</p>
+                            <span>취득일</span>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../resources/images/main/notice_bedge01.png" alt="">
+                            <p>Badge 이름</p>
+                            <span>취득일</span>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../resources/images/main/notice_bedge01.png" alt="">
+                            <p>Badge 이름</p>
+                            <span>취득일</span>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../resources/images/main/notice_bedge01.png" alt="">
+                            <p>Badge 이름</p>
+                            <span>취득일</span>
+                        </div>
+                    </div>
+                    <!-- 방향 버튼 상황에 따라 추가 삭제가능 -->
+                    <div class="swiper-button-prev2"></div>
+                    <div class="swiper-button-next2"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="notice_cont03">
+            <span class="notice_ttl">금주에 해야되는 학습활동</span>
+            <div class="report_chart">
+                <ul>
+                    <li>
+                        <span><img src="../resources/images/main/subject_ico01.png" alt=""></span>
+                        <div class="activity_cont">
+                            <p>과목명 - 과정명</p>
+                            <span>과제명의 마감<b>D-3일</b></span>
+                        </div>
+                    </li>
+                    <li>
+                        <span><img src="../resources/images/main/subject_ico01.png" alt=""></span>
+                        <div class="activity_cont">
+                            <p>과목명 - 과정명</p>
+                            <span>과제명의 마감<b>D-3일</b></span>
+                        </div>
+                    </li>
+                    <li>
+                        <span><img src="../resources/images/main/subject_ico01.png" alt=""></span>
+                        <div class="activity_cont">
+                            <p>과목명 - 과정명</p>
+                            <span>과제명의 마감<b>D-3일</b></span>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!--// 오른쪽 알림창 -->
+
+
+       <!-- footer -->
+    <footer>
+        <a href="#" class="f_logo"><img src="../resources/images/common/f_logo.png" alt=""></a>
+        <div class="f_cont">
+            <ul class="fnav">
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">이메일무단수집거부</a></li>
+                <li><a href="#">사이트맵</a></li>
+            </ul>
+            <address><span>04763 서울시 성동구 왕십리로 220 한양사이버대학교</span><span>대표전화. 02-2290-0114</span><span>FAX. 050-2290-0605</span></address>
+            <span class="copy">Copyright © HANYANG CYBER UNIVERSITY. All rights reserved</span>
+        </div>
+        <div class="family_site">
+            <select>
+                <option value="" disabled selected>Family site</option>
+                <option value="한양학원">한양학원</option>
+                <option value="한양사이버대학교 대학원">한양사이버대학교 대학원</option>
+                <option value="한양대학교">한양대학교</option>
+                <option value="한양여자대학">한양여자대학</option>
+                <option value="한양대학교의료원">한양대학교의료원</option>
+            </select>
+        </div>
+    </footer>
+    <!--// footer -->
+</div>
+</body>
+
+
+<script type="text/javascript">
+    const swiper = new Swiper('.swiper-container', {
+      direction: 'horizontal',
+      slidesPerView: 1,
+      spaceBetween: 0,
+      debugger: true,
+      mousewheel: false,
+      loop: true,
+      centeredSlides: true,
+    
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      
+    });
+    const swiper2 = new Swiper('.swiper-container2', {
+      slidesPerView: 2.5,
+      spaceBetween: 15,
+      debugger: true,
+      loop: true,
+      centeredSlides: false,
+    
+      navigation: {
+        nextEl: '.swiper-button-next2',
+        prevEl: '.swiper-button-prev2',
+      },
+      
+    });
+
+    //추천 학습활동 슬라이드 
+    const swiperSd = new Swiper('.recomm_slide', {
+      slidesPerView: 4,
+      spaceBetween: 20,
+      debugger: true,
+      loop: true,
+      observer: true, 
+      observeParents: true,
+      navigation: {
+        nextEl: '.recomm_slide .swiper-button-next',
+        prevEl: '.recomm_slide .swiper-button-prev',
+      },
+      breakpoints: {
+        1024: {
+          slidesPerView: 1,
+        },
+        1200: {
+          slidesPerView: 2,
+        },
+        1400: {
+          slidesPerView: 3,
+        },
+      },
+      
+    });
+
+    //역량진단결과 페이지 차트그리기
+    var marksCanvas = document.getElementById("myChart");
+    
+    var marksData = {
+      labels: ["교양인", "전문인", "실용인", "세계인", "봉사인"],
+      datasets: [{
+        label: "나의 평균",
+        backgroundColor: "rgba(13,162,233,70%)",
+        borderColor:"#0DA2E9",
+        borderWidth: 1,
+        borderDash: [2, 2],
+        data: [4.6, 3.27, 3.89, 3.28, 2.33],
+
+      }, {
+        label: "전체 평균",
+        backgroundColor: "rgba(91,40,190,30%)",
+        borderColor:"#5B28BE",
+        borderWidth: 1,
+        borderDash: [2, 2],
+        data: [3.83, 3.75, 3.57, 3.37, 3.58]
+      }]
+    };
+
+
+    var radarChart = new Chart(marksCanvas, {
+      type: 'radar',
+      data: marksData,
+      
+      options: {
+        scales: {
+            r: {
+                pointLabels: {
+                    font: {
+                        size: 14, //라벨 폰트 사이즈
+                    },
+                    color: 'rgb(255, 255, 255)', //라벨 색상값
+                },  
+                ticks: {
+                    display: true,
+                    stepSize: 1,        
+                    max:5,        
+                    color: '#333',
+                    showLabelBackdrop:false,
+                },
+                min: 0, //차트 최대값, 최소값
+                max: 5,
+                beginAtZero: true,
+                //borderColor : '#333',
+                backgroundColor: '#fff',
+                label:true,
+                grid: {
+                    color: "#ccc", //radar 차트 선 색
+                },
+                angleLines: {
+                    color: "#ccc", //radar 차트 선 색
+                },
+            },
+
+        },
+        plugins: {
+            legend: false,
+          },
+          scale: {
+            ticks: {
+                display: false
+            }
+        },
+      },
+    });
+
+
+    //라인차트
+    var lineCanvas = document.getElementById("lineChart");
+    var myLineChart = new Chart(lineCanvas, {
+    type: 'line',
+    data: {
+        labels: ["1주차", "2주차", "3주차", "4주차", "5주차", "6주차", "7주차"],
+
+        datasets: [
+            {
+                label: "학업성공지수(주차별)",
+                lineTension: 0.5,
+                //backgroundColor: "rgba(78, 115, 223, 0.05)",
+                borderColor: "#0DA2E9",
+                pointRadius: 5,
+                pointBackgroundColor: "#0DA2E9",
+                pointBorderColor: "#0DA2E9",
+                pointHoverRadius: 3,
+                pointHoverBackgroundColor: "rgba(78, 115, 223, 1)",
+                pointHoverBorderColor: "rgba(78, 115, 223, 1)",
+                pointHitRadius: 1,
+                pointBorderWidth: 1,
+                data: [95, 94, 93, 73, 62, 95, 100],
+                fill: false
+            }
+        ]
+    },
+
+    options: {
+        responsive: true,
+        maintainAspectRatio : true,
+        aspectRatio: 1.5,
+        scales: {
+            x: {
+                ticks: {
+                    font: {
+                        size: 12,
+                    },
+                    color: "#fff",
+                    padding: 10,
+                },
+                grid : {
+                    color: "#F0F0F0"
+                },
+            },
+            y: {
+                beginAtZero: false,
+                ticks: {
+                    font: {
+                        size: 12,
+                    },
+                    color: "#A3A3A3",
+                    stepSize : 20,
+                    padding: 10,
+                },
+                grid : {
+                    color: "#F0F0F0"
+                },
+                suggestedMin: 0, //Y축 최소값
+                suggestedMax: 100, //Y축 최대값 
+            },
+        },
+
+        plugins: {
+            legend: {
+               display: false //top label 없애기
+            },
+        },
+    },
+     
+});
+
+
+
+    </script>
+</html>

@@ -1,0 +1,112 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'pretendard';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Pretendard Light'),
+	   local('Pretendard-Light'),
+	   /*url('../font/Pretendard-Light.woff2') format('woff2'),*/
+	   url('../font/Pretendard-Light.woff') format('woff'),
+	   url('../font/Pretendard-Light.otf') format('opentype'),
+       url('../font/Pretendard-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'pretendard';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Pretendard Regular'),
+	   local('Pretendard-Regular'),
+	  /* url('../font/Pretendard-Regular.woff2') format('woff2'),*/
+	   url('../font/Pretendard-Regular.woff') format('woff'),
+	   url('../font/Pretendard-Regular.otf') format('opentype'),
+       url('../font/Pretendard-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'pretendard';
+	font-style: normal;
+	font-weight: 500;
+	src: local('Pretendard Medium'),
+	   local('Pretendard-Medium'),
+	   /*url('../font/Pretendard-Medium.woff2') format('woff2'),*/
+	   url('../font/Pretendard-Medium.woff') format('woff'),
+	   url('../font/Pretendard-Medium.otf') format('opentype'),
+       url('../font/Pretendard-Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'pretendard';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Pretendard SemiBold'),
+	   local('Pretendard-SemiBold'),
+	   /*url('../font/Pretendard-SemiBold.woff2') format('woff2'),*/
+	   url('../font/Pretendard-SemiBold.woff') format('woff'),
+	   url('../font/Pretendard-SemiBold.otf') format('opentype'),
+       url('../font/Pretendard-SemiBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'pretendard';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Pretendard Bold'),
+	   local('Pretendard-Bold'),
+	   /*url('../font/Pretendard-Bold.woff2') format('woff2'),*/
+	   url('../font/Pretendard-Bold.woff') format('woff'),
+	   url('../font/Pretendard-Bold.otf') format('opentype'),
+       url('../font/Pretendard-Bold.ttf') format('truetype');
+}
+
+/* 한양대 백남체 */
+@font-face {
+	font-family: 'HYCUPaiknamB';
+	font-style: normal;
+	font-weight: 700;
+	src: local('HYCUPaiknamB'),
+	   url('../font/HYCUPaiknamB.woff2') format('woff2'),
+	   url('../font/HYCUPaiknamB.woff') format('woff'),
+	   url('../font/HYCUPaiknamB.otf') format('opentype'),
+       url('../font/HYCUPaiknamB.ttf') format('truetype');
+}
+/* 한양사랑고딕체EB */
+@font-face {
+	font-family: 'HYCUGothicEB';
+	font-style: normal;
+	font-weight: 700;
+	src: local('HYCUGothicEB'),
+	   url('../font/HYCUGothicEB.woff2') format('woff2'),
+	   url('../font/HYCUGothicEB.woff') format('woff'),
+	   url('../font/HYCUGothicEB.otf') format('opentype'),
+       url('../font/HYCUGothicEB.ttf') format('truetype');
+}
+/* 한양사랑명조체B */
+@font-face {
+	font-family: 'HYCUMyungJoB';
+	font-style: normal;
+	font-weight: 700;
+	src: local('HYCUMyungJoB'),
+	   url('../font/HYCUMyungJoB.woff2') format('woff2'),
+	   url('../font/HYCUMyungJoB.woff') format('woff'),
+	   url('../font/HYCUMyungJoB.otf') format('opentype'),
+       url('../font/HYCUMyungJoB.ttf') format('truetype');
+}
+/* 한양사랑명조L */
+@font-face {
+	font-family: 'HYCUMyungJoL';
+	font-style: normal;
+	font-weight: 600;
+	src: local('HYCUMyungJoL'),
+	   url('../font/HYCUMyungJoL.woff2') format('woff2'),
+	   url('../font/HYCUMyungJoL.woff') format('woff'),
+	   url('../font/HYCUMyungJoL.otf') format('opentype'),
+       url('../font/HYCUMyungJoL.ttf') format('truetype');
+}
+/* 한양사랑명조체M */
+@font-face {
+	font-family: 'HYCUMyungJoM';
+	font-style: normal;
+	font-weight: 500;
+	src: local('HYCUMyungJoM'),
+	   url('../font/HYCUMyungJoM.woff2') format('woff2'),
+	   url('../font/HYCUMyungJoM.woff') format('woff'),
+	   url('../font/HYCUMyungJoM.otf') format('opentype'),
+       url('../font/HYCUMyungJoM.ttf') format('truetype');
+}

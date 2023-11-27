@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="../resources/css/font.css">
+    <link rel="stylesheet" href="../resources/css/reset.css">
+    <link rel="stylesheet" href="../resources/css/common.css">
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="../resources/css/main.css">
+    <link rel="stylesheet" href="../resources/css/sub.css">
+
+    <!-- 공통 js -->
+    <script type="text/javascript" src="../resources/js/common.js"></script>
+    <!-- 공통 js -->
+    <script type="text/javascript" src="../resources/js/sub.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- skipNav -->
+    <div id="skipNav">
+        <a href="#nav">주메뉴 바로가기</a>
+        <a href="#contents">본문 바로가기</a>
+    </div>
+    <!-- skipNav -->
+
+<!-- header -->
+<header class="common_header header" id="header"> 
+    <hgroup>
+        <h1><a href="#"><img src="../resources/images/common/logo.png" alt="한양사이버대학교 www.hycu.ac.kr"></a></h1>
+        <div class="menu_btn"><button><img src="../resources/images/common/menu_ico.png" alt="메뉴열기"></button></div>
+        
+        <nav class="nav">
+            <ul>
+                <li><a href="#">포트폴리오</a>
+                    <ul>
+                        <li><a href="#">이력서</a></li>
+                        <li><a href="#">자기소개서</a></li>
+                        <li><a href="#">나의 포트폴리오</a></li>
+                        <li><a href="#">우수 포트폴리오</a></li>
+                        <li><a href="#">Digital Badge</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">학습분석정보</a>
+                    <ul>
+                        <li><a href="#">학습분석 정보</a></li>
+                        <li><a href="#">학생통계 조회</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">역량-학습진단</a>
+                    <ul>
+                        <li><a href="#">나의 역량현황</a></li>
+                        <li><a href="#">핵심역량안내</a></li>
+                        <li><a href="#">역량-학습진단 검사</a></li>
+                        <li><a href="#">졸업자가진단</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">학습활동</a>
+                    <ul>
+                        <li><a href="#">배움 클래스</a></li>
+                        <li><a href="#">채움 클래스</a></li>
+                        <li><a href="#">이음 클래스</a></li>
+                        <li><a href="#">마일리지</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">진로/취업 </a>
+                    <ul>
+                        <li><a href="#">진로목표</a></li>
+                        <li><a href="#">로드맵</a></li>
+                        <li><a href="#">채용정보</a></li>
+                        <li><a href="#">취업자료실</a></li>
+                        <li><a href="#">진로/직무적성검사</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">통합상담</a>
+                    <ul>
+                        <li><a href="#">Q&amp;A</a></li>
+                        <li><a href="#">교수상담</a></li>
+                        <li><a href="#">심리상담</a></li>
+                        <li><a href="#">법률상담</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">커뮤니티</a>
+                    <ul>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">자료실</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="header_right">
+            <button class="user_change">관리자변환</button>
+            <p class="user_name">홍길동(106003)</p>
+            <button class="user_ico"><img src="../resources/images/common/user_ico.png" alt="프로필관리"></button>
+            <button class="user_exit"><img src="../resources/images/common/user_exit.png" alt="로그아웃하기"></button>
+        </div>
+    </hgroup>
+
+    <!-- 모바일 네비게이션 -->
+    <div class="mobile_nav">
+        <div class="mnav_top">
+            <img src="../resources/images/common/m_logo.png" alt="">
+            <button class="close"><img src="../resources/images/common/menu_bk.png" alt="메뉴닫기"></button>
+        </div>
+        <ul class="drop_down">
+            <li class="dep2"><a href="javascript:;">교수활동지원</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            
+            <li class="dep2"><a href="javascript:;">학생기본정보</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">학습활동</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">역량-학습진단</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">진로/취업</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">포트폴리오</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">통합상담</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">커뮤니티</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+           
+        </ul>
+    </div>
+    <!--// 모바일 네비게이션 -->
+    <div class="header_back"></div>
+</header>
+<!--// header -->
+
+
+
+
+<div id="contents" class="sub sub02">
+    <!-- container -->
+	<div class="container">
+         <!-- 레프트네비 -->
+         <div class="lnb">
+            <div class="lnb_name">
+                <h2>1차 메뉴</h2>
+            </div>
+            <ul class="lnb_wrap">
+                <li class="lnb_lst active"><a href="javascript:;">2차 메뉴</a><!-- 클래스명 active로 제어 -->
+                    <ul>
+                        <li class="active"><a href="javascript:;">- 3차 메뉴</a></li><!-- 클래스명 active로 제어 -->
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                    <ul>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                    <ul>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                    <ul>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="no_depth"><a href="javascript:;">2차 메뉴</a></li>
+                <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                    <ul>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--//레프트 네비 -->
+
+        <div class="cont_wrap">
+            <!-- 페이지 상단 네비 -->
+            <div class="page_nav">
+                <ul>
+                    <li><a href="javascript:;">홈페이지 안내</a></li>
+                    <li><a href="javascript:;">영상정보기기운영관리방침</a></li>
+                </ul>
+            </div>
+            <!--// 페이지 상단 네비 -->
+
+            <!-- 페이지 제목 -->
+            <div class="sub_title_area">
+                <h3 class="sub_title">영상정보기기운영관리방침</h3>
+                <div class="right">
+                    <button class="btn_print">프린트</button>
+                    <button class="btn_share">공유</button>
+                </div>
+            </div>
+            <!--// 페이지 제목 -->
+
+            <!-- 내용 시작 -->
+            <div class="section_wrap">
+                <div class="board_detail_title">
+                    <h4>영상정보기기운영관리방침</h4>
+                    <ul>
+                        <li><span>작성자 </span>관리자</li>
+                        <li><span>작성일 </span>2022-05-30 10:02</li>
+                    </ul>
+                </div>
+                <div class="t1">
+                    <ul>
+                        <li>
+                            <strong>1. 관련규정</strong>
+                            <p>개인정보보호법 제25조(영상정보처리기기의 설치ㆍ운영 제한)</p>
+                        </li>
+                        <li>
+                            <strong>2. 설치목적</strong>
+                            <p>한양사이버대학 건물 안전사고 및 도난 예방</p>
+                        </li>
+                        <li>
+                            <strong>3. CCTV시설 담당부서ㆍ책임자 및 연락처</strong>
+                            <div class="board">
+                                <table class="common_fixed">
+                                    <caption>CCTV시설 담당부서ㆍ책임자 및 연락처 리스트</caption>
+                                    <colgroup>
+                                        <col width="25%">
+                                        <col width="25%">
+                                        <col width="25%">
+                                        <col width="25%">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>부서</th>
+                                            <th>책임자 구분</th>
+                                            <th>직위</th>
+                                            <th>연락처</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>총무처</td>
+                                            <td>총괄책임자</td>
+                                            <td>총무처장</td>
+                                            <td>02 – 2290 – 0394</td>
+                                        </tr>
+                                        <tr>
+                                            <td>인사총무팀</td>
+                                            <td>운영책임자</td>
+                                            <td>인사총무팀장</td>
+                                            <td>02 – 2290 – 0101</td>
+                                        </tr>
+                                        <tr>
+                                            <td>(주)에스원(위탁기관)</td>
+                                            <td>위탁책임자</td>
+                                            <td>종합상황실장</td>
+                                            <td>02 – 2220 – 2119</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <strong>4. CCTV 설치 내역</strong>
+                            <div class="board mgb30">
+                                <table class="common_fixed">
+                                    <caption>CCTV 설치 내역 리스트</caption>
+                                    <colgroup>
+                                        <col width="25%">
+                                        <col width="25%">
+                                        <col width="25%">
+                                        <col width="25%">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>대수</th>
+                                            <th>위치</th>
+                                            <th>성능</th>
+                                            <th>촬영범위</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>68대</td>
+                                            <td>출입문 및 내ㆍ외부</td>
+                                            <td>41만화소, 6mm(1/3") 고정렌즈 3.8mm <br />200만화소 고정랜즈 3.8㎜(1/2.8”)</td>
+                                            <td>건물 전체(내ㆍ외부)</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <a href="#" class="btn_down" title="한양사이버대학교 CCTV 설치현황">
+                                <span>한양사이버대학교 CCTV 설치현황</span>
+                            </a>
+                        </li>
+                        <li>
+                            <strong>5. 안내판 규격 및 부착장소</strong>
+                            <div class="board">
+                                <table class="common_fixed">
+                                    <caption>안내판 규격 및 부착장소 리스트</caption>
+                                    <colgroup>
+                                        <col width="25%">
+                                        <col width="25%">
+                                        <col width="25%">
+                                        <col width="25%">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>재질</th>
+                                            <th>크기(가로*세로)</th>
+                                            <th>수량</th>
+                                            <th>부착장소</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>아크릴</td>
+                                            <td>30cm X 30cm</td>
+                                            <td>2개</td>
+                                            <td>사이버1,2관 1층 출입문</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </li>
+                        <li>
+                            <strong>6. 영상정보처리기기 설치 및 관리 등의 위탁에 관한 사항</strong>
+                            <div class="board">
+                                <table class="common_fixed">
+                                    <caption>영상정보처리기기 설치 및 관리 등의 위탁에 관한 사항</caption>
+                                    <colgroup>
+                                        <col width="33.3333%">
+                                        <col width="33.3333%">
+                                        <col width="33.3333%">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>대수</th>
+                                            <th>연락처</th>
+                                            <th>위치</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>(주)에스원</td>
+                                            <td>02) 2220 – 2119</td>
+                                            <td>백남학술정보관, 종합상황실</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>    
+                        </li>
+                        <li>
+                            <strong>7. 영상정보의 촬영시간, 보관기간, 보관장소 및 처리방법</strong>
+                            <div class="board">
+                                <table class="common_fixed">
+                                    <caption>영상정보의 촬영시간, 보관기간, 보관장소 및 처리방법</caption>
+                                    <colgroup>
+                                        <col width="25%">
+                                        <col width="25%">
+                                        <col width="25%">
+                                        <col width="25%">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>촬영시간</th>
+                                            <th>보관기간</th>
+                                            <th>보관장소</th>
+                                            <th>출입통제</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>24시</td>
+                                            <td>30일 이내</td>
+                                            <td>사이버2관 2층 경비실</td>
+                                            <td>제한구역 설정하여 접근권한이 부여된 자 외 출입을 엄격히 통제</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>    
+                        </li>
+                        <li>
+                            <strong>8. 개인영상정보의 확인 방법 및 장소에 관한 사항</strong>
+                            <p>확인 방법 : 영상정보 총괄책임자 및 운영책임자에게 미리 연락하고 본교를 방문하시면 확인가능</p>
+                            <p>확인 장소 : 총무처 인사총무팀</p>
+                        </li>
+                        <li>
+                            <strong>9. 정보주체의 영상정보 열람 등 요구에 대한 조치</strong>
+                            <p>개인영상정보에 관하여 열람 또는 존재확인ㆍ삭제를 원하는 경우 언제든지 영상정보처리기기 운영자에게 요구하실 수 있습니다. 단, 요구자가 촬영된 개인영상정보 및 명백히 정보주체의 급박한 생명, 신체, 재산의 이익을 위하여 필요한 개인영상정보에 한정됩니다. 본 교는 개인영상정보에 관하여 열람 또는 존재확인ㆍ삭제를 요구한 경우 지체 없이 필요한 조치를 하겠습니다.</p>
+                        </li>
+                        <li>
+                            <strong>10. 영상정보의 안전성 확보조치</strong>
+                            <p>본교에서 처리하는 영상정보는 암호화 조치 등을 통하여 안전하게 관리되고 있습니다. 또한 본교는 개인영상정보보호를 위한 관리적 대책으로서 개인정보에 대한 접근 권한을 차등부여하고 있고, 개인영상정보의 위ㆍ변조 방지를 위하여 개인영상정보의 생성 일시, 열람 시 열람 목적ㆍ열람자ㆍ열람 일시 등을 기록하여 관리하고 있습니다. 이 외에도 개인영상정보의 안전한 물리적 보관을 위하여 잠금장치를 설치하고 있습니다.</p>
+                        </li>
+                        <li>
+                            <strong>11. 처리방침 변경에 관한 사항</strong>
+                            <p class="mgb30">영상정보처리기기 운영관리방침은 2011년 11월 25일에 제정되었으며 법령ㆍ정책 또는 보안기술의 변경에 따라 내용의 추가ㆍ삭제 및 수정이 있을 시에는 시행하기 최소 7일전에 본 기관 홈페이지를 통해 변경사유 및 내용 등을 공지하도록 하겠습니다.</p>
+                            <ul>
+                                <li><p>시행일자 : 2011년 11월 25일</p></li>
+                                <li><p>변경일자 : 2014년 04월 07일</p></li>
+                                <li><p>변경일자 : 2020년 03월 16일</p></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--// 내용 끝 -->
+
+
+        </div>
+    </div> 
+    <!-- container -->
+
+
+        
+    <!-- footer -->
+    <footer>
+        <a href="#" class="f_logo"><img src="../resources/images/common/f_logo.png" alt="hyuc 한양사이버대학교"></a>
+        <div class="f_cont">
+            <ul class="fnav">
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">이메일무단수집거부</a></li>
+                <li><a href="#">사이트맵</a></li>
+            </ul>
+            <address><span>04763 서울시 성동구 왕십리로 220 한양사이버대학교</span><span>대표전화. 02-2290-0114</span><span>FAX. 050-2290-0605</span></address>
+            <span class="copy">Copyright © HANYANG CYBER UNIVERSITY. All rights reserved</span>
+        </div>
+        <div class="family_site">
+            <select>
+                <option value="" disabled selected>Family site</option>
+                <option value="한양학원">한양학원</option>
+                <option value="한양사이버대학교 대학원">한양사이버대학교 대학원</option>
+                <option value="한양대학교">한양대학교</option>
+                <option value="한양여자대학">한양여자대학</option>
+                <option value="한양대학교의료원">한양대학교의료원</option>
+            </select>
+        </div>
+    </footer>
+    <!--// footer -->
+
+
+</div>
+</body>
+</html>

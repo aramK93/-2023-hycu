@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="../resources/css/font.css">
+    <link rel="stylesheet" href="../resources/css/reset.css">
+    <link rel="stylesheet" href="../resources/css/common.css">
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="../resources/css/main.css">
+    <link rel="stylesheet" href="../resources/css/sub.css">
+    <link rel="stylesheet" href="../resources/css/swiper.min.css"><!-- 슬라이드 -->
+
+    <!-- 공통 js -->
+    <script type="text/javascript" src="../resources/js/common.js"></script>
+    <!-- 공통 js -->
+    <script type="text/javascript" src="../resources/js/sub.js"></script>
+    <script type="text/javascript" src="../resources/js/swiper.min.js"></script><!-- 슬라이드 -->
+
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- skipNav -->
+    <div id="skipNav">
+        <a href="#nav">주메뉴 바로가기</a>
+        <a href="#contents">본문 바로가기</a>
+    </div>
+    <!-- skipNav -->
+
+<!-- header -->
+<header class="common_header header" id="header"> 
+    <hgroup>
+        <h1><a href="#"><img src="../resources/images/common/logo.png" alt="한양사이버대학교 www.hycu.ac.kr"></a></h1>
+        <div class="menu_btn"><button><img src="../resources/images/common/menu_ico.png" alt="메뉴열기"></button></div>
+        
+        <nav class="nav">
+            <ul>
+                <li><a href="#">포트폴리오</a>
+                    <ul>
+                        <li><a href="#">이력서</a></li>
+                        <li><a href="#">자기소개서</a></li>
+                        <li><a href="#">나의 포트폴리오</a></li>
+                        <li><a href="#">우수 포트폴리오</a></li>
+                        <li><a href="#">Digital Badge</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">학습분석정보</a>
+                    <ul>
+                        <li><a href="#">학습분석 정보</a></li>
+                        <li><a href="#">학생통계 조회</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">역량-학습진단</a>
+                    <ul>
+                        <li><a href="#">나의 역량현황</a></li>
+                        <li><a href="#">핵심역량안내</a></li>
+                        <li><a href="#">역량-학습진단 검사</a></li>
+                        <li><a href="#">졸업자가진단</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">학습활동</a>
+                    <ul>
+                        <li><a href="#">배움 클래스</a></li>
+                        <li><a href="#">채움 클래스</a></li>
+                        <li><a href="#">이음 클래스</a></li>
+                        <li><a href="#">마일리지</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">진로/취업 </a>
+                    <ul>
+                        <li><a href="#">진로목표</a></li>
+                        <li><a href="#">로드맵</a></li>
+                        <li><a href="#">채용정보</a></li>
+                        <li><a href="#">취업자료실</a></li>
+                        <li><a href="#">진로/직무적성검사</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">통합상담</a>
+                    <ul>
+                        <li><a href="#">Q&amp;A</a></li>
+                        <li><a href="#">교수상담</a></li>
+                        <li><a href="#">심리상담</a></li>
+                        <li><a href="#">법률상담</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">커뮤니티</a>
+                    <ul>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">자료실</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="header_right">
+            <button class="user_change">관리자변환</button>
+            <p class="user_name">홍길동(106003)</p>
+            <button class="user_ico"><img src="../resources/images/common/user_ico.png" alt="프로필관리"></button>
+            <button class="user_exit"><img src="../resources/images/common/user_exit.png" alt="로그아웃하기"></button>
+        </div>
+    </hgroup>
+
+    <!-- 모바일 네비게이션 -->
+    <div class="mobile_nav">
+        <div class="mnav_top">
+            <img src="../resources/images/common/m_logo.png" alt="">
+            <button class="close"><img src="../resources/images/common/menu_bk.png" alt="메뉴닫기"></button>
+        </div>
+        <ul class="drop_down">
+            <li class="dep2"><a href="javascript:;">교수활동지원</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            
+            <li class="dep2"><a href="javascript:;">학생기본정보</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">학습활동</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">역량-학습진단</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">진로/취업</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">포트폴리오</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">통합상담</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">커뮤니티</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+           
+        </ul>
+    </div>
+    <!--// 모바일 네비게이션 -->
+    <div class="header_back"></div>
+</header>
+<!--// header -->
+
+
+
+
+<div id="contents" class="sub sub06">
+    <!-- container -->
+	<div class="container">
+         <!-- 레프트네비 -->
+         <div class="lnb">
+            <div class="lnb_name">
+                <h2>1차 메뉴</h2>
+            </div>
+            <ul class="lnb_wrap">
+                <li class="lnb_lst active"><a href="javascript:;">2차 메뉴</a><!-- 클래스명 active로 제어 -->
+                    <ul>
+                        <li class="active"><a href="javascript:;">- 3차 메뉴</a></li><!-- 클래스명 active로 제어 -->
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                    <ul>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                    <ul>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                    <ul>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="no_depth"><a href="javascript:;">2차 메뉴</a></li>
+                <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                    <ul>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--//레프트 네비 -->
+
+        <div class="cont_wrap">
+            <!-- 페이지 상단 네비 -->
+            <div class="page_nav">
+                <ul>
+                    <li><a href="javascript:;">학습활동</a></li>
+                    <li><a href="javascript:;">배움 클래스</a></li>
+                </ul>
+            </div>
+            <!--// 페이지 상단 네비 -->
+
+            <!-- 페이지 제목 --> 
+            <h3 class="sub_title">배움 클래스</h3>
+            <!--// 페이지 제목 -->
+
+            <!-- 내용 시작 -->
+            <div class="section_wrap"><!-- 위에 탭이 있는 페이지는 tap_has 추가-->
+                <div class="class_cont_wrap01">
+                    <h4>융합교육 시스템에서의 학습지원 방법</h4>
+                    <div class="class_box">
+                        <div class="cont_left">
+                            <ul class="btn_lst">
+                                <li class="active"><button>강의소개</button></li>
+                                <li><button>강의계획서</button></li>
+                                <li><button>관련과목</button></li>
+                            </ul>
+                            <div class="datail">
+                                <div class="datail_box active">
+                                    <dl>
+                                        <dt>이 강의에 대하여</dt>
+                                        <dd>본 과정 소개 내용입니다.</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>배울 내용</dt>
+                                        <dd>배울 소개 내용입니다.</dd>
+                                    </dl>
+                                </div>
+                                <div class="datail_box">
+                                    <dl>
+                                        <dt>강의계획서</dt>
+                                        <dd>본 과정 소개 내용입니다.</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>배울 내용</dt>
+                                        <dd>배울 소개 내용입니다.</dd>
+                                    </dl>
+                                </div>
+                                <div class="datail_box">
+                                    <dl>
+                                        <dt>관련과목</dt>
+                                        <dd>본 과정 소개 내용입니다.</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>배울 내용</dt>
+                                        <dd>배울 소개 내용입니다.</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cont_right">
+                            <div class="img type_lst">
+                                <a href="javascript:void(0);">
+                                    <div class="thumb">
+                                        <img src="../resources/images/temp/@temp_thumb02.png" alt="">
+                                    </div>
+                                    <div class="cont"> <!-- 20230425 수정/추가 -->
+                                        <p class="txt">
+                                            융합교육 시스템에서의 학습지원 방법
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="apply_area">
+                                <button class="apply">수강신청</button>
+                                <button class="like active">좋아요</button>
+                            </div>
+                            <ul>
+                                <li><span>수강신청 기간</span>2023-01-01 ~ 2023-03-31</li>
+                                <li><span>학습 기간</span>2023-01-01 ~ 2023-03-31</li>
+                                <li><span>교육 시간</span>총 8시간</li>
+                                <li><span>수료 기준</span>총 80점 이상 수료(시험 40, 출석 40)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="class_cont_wrap02">
+                    <h4>강의계획서</h4>
+                    <table>
+                        <colgroup>
+                            <col width="20%">
+                            <col width="60%">
+                            <col width="20%">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>차시</th>
+                                <th>차시명</th>
+                                <th>미리보기</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1강</td>
+                                <td class="title">
+                                    <p>
+                                        융합교육에 대하여융합교육에 대하여융합교육에 대하여융합교육에 대하여융합교육에 대하여융합교육에 대하여융합교육에 대하여융합교육에 대하여융합교육에 대하여융합교육에 대하여융합교육에 대하여융합교육에 대하여융합교육에 대하여융합교육에 대하여융합교육에 대하여융합교육에 대하여융합교육에 대하여융합교육에 대하여융합교육에 대하여융합교육에 대하여
+                                    </p>
+                                </td>
+                                <td><img src="../resources/images/sub/play_btn.png" alt="동영상 미리보기"></td>
+                            </tr>
+                            <tr>
+                                <td>2강</td>
+                                <td class="title">    
+                                   <p>융합교육에 대하여</p>
+                                </td>
+                                <td><img src="../resources/images/sub/play_btn.png" alt="동영상 미리보기"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="class_cont_wrap03">
+                    <h4>관련과목</h4>
+                    <div class="slide_wrap">
+                        <!-- 슬라이드 스크립트는 하단에 있습니다. -->
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="img"><img src="../resources/images/sub/portfolio_img01.png" alt=""></div>
+                                    <p>과목명</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img"><img src="../resources/images/sub/portfolio_img01.png" alt=""></div>
+                                    <p>과목명</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img"><img src="../resources/images/sub/portfolio_img01.png" alt=""></div>
+                                    <p>과목명</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img"><img src="../resources/images/sub/portfolio_img01.png" alt=""></div>
+                                    <p>과목명</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img"><img src="../resources/images/sub/portfolio_img01.png" alt=""></div>
+                                    <p>과목명</p>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="img"><img src="../resources/images/sub/portfolio_img01.png" alt=""></div>
+                                    <p>과목명</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 방향 버튼 상황에 따라 추가 삭제가능 -->
+                        <div class="swiper-button-prev swiper_btn"></div>
+                        <div class="swiper-button-next swiper_btn"></div>
+                    </div>
+                </div>
+
+                <div class="btn_area btn_num1">
+                    <a hre="javasciprt:;" class="list_btn">목록</a>
+                </div>
+
+            </div>
+            <!--// 내용 끝 -->
+
+
+        </div>
+    </div> 
+    <!-- container -->
+
+
+       <!-- footer -->
+    <footer>
+        <a href="#" class="f_logo"><img src="../resources/images/common/f_logo.png" alt="hyuc 한양사이버대학교"></a>
+        <div class="f_cont">
+            <ul class="fnav">
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">이메일무단수집거부</a></li>
+                <li><a href="#">사이트맵</a></li>
+            </ul>
+            <address><span>04763 서울시 성동구 왕십리로 220 한양사이버대학교</span><span>대표전화. 02-2290-0114</span><span>FAX. 050-2290-0605</span></address>
+            <span class="copy">Copyright © HANYANG CYBER UNIVERSITY. All rights reserved</span>
+        </div>
+        <div class="family_site">
+            <select>
+                <option value="" disabled selected>Family site</option>
+                <option value="한양학원">한양학원</option>
+                <option value="한양사이버대학교 대학원">한양사이버대학교 대학원</option>
+                <option value="한양대학교">한양대학교</option>
+                <option value="한양여자대학">한양여자대학</option>
+                <option value="한양대학교의료원">한양대학교의료원</option>
+            </select>
+        </div>
+    </footer>
+    <!--// footer -->
+
+
+</div>
+</body>
+<script type="text/javascript">
+    const swiper = new Swiper('.swiper-container', {
+        slidesPerView: 4,        
+        spaceBetween: 20,
+        debugger: true,        
+        loop: true,
+        centeredSlides: false,
+        // effect: 'fade',
+        //방향표
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      
+        breakpoints: {
+          // 화면의 넓이가 1200px 이상일 때
+          1200: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+          }, 767: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+          }
+        }
+    });
+</script>
+</html>

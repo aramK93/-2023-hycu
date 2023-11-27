@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="../resources/css/font.css">
+    <link rel="stylesheet" href="../resources/css/reset.css">
+    <link rel="stylesheet" href="../resources/css/common.css">
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="../resources/css/main.css">
+    <link rel="stylesheet" href="../resources/css/sub.css">
+
+    <!-- 공통 js -->
+    <script type="text/javascript" src="../resources/js/common.js"></script>
+    <!-- 공통 js -->
+    <script type="text/javascript" src="../resources/js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="../resources/js/sub.js"></script>
+    <script type="text/javascript" src="../resources/js/chart.min.js"></script><!-- 차트 그리는 플러그인 --> 
+
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- skipNav -->
+    <div id="skipNav">
+        <a href="#nav">주메뉴 바로가기</a>
+        <a href="#contents">본문 바로가기</a>
+    </div>
+    <!-- skipNav -->
+
+<!-- header -->
+<header class="common_header header" id="header"> 
+    <hgroup>
+        <h1><a href="#"><img src="../resources/images/common/logo.png" alt="한양사이버대학교 www.hycu.ac.kr"></a></h1>
+        <div class="menu_btn"><button><img src="../resources/images/common/menu_ico.png" alt="메뉴열기"></button></div>
+        
+        <nav class="nav">
+            <ul>
+                <li><a href="#">포트폴리오</a>
+                    <ul>
+                        <li><a href="#">이력서</a></li>
+                        <li><a href="#">자기소개서</a></li>
+                        <li><a href="#">나의 포트폴리오</a></li>
+                        <li><a href="#">우수 포트폴리오</a></li>
+                        <li><a href="#">Digital Badge</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">학습분석정보</a>
+                    <ul>
+                        <li><a href="#">학습분석 정보</a></li>
+                        <li><a href="#">학생통계 조회</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">역량-학습진단</a>
+                    <ul>
+                        <li><a href="#">나의 역량현황</a></li>
+                        <li><a href="#">핵심역량안내</a></li>
+                        <li><a href="#">역량-학습진단 검사</a></li>
+                        <li><a href="#">졸업자가진단</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">학습활동</a>
+                    <ul>
+                        <li><a href="#">배움 클래스</a></li>
+                        <li><a href="#">채움 클래스</a></li>
+                        <li><a href="#">이음 클래스</a></li>
+                        <li><a href="#">마일리지</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">진로/취업 </a>
+                    <ul>
+                        <li><a href="#">진로목표</a></li>
+                        <li><a href="#">로드맵</a></li>
+                        <li><a href="#">채용정보</a></li>
+                        <li><a href="#">취업자료실</a></li>
+                        <li><a href="#">진로/직무적성검사</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">통합상담</a>
+                    <ul>
+                        <li><a href="#">Q&amp;A</a></li>
+                        <li><a href="#">교수상담</a></li>
+                        <li><a href="#">심리상담</a></li>
+                        <li><a href="#">법률상담</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">커뮤니티</a>
+                    <ul>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">자료실</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="header_right">
+            <button class="user_change">관리자변환</button>
+            <p class="user_name">홍길동(106003)</p>
+            <button class="user_ico"><img src="../resources/images/common/user_ico.png" alt="프로필관리"></button>
+            <button class="user_exit"><img src="../resources/images/common/user_exit.png" alt="로그아웃하기"></button>
+        </div>
+    </hgroup>
+
+    <!-- 모바일 네비게이션 -->
+    <div class="mobile_nav">
+        <div class="mnav_top">
+            <img src="../resources/images/common/m_logo.png" alt="">
+            <button class="close"><img src="../resources/images/common/menu_bk.png" alt="메뉴닫기"></button>
+        </div>
+        <ul class="drop_down">
+            <li class="dep2"><a href="javascript:;">교수활동지원</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            
+            <li class="dep2"><a href="javascript:;">학생기본정보</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">학습활동</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">역량-학습진단</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">진로/취업</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">포트폴리오</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">통합상담</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">커뮤니티</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+           
+        </ul>
+    </div>
+    <!--// 모바일 네비게이션 -->
+    <div class="header_back"></div>
+</header>
+<!--// header -->
+
+
+
+
+<div id="contents" class="sub sub02">
+    <!-- container -->
+	<div class="container">
+         <!-- 레프트네비 -->
+         <div class="lnb">
+            <div class="lnb_name">
+                <h2>1차 메뉴</h2>
+            </div>
+            <ul class="lnb_wrap">
+                <li class="lnb_lst active"><a href="javascript:;">2차 메뉴</a><!-- 클래스명 active로 제어 -->
+                    <ul>
+                        <li class="active"><a href="javascript:;">- 3차 메뉴</a></li><!-- 클래스명 active로 제어 -->
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                    <ul>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                    <ul>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                    <ul>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="no_depth"><a href="javascript:;">2차 메뉴</a></li>
+                <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                    <ul>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--//레프트 네비 -->
+
+        <div class="cont_wrap">
+            <!-- 페이지 상단 네비 -->
+            <div class="page_nav">
+                <ul>
+                    <li><a href="javascript:;">포트폴리오</a></li>
+                    <li><a href="javascript:;">나의 포트폴리오</a></li>
+                </ul>
+            </div>
+            <!--// 페이지 상단 네비 -->
+
+            <!-- 페이지 제목 -->
+            <h3 class="sub_title">나의 포트폴리오</h3>
+            <!--// 페이지 제목 -->
+
+            <!-- 내용 시작 -->
+            <div class="section_wrap"><!-- 위에 탭이 있는 페이지는 tap_has 추가-->
+                <!-- 나의포트폴리오 viwe페이지 -->
+                <div class="view_page">
+
+                    <div class="section portfolio_heading">
+                        <p>포트폴리오 제목</p>
+                        <span>포트폴리오 설명</span>
+                    </div>
+
+                    <div class="layout_box"><!-- 4분할 구성하는 박스-->
+                        <div class="scroll_box">                        
+                            <div class="layout_flex layout_flex4"><!-- 박스 네개 들어가는 레이아웃 -->
+
+                                <!-- 박스 -->
+                                <div class="layout_wrap">
+
+                                    <div class="layout_cont_wrap">
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <span class="layout_tit">나의 핵심역량</span>
+                                                <canvas id="myChart"></canvas> <!-- 하단에 차트 스크립트 있습니다. -->
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <span class="layout_tit">이력서</span>
+                                                <p class="layout_txt">컴퓨터공학과 18학번 홍길동입니다.컴퓨터공학과 18학번 홍길동입니다컴퓨터공학과 18학번 홍길동입니다</p>
+                                                <span class="layout_bottom">2022.11.01</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <span class="layout_tit">이력서</span>
+                                                <p class="layout_txt">컴퓨터공학과 18학번 홍길동입니다.컴퓨터공학과 18학번 홍길동입니다컴퓨터공학과 18학번 홍길동입니다</p>
+                                                <span class="layout_bottom">2022.11.01</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+                                    </div>                                
+                                </div>
+                                <!--// 박스 -->
+
+
+                                <!-- 박스 -->
+                                <div class="layout_wrap">
+
+                                    <div class="layout_cont_wrap">
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <span class="layout_tit">이력서</span>
+                                                <p class="layout_txt">컴퓨터공학과 18학번 홍길동입니다.컴퓨터공학과 18학번 홍길동입니다컴퓨터공학과 18학번 홍길동입니다</p>
+                                                <span class="layout_bottom">2022.11.01</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+
+                                         <!-- 추가되는 레이아웃 박스 -->
+                                         <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <span class="layout_tit">이력서</span>
+                                                <p class="layout_txt">컴퓨터공학과 18학번 홍길동입니다.컴퓨터공학과 18학번 홍길동입니다컴퓨터공학과 18학번 홍길동입니다</p>
+                                                <span class="layout_bottom">2022.11.01</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+                                    </div>                                
+                                </div>
+                                <!--// 박스 -->
+
+
+                                <!-- 박스 -->
+                                <div class="layout_wrap">
+
+                                    <div class="layout_cont_wrap">
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <span class="layout_tit">교내비교과활동</span>
+                                                <p class="layout_txt"><span>대분류명</span> 비교과활동명</p>
+                                                <span class="layout_bottom">2022.11.01 ~ 2022.11.02</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <textarea name="" id="" placeholder="자유 콘텐츠 텍스트"></textarea>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+                                    </div>                                
+                                </div>
+                                <!--// 박스 -->
+                                <!-- 박스 -->
+                                <div class="layout_wrap">
+
+                                    <div class="layout_cont_wrap">
+
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <textarea name="" id="" placeholder="자유 콘텐츠 텍스트"></textarea>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+                                    </div>                                
+                                </div>
+                                <!--// 박스 -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--// 한 줄 구성되는 박스-->
+
+                    <div class="layout_box"><!-- 3분할 구성 박스-->
+                        <div class="scroll_box">
+                            <div class="layout_flex layout_flex3"><!-- 박스 세개 들어가는 레이아웃 -->
+                                <!-- 박스 -->
+                                <div class="layout_wrap">
+
+                                    <div class="layout_cont_wrap">
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <span class="layout_tit">교외비교과활동</span>
+                                                <p class="layout_txt"><span>유형구분</span> 활동명</p>
+                                                <span class="layout_bottom">활동유형</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--추가되는 레이아웃 박스 -->
+
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <textarea name="" id="" placeholder="자유 콘텐츠 텍스트"></textarea>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+
+                                    </div>                                
+                                </div>
+                                <!--// 박스 -->
+
+                                <!-- 박스 -->
+                                <div class="layout_wrap">
+
+                                    <div class="layout_cont_wrap">
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <span class="layout_tit">자기소개서</span>
+                                                <p class="layout_txt">자기소개서 이름</p>
+                                                <span class="layout_bottom">2022.11.01</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+                                    </div>                             
+                                </div>
+                                <!--// 박스 -->
+
+                                <!-- 박스 -->
+                                <div class="layout_wrap">
+
+                                    <div class="layout_cont_wrap">
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <textarea name="" id="" placeholder="자유 콘텐츠 텍스트"></textarea>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+                                    </div>                             
+                                </div>
+                                <!--// 박스 -->
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--// 한 줄 구성되는 박스-->
+
+
+                    <div class="layout_box"><!-- 2분할a 구성 박스-->
+                        <div class="scroll_box">
+                            <div class="layout_flex layout_flex2a"><!-- 2분할(5:5) 들어가는 레이아웃 -->
+                                <!-- 5:5 박스 -->
+                                <div class="half">
+                                    <!-- 박스 -->
+                                    <div class="layout_wrap">
+
+                                        <div class="layout_cont_wrap">
+                                            <!-- 추가되는 레이아웃 박스 -->
+                                            <div class="layout_cont">
+                                                <!-- 내용 -->
+                                                <div class="layout_inner">
+                                                    <span class="layout_tit">성적</span>
+                                                    <p class="layout_txt">총 평점 4.2점</p>
+                                                    <span class="layout_bottom">2020년도 1학기</span>
+                                                </div>
+                                                <!--// 내용 -->
+                                            </div>
+                                            <!--// 추가되는 레이아웃 박스 -->
+
+                                            <!-- 추가되는 레이아웃 박스 -->
+                                            <div class="layout_cont">
+                                                <!-- 내용 -->
+                                                <div class="layout_inner">
+                                                    <span class="layout_tit">전공학습이력</span>
+                                                    <p class="layout_txt">교과목명</p>
+                                                    <span class="layout_bottom">3학점 [B]</span>
+                                                </div>
+                                                <!--// 내용 -->
+                                            </div>
+                                            <!--// 추가되는 레이아웃 박스 -->
+
+                                            <!-- 추가되는 레이아웃 박스 -->
+                                            <div class="layout_cont">
+                                                <!-- 내용 -->
+                                                <div class="layout_inner">
+                                                    <span class="layout_tit">전공학습이력</span>
+                                                    <p class="layout_txt">교과목명</p>
+                                                    <span class="layout_bottom">3학점 [B]</span>
+                                                </div>
+                                                <!--// 내용 -->
+                                            </div>
+                                            <!--// 추가되는 레이아웃 박스 -->
+
+                                        </div>                                    
+                                    </div>
+                                    <!--// 박스 -->
+
+                                </div>
+                                <!--// 5:5 박스 -->
+
+                                <!-- 5:5 박스 -->
+                                <div class="half">
+                                    <!-- 박스 -->
+                                    <div class="layout_wrap"><!-- 너비 100% 텍스트 박스 -->
+
+                                        <div class="layout_cont_wrap">
+                                            <!-- 추가되는 레이아웃 박스 -->
+                                            <div class="layout_cont text_box"><!-- 자유콘텐츠일때 text_box -->
+                                                <!-- 내용 -->
+                                                <div class="layout_inner">
+                                                    <textarea name="" id="" placeholder="자유 콘텐츠 텍스트"></textarea>
+                                                </div>
+                                                <!--// 내용 -->
+                                            </div>
+                                            <!--// 추가되는 레이아웃 박스 -->
+
+                                             <!-- 추가되는 레이아웃 박스 -->
+                                            <div class="layout_cont">
+                                                <!-- 내용 -->
+                                                <div class="layout_inner">
+                                                    <span class="layout_tit">전공학습이력</span>
+                                                    <p class="layout_txt">교과목명</p>
+                                                    <span class="layout_bottom">3학점 [B]</span>
+                                                </div>
+                                                <!--// 내용 -->
+                                            </div>
+                                            <!--// 추가되는 레이아웃 박스 -->
+
+                                        </div>
+                                    </div>
+                                    <!--// 박스 -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--// 한 줄 구성되는 박스-->
+
+
+
+                    <div class="layout_box"><!-- 한 줄 구성되는 박스-->
+                        <div class="scroll_box">
+
+                            <div class="layout_flex layout_flex2b"><!-- 박스 두개1:2로 들어가는 레이아웃 -->
+                                <!-- 박스 -->
+                                <div class="layout_wrap half_1">
+                                    <div class="layout_cont_wrap">
+
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                             <!-- 내용 -->
+                                             <div class="layout_inner">
+                                                <textarea name="" id="" placeholder="자유 콘텐츠 텍스트"></textarea>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                 <span class="layout_tit">일반교과이력</span>
+                                                 <p class="layout_txt">교과목명</p>
+                                                 <span class="layout_bottom">3학점 [B]</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                 <span class="layout_tit">일반교과이력</span>
+                                                 <p class="layout_txt">교과목명</p>
+                                                 <span class="layout_bottom">3학점 [B]</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+
+                                    </div>                                
+                                </div>
+                                <!--// 박스 -->
+
+                                <!-- 박스 -->
+                                <div class="layout_wrap half_3">
+
+                                    <div class="layout_cont_wrap">
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                 <span class="layout_tit">일반교과이력</span>
+                                                 <p class="layout_txt">교과목명</p>
+                                                 <span class="layout_bottom">3학점 [B]</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <span class="layout_tit">디지털배지</span>
+                                                <p class="layout_txt bedge">
+                                                    <img src="../resources/images/sub/portfolio_bedge01.png" alt="">
+                                                    교과목명
+                                                </p>
+                                                <span class="layout_bottom">2022.11.01</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <span class="layout_tit">인증관리</span>
+                                                <p class="layout_txt">인증이름</p>
+                                                <span class="layout_bottom">2022.11.01</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--//추가되는 레이아웃 박스 -->
+
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont text_box"><!-- 자유콘텐츠일때 text_box -->
+                                             <!-- 내용 -->
+                                             <div class="layout_inner">
+                                                <textarea name="" id="" placeholder="자유 콘텐츠 텍스트"></textarea>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <span class="layout_tit">인증관리</span>
+                                                <p class="layout_txt">인증이름</p>
+                                                <span class="layout_bottom">2022.11.01</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--//추가되는 레이아웃 박스 -->
+
+                                    </div>                             
+                                </div>
+                                <!--// 박스 -->
+                            </div>
+                        </div>
+                    </div>
+                    <!--// 한 줄 구성되는 박스-->
+
+
+                    <div class="layout_box"><!-- 한 줄 구성되는 박스-->
+                        <div class="scroll_box">
+
+                            <div class="layout_flex layout_flex2c"><!-- 분할 2c(3:1)로 들어가는 레이아웃 -->
+                                <!-- 박스 -->
+                                <div class="layout_wrap half_3">
+                                    <div class="layout_cont_wrap">
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <span class="layout_tit">전공학습이력</span>
+                                                <p class="layout_txt">교과목명</p>
+                                                <span class="layout_bottom">3학점 [B]</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                             <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <span class="layout_tit">전공학습이력</span>
+                                                <p class="layout_txt">교과목명</p>
+                                                <span class="layout_bottom">3학점 [B]</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <span class="layout_tit">전공학습이력</span>
+                                                <p class="layout_txt">교과목명</p>
+                                                <span class="layout_bottom">3학점 [B]</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <span class="layout_tit">전공학습이력</span>
+                                                <p class="layout_txt">교과목명</p>
+                                                <span class="layout_bottom">3학점 [B]</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont text_box"><!-- 자유콘텐츠일때 text_box -->
+                                             <!-- 내용 -->
+                                             <div class="layout_inner">
+                                                <textarea name="" id="" placeholder="자유 콘텐츠 텍스트"></textarea>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+                                    </div>
+                                </div>
+                                <!--// 박스 -->
+
+                                <!-- 박스 -->
+                                <div class="layout_wrap half_1">
+
+                                    <div class="layout_cont_wrap">
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont text_box"><!-- 자유콘텐츠일때 text_box -->
+                                             <!-- 내용 -->
+                                             <div class="layout_inner">
+                                                <textarea name="" id="" placeholder="자유 콘텐츠 텍스트"></textarea>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <span class="layout_tit">전공학습이력</span>
+                                                <p class="layout_txt">교과목명</p>
+                                                <span class="layout_bottom">3학점 [B]</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--// 추가되는 레이아웃 박스 -->
+
+                                    </div> 
+                                </div>
+                                <!--// 박스 -->
+                            </div>
+                        </div>
+                    </div>
+                    <!--// 한 줄 구성되는 박스-->
+
+                    <div class="layout_box"><!-- 한 줄 구성되는 박스-->
+                        <div class="scroll_box">
+
+                            <div class="layout_flex layout_flex1"><!-- 박스 한개로 들어가는 레이아웃 -->
+                                <!-- 박스 -->
+                                <div class="layout_wrap">
+
+                                    <!-- 포트폴리오 layout_cont를 감싸는 박스 -->
+                                    <div class="layout_cont_wrap">
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont text_box"><!-- 자유콘텐츠일때 text_box -->
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <textarea name="" id="" placeholder="자유 콘텐츠 텍스트"></textarea>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!-- 추가되는 레이아웃 박스 -->
+
+                                        <!-- 추가되는 레이아웃 박스 -->
+                                        <div class="layout_cont">
+                                            <!-- 내용 -->
+                                            <div class="layout_inner">
+                                                <span class="layout_tit">인증관리</span>
+                                                <p class="layout_txt">인증이름</p>
+                                                <span class="layout_bottom">2022.11.01</span>
+                                            </div>
+                                            <!--// 내용 -->
+                                        </div>
+                                        <!--//추가되는 레이아웃 박스 -->
+
+                                    </div>
+                                </div>
+                                <!--// 박스 -->
+                            </div>
+                        </div>
+                    </div>
+                    <!--// 한 줄 구성되는 박스-->
+                </div>
+
+            <div class="btn_area btn_num3">
+                <a href="javasciprt:;" class="list_btn">목록</a>
+                <div class="right_box">
+                    <button class="close">삭제</button>
+                    <button class="ask">수정</button>                        
+                </div>
+            </div>
+
+            </div>
+            <!--// 내용 끝 -->
+
+
+        </div>
+    </div> 
+    <!-- container -->
+
+
+        
+    <!-- footer -->
+    <footer>
+        <a href="#" class="f_logo"><img src="../resources/images/common/f_logo.png" alt="hyuc 한양사이버대학교"></a>
+        <div class="f_cont">
+            <ul class="fnav">
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">이메일무단수집거부</a></li>
+                <li><a href="#">사이트맵</a></li>
+            </ul>
+            <address><span>04763 서울시 성동구 왕십리로 220 한양사이버대학교</span><span>대표전화. 02-2290-0114</span><span>FAX. 050-2290-0605</span></address>
+            <span class="copy">Copyright © HANYANG CYBER UNIVERSITY. All rights reserved</span>
+        </div>
+        <div class="family_site">
+            <select>
+                <option value="" disabled selected>Family site</option>
+                <option value="한양학원">한양학원</option>
+                <option value="한양사이버대학교 대학원">한양사이버대학교 대학원</option>
+                <option value="한양대학교">한양대학교</option>
+                <option value="한양여자대학">한양여자대학</option>
+                <option value="한양대학교의료원">한양대학교의료원</option>
+            </select>
+        </div>
+    </footer>
+    <!--// footer -->
+
+
+</div>
+</body>
+<script type="text/javascript">
+
+    //역량진단결과 페이지 차트그리기
+        var marksCanvas = document.getElementById("myChart");
+    
+        var marksData = {
+          labels: ["교양인", "전문인", "실용인", "세계인", "봉사인"],
+          datasets: [{
+            label: "나의 평균",
+            backgroundColor: "rgba(13,162,233,30%)",
+            borderColor:"#0DA2E9",
+            borderWidth: 1,
+            borderDash: [2, 2],
+            data: [4.6, 3.27, 3.89, 3.28, 2.33],
+    
+          }, {
+            label: "전체 평균",
+            backgroundColor: "rgba(91,40,190,30%)",
+            borderColor:"#5B28BE",
+            borderWidth: 1,
+            borderDash: [2, 2],
+            data: [3.83, 3.75, 3.57, 3.37, 3.58]
+          }]
+        };
+
+    
+        var radarChart = new Chart(marksCanvas, {
+          type: 'radar',
+          data: marksData,
+          options: {
+            scales: {
+              r: {
+                pointLabels: {
+                  font: {
+                    size: 12
+                  }
+                },
+                //차트 최대값, 최소값
+                min: 0,
+                max: 5,
+                beginAtZero: true,
+              },
+            },
+            plugins: {
+                legend: false,
+              },
+              scale: {
+                ticks: {
+                    display: false
+                }
+            },
+            responsive: false,
+            aintainAspectRatio: false,
+          },
+        });
+</script>
+</html>

@@ -1,0 +1,2440 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="../resources/css/font.css">
+    <link rel="stylesheet" href="../resources/css/reset.css">
+    <link rel="stylesheet" href="../resources/css/common.css">
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="../resources/css/main.css">
+    <link rel="stylesheet" href="../resources/css/sub.css">
+    <link rel="stylesheet" href="../resources/css/swiper.min.css">
+
+    <!-- 공통 js -->
+    <script type="text/javascript" src="../resources/js/common.js"></script>
+    <!-- 공통 js -->
+    <script type="text/javascript" src="../resources/js/sub.js"></script>
+    <script type="text/javascript" src="../resources/js/swiper.min.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- skipNav -->
+    <div id="skipNav">
+        <a href="#nav">주메뉴 바로가기</a>
+        <a href="#contents">본문 바로가기</a>
+    </div>
+    <!-- skipNav -->
+
+    <!-- header -->
+    <header class="common_header header" id="header">
+        <hgroup>
+            <h1><a href="#"><img src="../resources/images/common/logo.png" alt="한양사이버대학교 www.hycu.ac.kr"></a></h1>
+            <div class="menu_btn"><button><img src="../resources/images/common/menu_ico.png" alt="메뉴열기"></button></div>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">포트폴리오</a>
+                        <ul>
+                            <li><a href="#">이력서</a></li>
+                            <li><a href="#">자기소개서</a></li>
+                            <li><a href="#">나의 포트폴리오</a></li>
+                            <li><a href="#">우수 포트폴리오</a></li>
+                            <li><a href="#">Digital Badge</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">학습분석정보</a>
+                        <ul>
+                            <li><a href="#">학습분석 정보</a></li>
+                            <li><a href="#">학생통계 조회</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">역량-학습진단</a>
+                        <ul>
+                            <li><a href="#">나의 역량현황</a></li>
+                            <li><a href="#">핵심역량안내</a></li>
+                            <li><a href="#">역량-학습진단 검사</a></li>
+                            <li><a href="#">졸업자가진단</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">학습활동</a>
+                        <ul>
+                            <li><a href="#">배움 클래스</a></li>
+                            <li><a href="#">채움 클래스</a></li>
+                            <li><a href="#">이음 클래스</a></li>
+                            <li><a href="#">마일리지</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">진로/취업 </a>
+                        <ul>
+                            <li><a href="#">진로목표</a></li>
+                            <li><a href="#">로드맵</a></li>
+                            <li><a href="#">채용정보</a></li>
+                            <li><a href="#">취업자료실</a></li>
+                            <li><a href="#">진로/직무적성검사</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">통합상담</a>
+                        <ul>
+                            <li><a href="#">Q&amp;A</a></li>
+                            <li><a href="#">교수상담</a></li>
+                            <li><a href="#">심리상담</a></li>
+                            <li><a href="#">법률상담</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">커뮤니티</a>
+                        <ul>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">자료실</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header_right">
+                <button class="user_change">관리자변환</button>
+                <p class="user_name">홍길동(106003)</p>
+                <button class="user_ico"><img src="../resources/images/common/user_ico.png" alt="프로필관리"></button>
+                <button class="user_exit"><img src="../resources/images/common/user_exit.png" alt="로그아웃하기"></button>
+            </div>
+        </hgroup>
+
+        <!-- 모바일 네비게이션 -->
+        <div class="mobile_nav">
+            <div class="mnav_top">
+                <img src="../resources/images/common/m_logo.png" alt="">
+                <button class="close"><img src="../resources/images/common/menu_bk.png" alt="메뉴닫기"></button>
+            </div>
+            <ul class="drop_down">
+                <li class="dep2"><a href="javascript:;">교수활동지원</a>
+                    <ul>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dep2"><a href="javascript:;">학생기본정보</a>
+                    <ul>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dep2"><a href="javascript:;">학습활동</a>
+                    <ul>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dep2"><a href="javascript:;">역량-학습진단</a>
+                    <ul>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dep2"><a href="javascript:;">진로/취업</a>
+                    <ul>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dep2"><a href="javascript:;">포트폴리오</a>
+                    <ul>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dep2"><a href="javascript:;">통합상담</a>
+                    <ul>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="dep2"><a href="javascript:;">커뮤니티</a>
+                    <ul>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                        <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                            <ul>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                                <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <!--// 모바일 네비게이션 -->
+        <div class="header_back"></div>
+    </header>
+    <!--// header -->
+
+
+
+
+    <div id="contents" class="sub sub06">
+        <!-- container -->
+        <div class="container">
+            <!-- 레프트네비 -->
+            <div class="lnb">
+                <div class="lnb_name">
+                    <h2>1차 메뉴</h2>
+                </div>
+                <ul class="lnb_wrap">
+                    <li class="lnb_lst active"><a href="javascript:;">2차 메뉴</a><!-- 클래스명 active로 제어 -->
+                        <ul>
+                            <li class="active"><a href="javascript:;">- 3차 메뉴</a></li><!-- 클래스명 active로 제어 -->
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="no_depth"><a href="javascript:;">2차 메뉴</a></li>
+                    <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!--//레프트 네비 -->
+
+            <div class="cont_wrap">
+                <!-- 페이지 상단 네비 -->
+                <div class="page_nav">
+                    <ul>
+                        <li><a href="javascript:;">진로/취업</a></li>
+                        <li><a href="javascript:;">학생통합정보</a></li>
+                    </ul>
+                </div>
+                <!--// 페이지 상단 네비 -->
+
+                <!-- 페이지 제목 -->
+                <h3 class="sub_title">학생통합정보</h3>
+                <!--// 페이지 제목 -->
+
+                <!-- 내용 시작 -->
+                <div class="section_wrap tap_has"><!-- 위에 탭이 있는 페이지는 tap_has 추가-->
+
+                    <!-- 상세검색 -->
+                    <div class="detail_search_area">
+                        <!-- detail_schbtn .open 클래스 -->
+                        <button class="detail_schbtn">상세검색</button>
+                        <div class="detail_search">
+                            <div class="type01">
+                                <select>
+                                    <option>전체</option>
+                                </select>
+                                <input placeholder="학과를 입력해주세요." />
+                                <button class="searchbtn">검색</button>
+                                <button class="resethbtn">리셋</button>
+                            </div>
+                            <div class="type_bar"></div>
+                            <div class="type_wrap" style="display:block;"><!-- 상세검색 클릭시 display:none/block -->
+                                <div class="type07">
+                                    <div class="select_box">
+                                        <select name="" id="">
+                                            <option value="">학생구분</option>
+                                        </select>
+                                    </div>
+                                    <div class="select_box">
+                                        <select name="" id="">
+                                            <option value="">성별</option>
+                                        </select>
+                                    </div>
+                                    <div class="select_box">
+                                        <select name="" id="">
+                                            <option value="">진로방향</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="type_bar"></div>
+                                <div class="type06">
+                                    <div class="type_input">
+                                        <span>학적</span>
+                                        <ul>
+                                            <li><input type="checkbox" id="type0601_01"><label
+                                                    for="type0601_01">졸업</label></li>
+                                            <li><input type="checkbox" id="type0601_02"><label
+                                                    for="type0601_02">수료</label></li>
+                                            <li><input type="checkbox" id="type0601_03"><label
+                                                    for="type0601_03">재학</label></li>
+                                            <li><input type="checkbox" id="type0601_04"><label
+                                                    for="type0601_04">휴학</label></li>
+                                            <li><input type="checkbox" id="type0601_05"><label
+                                                    for="type0601_05">제적</label></li>
+                                        </ul>
+                                    </div>
+                                    <div class="type_input">
+                                        <span>학년</span>
+                                        <ul>
+                                            <li><input type="checkbox" id="type0602_01"><label
+                                                    for="type0602_01">졸업</label></li>
+                                            <li><input type="checkbox" id="type0602_02"><label
+                                                    for="type0602_02">수료</label></li>
+                                            <li><input type="checkbox" id="type0602_03"><label
+                                                    for="type0602_03">재학</label></li>
+                                            <li><input type="checkbox" id="type0602_04"><label
+                                                    for="type0602_04">휴학</label></li>
+                                            <li><input type="checkbox" id="type0602_05"><label
+                                                    for="type0602_05">제적</label></li>
+                                        </ul>
+                                    </div>
+                                    <div class="type_input">
+                                        <span>신/편입 여부</span>
+                                        <ul>
+                                            <li><input type="checkbox" id="type0601"><label for="type0601">신입</label>
+                                            </li>
+                                            <li><input type="checkbox" id="type0602"><label for="type0602">편입</label>
+                                            </li>
+                                            <li><input type="checkbox" id="type0603"><label for="type0603">시간제</label>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--// 상세검색 -->
+
+
+                    <div class="lst_section">
+                        <!-- 게시판 상당 페이지-->
+                        <div class="page_info">
+                            <p class="all">총 게시물 <span>51</span></p>
+                            <p class="page">페이지 <span><b>1</b>/10</span></p>
+                        </div>
+                        <!--// 게시판 상당 페이지-->
+                        <!-- 게시판 -->
+                        <div class="board">
+                            <div class="scroll_box">
+                                <table class="common_table scroll_table">
+                                    <caption>학생통합정보 리스트</caption>
+                                    <colgroup>
+                                        <col width="8%">
+                                        <col width="8%">
+                                        <col width="10%">
+                                        <col width="10%">
+                                        <col width="10%">
+                                        <col width="10%">
+                                        <col width="10%">
+                                        <col width="12%">
+                                        <col width="11%">
+                                        <col width="11%">
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>번호</th>
+                                            <th>구분</th>
+                                            <th>신/편입</th>
+                                            <th>계열</th>
+                                            <th>학과</th>
+                                            <th>학년</th>
+                                            <th>학번</th>
+                                            <th>성명</th>
+                                            <th>아이디</th>
+                                            <th>핸드폰</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>10</td>
+                                            <td>홍길동</td>
+                                            <td>신입</td>
+                                            <td>산업체위탁</td>
+                                            <td>산업체위탁</td>
+                                            <td>산업체위탁</td>
+                                            <td>2020202020</td>
+                                            <td>
+                                                <a href="javascript:;" class="link">
+                                                    홍길동
+                                                </a>
+                                            </td>
+                                            <td>fmeisofef12</td>
+                                            <td>000-0000-0000</td>
+                                        </tr>
+                                        <tr>
+                                            <td>9</td>
+                                            <td>홍길동</td>
+                                            <td>신입</td>
+                                            <td>산업체위탁</td>
+                                            <td>산업체위탁</td>
+                                            <td>산업체위탁</td>
+                                            <td>2020202020</td>
+                                            <td>
+                                                <a href="javascript:;" class="link">
+                                                    차홍
+                                                </a>
+                                            </td>
+                                            <td>fmeisofef12</td>
+                                            <td>000-0000-0000</td>
+                                        </tr>
+
+                                        <tr class="no_result"><!-- 결과값이 없을때 -->
+                                            <th></th>
+                                            <td class="cont" colspan="15">
+                                                검색 결과가 없습니다.
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="scroll_back"> <!-- 클릭시 display:none -->
+                                    <img src="../resources/images/sub/scroll_ico.png" alt="">
+                                    <p>화면을 터치한 후에 <br> 좌우로 스크롤하여 확인하세요.</p>
+                                </div>
+                            </div>
+                            <!-- 하단 페이지버튼 -->
+                            <div class="pagenation">
+                                <button><img src="../resources/images/sub/prev_all.png" alt="맨앞으로 이동"></button>
+                                <button><img src="../resources/images/sub/prev.png" alt="이전"></button>
+                                <ul>
+                                    <li class="active"><button>1</button></li>
+                                    <li><button>2</button></li>
+                                    <li><button>3</button></li>
+                                    <li><button>4</button></li>
+                                    <li><button>5</button></li>
+                                </ul>
+                                <button><img src="../resources/images/sub/next.png" alt="이후"></button>
+                                <button><img src="../resources/images/sub/next_all.png" alt="맨뒤로 이동"></button>
+                            </div>
+                            <!--// 하단 페이지버튼 -->
+                        </div>
+                        <!--// 게시판 -->
+                    </div>
+
+
+
+                </div>
+                <!--// 내용 끝 -->
+
+
+            </div>
+        </div>
+        <!-- container -->
+
+
+
+
+
+        <!-- 팝업2 container 밖에 생성 -->
+        <div class="popup2" style="display:block;"> <!-- display:none 처리되어있습니다 -->
+            <div class="popup_wrap">
+                <div class="top">
+                    <h2 class="ico_wh">프로필 관리</h2>
+                    <button><img src="../resources/images/common/popup_close.png" alt="팝업닫기"></button>
+                </div>
+
+                <div class="popup_cont">
+                    <div class="popup_cont_wrap">
+                        <h3 class="ico_blue">기본 인적사항</h3>
+                        <div class="profile_img">
+                            <img src="../resources/images/sub/10.png" alt=""> <!-- 기본 인적사항 이미지 넣는 곳 -->
+                        </div>
+                        <!-- table -->
+                        <table class="popup_table">
+                            <caption>프로필 정보</caption>
+                            <colgroup>
+                                <col width="12%">
+                                <col width="38%">
+                                <col width="12%">
+                                <col width="38%">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th>이름(학번)</th>
+                                    <td>혀성순(2021100199)</td>
+                                    <th>생년월일</th>
+                                    <td>YYYY.MM.DD</td>
+                                </tr>
+                                <tr>
+                                    <th>학과 / 학년</th>
+                                    <td>시간제학과 / 1학년</td>
+                                    <th>학적</th>
+                                    <td>수료</td>
+                                </tr>
+                                <tr>
+                                    <th>연락처</th>
+                                    <td>02-2290-0114</td>
+                                    <th>성별</th>
+                                    <td>여자</td>
+                                </tr>
+                                <tr>
+                                    <th>e-mail</th>
+                                    <td>test@test.com</td>
+                                    <th>입학전형</th>
+                                    <td>-</td>
+                                </tr>
+                                <tr>
+                                    <th>거주지</th>
+                                    <td colspan="15">
+                                        (04763)서울시 성동구 왕십리로 220 한양사이버대학교
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--// table  -->
+
+
+
+                        <div class="popup_section">
+                            <div class="category">
+                                <ul>
+                                    <li class="active"><button>기본정보</button></li>
+                                    <li><button>역량진단결과</button></li>
+                                    <li><button>포트폴리오</button></li>
+                                    <li><button>학업계획로드맵</button></li>
+                                    <li><button>평생학습로드맵</button></li>
+                                    <li><button>학기별 리포트</button></li>
+                                    <li><button>주차별 리포트</button></li>
+                                    <li><button>전문상담이력</button></li>
+                                    <li><button>성적/장학</button></li>
+                                    <li><button>비교과</button></li>
+                                    <li><button>마일리지내역</button></li>
+                                    <li><button>Q&A이력</button></li>
+                                </ul>
+                            </div>
+                            <div class="category_cont">
+                                <div class="category_box" style="display: block;"><!-- 기본정보 -->
+                                    <h3 class="ico_blue">상세 신상정보</h3>
+                                    <table class="common_table">
+                                        <colgroup>
+                                            <col width="15%">
+                                            <col width="35%">
+                                            <col width="15%">
+                                            <col width="35%">
+                                        </colgroup>
+                                        <tbody>
+                                            <tr>
+                                                <th>이수학기</th>
+                                                <td>1</td>
+                                                <th>총 평점</th>
+                                                <td>4.33</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!-- 하단 페이지버튼 -->
+                                    <div class="pagenation">
+                                        <button><img src="../resources/images/sub/prev_all.png" alt="맨앞으로 이동"></button>
+                                        <button><img src="../resources/images/sub/prev.png" alt="이전"></button>
+                                        <ul>
+                                            <li class="active"><button>1</button></li>
+                                            <li><button>2</button></li>
+                                            <li><button>3</button></li>
+                                            <li><button>4</button></li>
+                                            <li><button>5</button></li>
+                                        </ul>
+                                        <button><img src="../resources/images/sub/next.png" alt="이후"></button>
+                                        <button><img src="../resources/images/sub/next_all.png" alt="맨뒤로 이동"></button>
+                                    </div>
+                                    <!--// 하단 페이지버튼 -->
+                                </div>
+
+                                <div class="category_box"><!-- 역량진단 검사결과 -->
+                                    <h3 class="ico_blue">역량진단 검사결과</h3>
+                                    <div class="scroll_box">
+                                        <table class="common_table scroll_table">
+                                            <colgroup>
+                                                <col width="10%">
+                                                <col width="35%">
+                                                <col width="27%">
+                                                <col width="18%">
+                                                <col width="20%">
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th>번호</th>
+                                                    <th>진단검사명</th>
+                                                    <th>진행기간</th>
+                                                    <th>참여일</th>
+                                                    <th>보기</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th>10</th>
+                                                    <td>진단검사명</td>
+                                                    <td>YYYY.MM.DD ~ YYYY.MM.DD</td>
+                                                    <td>YYYY.MM.DD</td>
+                                                    <td>
+                                                        <button class="btn2 full link">보기</button>
+                                                    </td>
+                                                </tr>
+                                                <tr class="no_result"><!-- 결과값이 없을때 -->
+                                                    <th></th>
+                                                    <td colspan="15">
+                                                        내역이 없습니다.
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="scroll_back"> <!-- 클릭시 display:none -->
+                                            <img src="../resources/images/sub/scroll_ico.png" alt="">
+                                            <p>화면을 터치한 후에 <br> 좌우로 스크롤하여 확인하세요.</p>
+                                        </div>
+                                    </div>
+                                    <!-- 하단 페이지버튼 -->
+                                    <div class="pagenation">
+                                        <button><img src="../resources/images/sub/prev_all.png" alt="맨앞으로 이동"></button>
+                                        <button><img src="../resources/images/sub/prev.png" alt="이전"></button>
+                                        <ul>
+                                            <li class="active"><button>1</button></li>
+                                            <li><button>2</button></li>
+                                            <li><button>3</button></li>
+                                            <li><button>4</button></li>
+                                            <li><button>5</button></li>
+                                        </ul>
+                                        <button><img src="../resources/images/sub/next.png" alt="이후"></button>
+                                        <button><img src="../resources/images/sub/next_all.png" alt="맨뒤로 이동"></button>
+                                    </div>
+                                    <!--// 하단 페이지버튼 -->
+                                </div>
+
+                                <div class="category_box"><!-- 포트폴리오 -->
+                                    <h3 class="ico_blue">포트폴리오</h3>
+                                    <div class="scroll_box">
+                                        <table class="common_table scroll_table">
+                                            <colgroup>
+                                                <col width="10%">
+                                                <col width="10%">
+                                                <col width="45%">
+                                                <col width="25%">
+                                                <col width="10%">
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th>번호</th>
+                                                    <th>대표여부</th>
+                                                    <th>제목</th>
+                                                    <th>등록일</th>
+                                                    <th>보기</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th>10</th>
+                                                    <td>예</td>
+                                                    <td>포트폴리오 제목</td>
+                                                    <td>YYYY.MM.DD</td>
+                                                    <td>
+                                                        <button class="btn2 full link">보기</button>
+                                                    </td>
+                                                </tr>
+                                                <tr class="no_result"><!-- 결과값이 없을때 -->
+                                                    <th></th>
+                                                    <td colspan="15">
+                                                        내역이 없습니다.
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="scroll_back"> <!-- 클릭시 display:none -->
+                                            <img src="../resources/images/sub/scroll_ico.png" alt="">
+                                            <p>화면을 터치한 후에 <br> 좌우로 스크롤하여 확인하세요.</p>
+                                        </div>
+                                    </div>
+                                    <!-- 하단 페이지버튼 -->
+                                    <div class="pagenation">
+                                        <button><img src="../resources/images/sub/prev_all.png" alt="맨앞으로 이동"></button>
+                                        <button><img src="../resources/images/sub/prev.png" alt="이전"></button>
+                                        <ul>
+                                            <li class="active"><button>1</button></li>
+                                            <li><button>2</button></li>
+                                            <li><button>3</button></li>
+                                            <li><button>4</button></li>
+                                            <li><button>5</button></li>
+                                        </ul>
+                                        <button><img src="../resources/images/sub/next.png" alt="이후"></button>
+                                        <button><img src="../resources/images/sub/next_all.png" alt="맨뒤로 이동"></button>
+                                    </div>
+                                    <!--// 하단 페이지버튼 -->
+                                </div>
+
+                                <div class="category_box"><!-- 자기소개서 -->
+                                    <h3 class="ico_blue">자기소개서</h3>
+                                    <div class="scroll_box">
+                                        <table class="common_table scroll_table">
+                                            <colgroup>
+                                                <col width="10%">
+                                                <col width="10%">
+                                                <col width="45%">
+                                                <col width="25%">
+                                                <col width="10%">
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th>번호</th>
+                                                    <th>대표여부</th>
+                                                    <th>제목</th>
+                                                    <th>등록일</th>
+                                                    <th>첨삭</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th>10</th>
+                                                    <td>예</td>
+                                                    <td>자기소개서 제목 </td>
+                                                    <td>YYYY.MM.DD</td>
+                                                    <td>
+                                                        <button class="btn2 full link on">첨삭</button><!-- 사용자 첨사요청시 -->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>9</th>
+                                                    <td>아니오</td>
+                                                    <td>자기소개서 제목 </td>
+                                                    <td>YYYY.MM.DD</td>
+                                                    <td>
+                                                        <button class="btn2 full link">보기</button>
+                                                    </td>
+                                                </tr>
+                                                <tr class="no_result"><!-- 결과값이 없을때 -->
+                                                    <th></th>
+                                                    <td colspan="15">
+                                                        내역이 없습니다.
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="scroll_back"> <!-- 클릭시 display:none -->
+                                            <img src="../resources/images/sub/scroll_ico.png" alt="">
+                                            <p>화면을 터치한 후에 <br> 좌우로 스크롤하여 확인하세요.</p>
+                                        </div>
+                                    </div>
+                                    <!-- 하단 페이지버튼 -->
+                                    <div class="pagenation">
+                                        <button><img src="../resources/images/sub/prev_all.png" alt="맨앞으로 이동"></button>
+                                        <button><img src="../resources/images/sub/prev.png" alt="이전"></button>
+                                        <ul>
+                                            <li class="active"><button>1</button></li>
+                                            <li><button>2</button></li>
+                                            <li><button>3</button></li>
+                                            <li><button>4</button></li>
+                                            <li><button>5</button></li>
+                                        </ul>
+                                        <button><img src="../resources/images/sub/next.png" alt="이후"></button>
+                                        <button><img src="../resources/images/sub/next_all.png" alt="맨뒤로 이동"></button>
+                                    </div>
+                                    <!--// 하단 페이지버튼 -->
+                                </div>
+
+                                <div class="category_box"><!-- 이력서 -->
+                                    <h3 class="ico_blue">이력서</h3>
+                                    <div class="scroll_box">
+                                        <table class="common_table scroll_table">
+                                            <colgroup>
+                                                <col width="10%">
+                                                <col width="10%">
+                                                <col width="45%">
+                                                <col width="25%">
+                                                <col width="10%">
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th>번호</th>
+                                                    <th>대표여부</th>
+                                                    <th>제목</th>
+                                                    <th>등록일</th>
+                                                    <th>보기</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th>10</th>
+                                                    <td>예</td>
+                                                    <td>이력서 제목 </td>
+                                                    <td>YYYY.MM.DD</td>
+                                                    <td>
+                                                        <button class="btn2 full link">보기</button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th>9</th>
+                                                    <td>아니오</td>
+                                                    <td>이력서 제목 </td>
+                                                    <td>YYYY.MM.DD</td>
+                                                    <td>
+                                                        <button class="btn2 full link">보기</button>
+                                                    </td>
+                                                </tr>
+                                                <tr class="no_result"><!-- 결과값이 없을때 -->
+                                                    <th></th>
+                                                    <td colspan="15">
+                                                        내역이 없습니다.
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="scroll_back"> <!-- 클릭시 display:none -->
+                                            <img src="../resources/images/sub/scroll_ico.png" alt="">
+                                            <p>화면을 터치한 후에 <br> 좌우로 스크롤하여 확인하세요.</p>
+                                        </div>
+                                    </div>
+                                    <!-- 하단 페이지버튼 -->
+                                    <div class="pagenation">
+                                        <button><img src="../resources/images/sub/prev_all.png" alt="맨앞으로 이동"></button>
+                                        <button><img src="../resources/images/sub/prev.png" alt="이전"></button>
+                                        <ul>
+                                            <li class="active"><button>1</button></li>
+                                            <li><button>2</button></li>
+                                            <li><button>3</button></li>
+                                            <li><button>4</button></li>
+                                            <li><button>5</button></li>
+                                        </ul>
+                                        <button><img src="../resources/images/sub/next.png" alt="이후"></button>
+                                        <button><img src="../resources/images/sub/next_all.png" alt="맨뒤로 이동"></button>
+                                    </div>
+                                    <!--// 하단 페이지버튼 -->
+                                </div>
+
+                                <div class="category_box"><!-- 학업목표 --> <!-- 20230322 수정/추가 -->
+                                    <h3 class="ico_blue">학업목표</h3>
+                                    <!-- write_box02 -->
+                                    <div class="write_box02">
+                                        <strong class="write_tit">학업목표</strong>
+                                        <div class="txt_write_area">
+                                            <p>학업목표 내용 학업목표 내용</p>
+                                        </div>
+                                    </div>
+                                    <!--// write_box02 -->
+                                    <!-- sub0601 -->
+                                    <div class="sub0601">
+                                        <!-- sub0601_row -->
+                                        <div class="sub0601_row">
+                                            <div class="sub0601_half">
+                                                <div class="sub0601_tit_area">
+                                                    <strong class="tit">세부목표</strong>
+                                                </div>
+                                                <div class="txt_write_area">
+                                                    <p>세부목표</p>
+                                                </div>
+                                            </div>
+                                            <div class="sub0601_half">
+                                                <div class="sub0601_tit_area">
+                                                    <strong class="tit">달성전략</strong>
+                                                </div>
+                                                <div class="txt_write_area">
+                                                    <p>달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략
+                                                        달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략
+                                                        달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략
+                                                        달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략
+                                                        달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략
+                                                        달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략
+                                                        달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략
+                                                        달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략 달성전략
+                                                        달성전략 달성전략 달성전략 달성전략 </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--// sub0601_row -->
+                                    </div>
+                                    <!--// sub0601 -->
+
+                                    <!-- text_info_box -->
+                                    <h4 class="icon_blue section_title2 mgt0">학기이수계획</h4>
+                                    <!--// text_info_box -->
+                                    <div class="sub0601_term_plan">
+                                        <div class="box"> <!-- 20230329 수정 -->
+                                            <strong class="tit">추천 교과목</strong>
+                                            <div>
+                                                <ul class="sub0601_btn_list type02">
+                                                    <li>과목 1</li>
+                                                    <li>과목 2</li>
+                                                    <li>과목 3</li>
+                                                    <li>과목 4</li>
+                                                    <li>과목 5</li>
+                                                    <li>과목 6</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- sub0601 -->
+                                    <div class="sub0601 no_border">
+
+
+                                        <div class="sub0601_tit_area">
+                                            <strong class="tit">1학년 1학기</strong>
+                                        </div>
+                                        <!-- sub0601_term_plan -->
+                                        <div class="sub0601_term_plan">
+                                            <div class="box">
+                                                <strong class="tit">과목 수강계획</strong>
+                                                <div>
+                                                    <ul class="sub0601_btn_list">
+                                                        <li>IT융합공학개론</li>
+                                                        <li>컴퓨터프로그래밍</li>
+                                                        <li>대학물리학</li>
+                                                        <li>기계공학개론</li>
+                                                        <li>일반화학</li>
+                                                        <li>생명과학개론</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="box half_box">
+                                                <strong class="tit">주요 학습전략 및 달성목표</strong>
+                                                <div>
+                                                    <div class="txt_write_area">
+                                                        <p>주요 학습전략 및 달성목표를 작성해 주세요. 주요 학습전략 및 달성목표를 작성해 주세요.주요 학습전략 및
+                                                            달성목표를 작성해 주세요.주요 학습전략 및 달성목표를 작성해 주세요.주요 학습전략 및 달성목표를 작성해
+                                                            주세요.주요 학습전략 및 달성목표를 작성해 주세요.주요 학습전략 및 달성목표를 작성해 주세요.주요 학습전략
+                                                            및 달성목표를 작성해 주세요.주요 학습전략 및 달성목표를 작성해 주세요.주요 학습전략 및 달성목표를 작성해
+                                                            주세요.주요 학습전략 및 달성목표를 작성해 주세요.주요 학습전략 및 달성목표를 작성해 주세요.주요 학습전략
+                                                            및 달성목표를 작성해 주세요.주요 학습전략 및 달성목표를 작성해 주세요. 주요 학습전략 및 달성목표를 작성해
+                                                            주세요.주요 학습전략 및 달성목표를 작성해 주세요.주요 학습전략 및 달성목표를 작성해 주세요.주요 학습전략
+                                                            및 달성목표를 작성해 주세요.주요 학습전략 및 달성목표를 작성해 주세요.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="box half_box">
+                                                <strong class="tit">성찰노트</strong>
+                                                <div>
+                                                    <div class="txt_write_area">
+                                                        <p>종강 후 이수계획과 비교하여 작성해 주세요.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--// sub0601_term_plan -->
+
+                                        <!-- feedback_area --> <!-- 보여지는 레이아웃 --> <!-- 20230413 수정/추가 -->
+                                        <div class="feedback_area">
+                                            <strong class="tit">교수님 피드백</strong>
+                                            <div class="txt_write_area">
+                                                <p>교수님 피드백 교수님 피드백</p>
+                                            </div>
+                                            <div class="btn_area btn_area_right btn_num2">
+                                                <div class="right_box">
+                                                    <button class="btn2">수정</button>
+                                                    <button class="btn2">저장</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--// feedback_area -->
+
+                                        <!-- feedback_area --> <!-- 작성하는 레이아웃 --> <!-- 20230413 수정/추가 -->
+                                        <div class="feedback_area">
+                                            <strong class="tit">교수님 피드백</strong>
+                                            <div class="txt_write_area">
+                                                <textarea name="" id="" cols="30" rows="7"
+                                                    placeholder="피드백을 입력해주세요."></textarea>
+                                            </div>
+                                            <div class="btn_area btn_area_right btn_num2">
+                                                <div class="right_box">
+                                                    <button class="btn2">수정</button>
+                                                    <button class="btn2">저장</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--// feedback_area -->
+                                    </div>
+                                    <!--// sub0601 -->
+
+
+                                    <!-- sub0601 -->
+                                    <div class="sub0601 no_border">
+                                        <div class="sub0601_tit_area">
+                                            <strong class="tit">1학년 2학기</strong>
+                                        </div>
+                                        <!-- sub0601_term_plan -->
+                                        <div class="sub0601_term_plan">
+                                            <div class="box">
+                                                <strong class="tit">과목 수강계획</strong>
+                                                <div>
+                                                    <ul class="sub0601_btn_list">
+                                                        <li>IT융합공학개론</li>
+                                                        <li>컴퓨터프로그래밍</li>
+                                                        <li>대학물리학</li>
+                                                        <li>기계공학개론</li>
+                                                        <li>일반화학</li>
+                                                        <li>생명과학개론</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="box half_box">
+                                                <strong class="tit">주요 학습전략 및 달성목표</strong>
+                                                <div>
+                                                    <div class="txt_write_area">
+                                                        <p>주요 학습전략 및 달성목표를 작성해 주세요. 주요 학습전략 및 달성목표를 작성해 주세요.주요 학습전략 및
+                                                            달성목표를 작성해 주세요.주요 학습전략 및 달성목표를 작성해 주세요.주요 학습전략 및 달성목표를 작성해
+                                                            주세요.주요 학습전략 및 달성목표를 작성해 주세요.주요 학습전략 및 달성목표를 작성해 주세요.주요 학습전략
+                                                            및 달성목표를 작성해 주세요.주요 학습전략 및 달성목표를 작성해 주세요.주요 학습전략 및 달성목표를 작성해
+                                                            주세요.주요 학습전략 및 달성목표를 작성해 주세요.주요 학습전략 및 달성목표를 작성해 주세요.주요 학습전략
+                                                            및 달성목표를 작성해 주세요.주요 학습전략 및 달성목표를 작성해 주세요. 주요 학습전략 및 달성목표를 작성해
+                                                            주세요.주요 학습전략 및 달성목표를 작성해 주세요.주요 학습전략 및 달성목표를 작성해 주세요.주요 학습전략
+                                                            및 달성목표를 작성해 주세요.주요 학습전략 및 달성목표를 작성해 주세요.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="box half_box">
+                                                <strong class="tit">성찰노트</strong>
+                                                <div>
+                                                    <div class="txt_write_area">
+                                                        <p>종강 후 이수계획과 비교하여 작성해 주세요.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--// sub0601_term_plan -->
+
+                                        <!-- feedback_area --> <!-- 보여지는 레이아웃 --> <!-- 20230413 수정/추가 -->
+                                        <div class="feedback_area">
+                                            <strong class="tit">교수님 피드백</strong>
+                                            <div class="txt_write_area">
+                                                <p>교수님 피드백 교수님 피드백</p>
+                                            </div>
+                                            <div class="btn_area btn_area_right btn_num2">
+                                                <div class="right_box">
+                                                    <button class="btn2">수정</button>
+                                                    <button class="btn2">저장</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--// feedback_area -->
+                                        <!-- feedback_area --> <!-- 작성하는 레이아웃 --> <!-- 20230413 수정/추가 -->
+                                        <div class="feedback_area">
+                                            <strong class="tit">교수님 피드백</strong>
+                                            <div class="txt_write_area">
+                                                <textarea name="" id="" cols="30" rows="7"
+                                                    placeholder="피드백을 입력해주세요."></textarea>
+                                            </div>
+                                            <div class="btn_area btn_area_right btn_num2">
+                                                <div class="right_box">
+                                                    <button class="btn2">수정</button>
+                                                    <button class="btn2">저장</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--// feedback_area -->
+
+
+
+                                    </div>
+                                    <!--// sub0601 -->
+
+
+
+                                </div>
+
+                                <div class="category_box"><!-- 학업목표 --> <!-- 20230322 수정/추가 -->
+                                    <h3 class="ico_blue">학업목표</h3>
+                                    <!-- write_box02 -->
+                                    <div class="write_box02">
+                                        <strong class="write_tit">내 생애목표</strong>
+                                        <div class="txt_write_area">
+                                            <p>내 생애목표 내용 내 생애목표 내용내 생애목표 내용내 생애목표 내용내 생애목표 내용</p>
+                                        </div>
+                                    </div>
+                                    <!--// write_box02 -->
+                                    <!-- sub0601 -->
+                                    <div class="sub0601">
+                                        <!-- sub0601_row -->
+                                        <div class="sub0601_row">
+                                            <div class="sub0601_half">
+                                                <div class="sub0601_tit_area">
+                                                    <strong class="tit">나의 중간목표</strong>
+                                                </div>
+                                                <div class="txt_write_area">
+                                                    <p>중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용
+                                                        중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용
+                                                        중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용
+                                                        중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용
+                                                        중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용
+                                                        중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용
+                                                        중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 중간목표 내용 </p>
+                                                </div>
+                                            </div>
+                                            <div class="sub0601_half">
+                                                <div class="sub0601_tit_area">
+                                                    <strong class="tit">중간목표 달성을 위한 필요조건</strong>
+                                                </div>
+                                                <div class="txt_write_area">
+                                                    <p>중간목표 달성을 위한 필요조건 내용 중간목표 달성을 위한 필요조건 내용중간목표 달성을 위한 필요조건 내용</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--// sub0601_row -->
+                                    </div>
+                                    <!--// sub0601 -->
+                                    <!-- sub0601_plan_box -->
+                                    <div class="sub0601_plan_box">
+                                        <strong class="tit">중간목표 달성을 위한 생애주기별 평생학습계획</strong>
+                                        <ul class="sub0601_plan_layout">
+                                            <li class="bg01">
+                                                <div class="tit_area">3년 후 학습계획</div>
+                                                <div class="txt_write_area">
+                                                    <p>중간목표 달성을 위한 학습계획을 작성해 주세요.</p>
+                                                </div>
+                                            </li>
+                                            <li class="bg02">
+                                                <div class="tit_area">5년 후 학습계획</div>
+                                                <div class="txt_write_area">
+                                                    <p>중간목표 달성을 위한 학습계획을 작성해 주세요.</p>
+                                                </div>
+                                            </li>
+                                            <li class="bg03">
+                                                <div class="tit_area">10년 후 학습계획</div>
+                                                <div class="txt_write_area">
+                                                    <p>중간목표 달성을 위한 학습계획을 작성해 주세요.중간목표 달성을 위한 학습계획을 작성해 주세요.중간목표 달성을 위한
+                                                        학습계획을 작성해 주세요.중간목표 달성을 위한 학습계획을 작성해 주세요.중간목표 달성을 위한 학습계획을 작성해
+                                                        주세요.중간목표 달성을 위한 학습계획을 작성해 주세요.중간목표 달성을 위한 학습계획을 작성해 주세요.중간목표 달성을
+                                                        위한 학습계획을 작성해 주세요.중간목표 달성을 위한 학습계획을 작성해 주세요.중간목표 달성을 위한 학습계획을 작성해
+                                                        주세요.중간목표 달성을 위한 학습계획을 작성해 주세요.중간목표 달성을 위한 학습계획을 작성해 주세요.중간목표 달성을
+                                                        위한 학습계획을 작성해 주세요.중간목표 달성을 위한 학습계획을 작성해 주세요.중간목표 달성을 위한 학습계획을 작성해
+                                                        주세요.중간목표 달성을 위한 학습계획을 작성해 주세요.중간목표 달성을 위한 학습계획을 작성해 주세요.중간목표 달성을
+                                                        위한 학습계획을 작성해 주세요.중간목표 달성을 위한 학습계획을 작성해 주세요.</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!--// sub0601_plan_box -->
+                                </div>
+
+                                <div class="category_box"><!-- 학기별리포트 --> <!-- 20230322 수정/추가 -->
+
+                                    <!-- 리포트 -->
+                                    <div class="report_wrap report_wrap01">
+                                        <div class="report_box">
+                                            <h4 class="section_title">학업성공지수(학기별)</h4>
+                                            <div class="report_chart">
+                                                <div class="chart_box" style="display:none">
+                                                    <!-- 차트 넣는곳 -->
+                                                </div>
+                                                <p class="no_result">아직 학습분석 정보가 없습니다.</p>
+                                            </div>
+                                        </div>
+                                        <div class="report_box">
+                                            <h4 class="section_title">학업중단위험 등급</h4>
+
+                                            <div class="report_chart report_chart_bk">
+                                                <ul class="report_grade">
+                                                    <li>안전</li>
+                                                    <li>보통</li>
+                                                    <li>관심</li><!-- active로 제어 -->
+                                                    <li>위험</li>
+                                                    <li class="active">매우 위험</li>
+                                                </ul>
+
+                                                <div class="chart_box">
+                                                    <!-- 차트 넣는곳 -->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--// 리포트 -->
+
+                                    <!-- 리포트 -->
+                                    <div class="report_wrap report_wrap02">
+                                        <div class="report_box">
+                                            <h4 class="section_title">학습패턴 분석</h4>
+                                            <ul class="legend_lst2">
+                                                <li class="legend01">본인 측정값</li>
+                                                <li class="legend02">한사인</li>
+                                                <li class="legend03">우수학생의 평균값</li>
+                                            </ul>
+                                            <div class="report_chart report_chart2">
+                                                <div class="chart_box">
+                                                    <span>총학습시간 (분)</span>
+                                                    <!-- 차트 넣는곳 -->
+                                                </div>
+                                                <div class="chart_box">
+                                                    <span>학습일 간격 (일)</span>
+                                                    <!-- 차트 넣는곳 -->
+                                                </div>
+
+                                                <div class="chart_box">
+                                                    <span>학습시간규칙성</span>
+                                                    <!-- 차트 넣는곳 -->
+                                                </div>
+                                                <div class="chart_box">
+                                                    <span>학습간격 규칙성</span>
+                                                    <!-- 차트 넣는곳 -->
+                                                </div>
+
+                                                <div class="chart_box">
+                                                    <span>과제제출율</span>
+                                                    <!-- 차트 넣는곳 -->
+                                                </div>
+                                                <div class="chart_box">
+                                                    <span>과제제출일 (마감일 대비)</span>
+                                                    <!-- 차트 넣는곳 -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--// 리포트 -->
+
+                                    <!-- 리포트 -->
+                                    <div class="report_wrap report_wrap03">
+                                        <div class="report_box">
+                                            <div class="report_chart">
+                                                <span>주간-야간 학습비율</span>
+                                                <ul class="legend_lst">
+                                                    <li class="legend01">주간학습</li>
+                                                    <li class="legend03">야간학습</li>
+                                                </ul>
+                                                <div class="chart_box">
+                                                    <!-- 차트 넣는곳 -->
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="report_box">
+                                            <div class="report_chart">
+                                                <span>주중-주말 학습비율</span>
+                                                <ul class="legend_lst">
+                                                    <li class="legend01">주중학습</li>
+                                                    <li class="legend03">주말학습</li>
+                                                </ul>
+                                                <div class="chart_box">
+                                                    <!-- 차트 넣는곳 -->
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="report_box">
+                                            <div class="report_chart">
+                                                <span>매체별 학습비율</span>
+                                                <ul class="legend_lst">
+                                                    <li class="legend01">모바일</li>
+                                                    <li class="legend03">PC</li>
+                                                </ul>
+                                                <div class="chart_box">
+                                                    <!-- 차트 넣는곳 -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--// 리포트 -->
+
+                                    <!-- sub0601_term_plan -->
+                                    <div class="sub0601_term_plan">
+                                        <div class="box">
+                                            <strong class="tit">추천 교과목</strong>
+                                            <div>
+                                                <ul class="sub0601_btn_list">
+                                                    <li><span>대학물리학</span></li>
+                                                    <li><span>일반화학</span></li>
+                                                    <li><span>기계공학개론</span></li>
+                                                    <li><span>IT융합공학개론</span></li>
+                                                    <li><span>컴퓨터기초</span></li>
+                                                    <li><span>혁신의 과학사</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="box">
+                                            <strong class="tit">추천 비교과프로그램</strong>
+                                            <div>
+                                                <ul class="sub0601_btn_list type02">
+                                                    <li><span>과목 1</span></li>
+                                                    <li><span>과목 2</span></li>
+                                                    <li><span>과목 3</span></li>
+                                                    <li><span>과목 4</span></li>
+                                                    <li><span>과목 5</span></li>
+                                                    <li><span>과목 6</span></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--// sub0601_term_plan -->
+                                </div>
+
+                                <div class="category_box"><!-- 학업목표 --> <!-- 20230322 수정/추가 -->
+                                    <!-- 리포트 -->
+                                    <div class="report_wrap report_wrap07">
+                                        <div class="report_box">
+                                            <h4 class="section_title">학업성공지수(주차별)</h4>
+                                            <div class="report_chart">
+                                                <div class="chart_box">
+                                                    <!-- 차트 넣는곳 -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--// 리포트 -->
+
+                                    <!-- 리포트 -->
+                                    <div class="report_wrap report_wrap02">
+                                        <div class="report_box">
+                                            <h4 class="section_title">학습패턴 분석</h4>
+                                            <ul class="legend_lst">
+                                                <li class="legend01">본인 측정값</li>
+                                                <li class="legend02">학생 전체 평균값</li>
+                                                <li class="legend03">우수학생의 평균값</li>
+                                            </ul>
+                                            <div class="report_chart">
+                                                <div class="chart_box">
+                                                    <span>학습시간(분)</span>
+                                                    <!-- 차트 넣는곳 -->
+                                                </div>
+                                                <div class="chart_box">
+                                                    <span>학습일(일)</span>
+                                                    <!-- 차트 넣는곳 -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--// 리포트 -->
+
+                                    <!-- 리포트 -->
+                                    <div class="report_wrap report_wrap02">
+                                        <div class="report_box">
+                                            <ul class="legend_lst2">
+                                                <li class="legend01">본인 측정값</li>
+                                                <li class="legend02">한사인</li>
+                                                <li class="legend03">우수학생의 평균값</li>
+                                            </ul>
+                                            <div class="report_chart">
+                                                <div class="chart_box">
+                                                    <span>학습간격규칙성</span>
+                                                    <!-- 차트 넣는곳 -->
+                                                </div>
+                                                <div class="chart_box">
+                                                    <span>학습시간규칙성</span>
+                                                    <!-- 차트 넣는곳 -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--// 리포트 -->
+
+                                    <!-- 리포트 -->
+                                    <div class="report_wrap report_wrap03">
+                                        <div class="report_box">
+                                            <div class="report_chart">
+                                                <span>주간-야간 학습비율</span>
+                                                <ul class="legend_lst">
+                                                    <li class="legend01">주간학습</li>
+                                                    <li class="legend03">야간학습</li>
+                                                </ul>
+                                                <div class="chart_box">
+
+                                                    <!-- 차트 넣는곳 -->
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="report_box">
+                                            <div class="report_chart">
+                                                <span>주중-주말 학습비율</span>
+                                                <ul class="legend_lst">
+                                                    <li class="legend01">주중학습</li>
+                                                    <li class="legend03">주말학습</li>
+                                                </ul>
+                                                <div class="chart_box">
+                                                    <!-- 차트 넣는곳 -->
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="report_box">
+                                            <div class="report_chart">
+                                                <span>매체별 학습비율</span>
+                                                <ul class="legend_lst">
+                                                    <li class="legend01">모바일</li>
+                                                    <li class="legend03">PC</li>
+                                                </ul>
+                                                <div class="chart_box">
+                                                    <!-- 차트 넣는곳 -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--// 리포트 -->
+
+                                    <!-- 리포트 -->
+                                    <div class="report_wrap report_wrap04">
+                                        <div class="report_box">
+                                            <h4 class="section_title">이번주에 해야 할 학습활동 </h4>
+                                            <div class="report_chart">
+                                                <ul>
+                                                    <li>
+                                                        <span></span>
+                                                        <div class="activity_cont">
+                                                            <p>과목명 - 과정명</p>
+                                                            <span>과제명의 마감<b>D-3일</b></span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <span></span>
+                                                        <div class="activity_cont">
+                                                            <p>과목명 - 과정명</p>
+                                                            <span>과제명의 마감<b>D-3일</b></span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <span></span>
+                                                        <div class="activity_cont">
+                                                            <p>과목명 - 과정명</p>
+                                                            <span>과제명의 마감<b>D-3일</b></span>
+                                                        </div>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="report_box">
+                                            <h4 class="section_title">예측 학업성취도 / 학습법 팁</h4>
+                                            <div class="report_chart">
+                                                <!-- swiper슬라이더 메인컨테이너 -->
+                                                <div class="swiper-container">
+                                                    <!-- 보여지는 영역 -->
+                                                    <div class="swiper-wrapper">
+                                                        <!-- <div class="swiper-slide">내용</div> 를 추가하면된다 -->
+                                                        <div class="swiper-slide"><img
+                                                                src="../resources/images/sub/badge01.png" alt=""></div>
+                                                        <div class="swiper-slide"><img
+                                                                src="../resources/images/sub/10.png" alt=""></div>
+                                                        <div class="swiper-slide"><img
+                                                                src="../resources/images/sub/icon_calendar.png" alt="">
+                                                        </div>
+                                                        <div class="swiper-slide"></div>
+                                                        <div class="swiper-slide"></div>
+                                                        <div class="swiper-slide"></div>
+                                                    </div>
+                                                    <!-- 페이징 버튼 처리 상황에 따라 추가 삭제가능-->
+                                                    <div class="swiper-pagination"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--// 리포트 -->
+
+                                </div>
+
+                                <div class="category_box"><!-- 상담이력 -->
+                                    <h3 class="ico_blue">상담이력</h3>
+
+                                    <!-- 상세검색 -->
+                                    <div class="detail_search_area">
+                                        <!-- detail_schbtn .open 클래스 -->
+                                        <div class="detail_search">
+                                            <div class="type_wrap" style="display:block;">
+                                                <!-- 상세검색 클릭시 display:none/block -->
+                                                <div class="type09">
+                                                    <div class="select_box">
+                                                        <select name="" id="">
+                                                            <option value="">구분</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="select_box">
+                                                        <select name="" id="">
+                                                            <option value="">상태</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="select_box">
+                                                        <select name="" id="">
+                                                            <option value="">진로방향</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="calendar_box">
+                                                        <input type="" />
+                                                    </div>
+                                                    <span>-</span>
+                                                    <div class="calendar_box">
+                                                        <input type="" />
+                                                    </div>
+                                                    <button class="searchbtn">검색</button>
+                                                    <button class="resethbtn">리셋</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--// 상세검색 -->
+
+                                    <div class="scroll_box">
+                                        <table class="common_table scroll_table">
+                                            <colgroup>
+                                                <col width="22.5%">
+                                                <col width="22.5%">
+                                                <col width="22.5%">
+                                                <col width="22.5%">
+                                                <col width="10%">
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th>상담일자</th>
+                                                    <th>상담구분</th>
+                                                    <th>상담유형</th>
+                                                    <th>상담사</th>
+                                                    <th>상세보기</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>YYYY.MM.DD</td>
+                                                    <td>교수상담</td>
+                                                    <td>학생상담</td>
+                                                    <td>홍길동</td>
+                                                    <td>
+                                                        <button class="btn2 full link">보기</button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>YYYY.MM.DD</td>
+                                                    <td>교수상담</td>
+                                                    <td>학생상담</td>
+                                                    <td>홍길동</td>
+                                                    <td>
+                                                        <button class="btn2 full link">보기</button>
+                                                    </td>
+                                                </tr>
+                                                <tr class="no_result"><!-- 결과값이 없을때 -->
+                                                    <th></th>
+                                                    <td colspan="15">
+                                                        내역이 없습니다.
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="scroll_back"> <!-- 클릭시 display:none -->
+                                            <img src="../resources/images/sub/scroll_ico.png" alt="">
+                                            <p>화면을 터치한 후에 <br> 좌우로 스크롤하여 확인하세요.</p>
+                                        </div>
+                                    </div>
+                                    <!-- 하단 페이지버튼 -->
+                                    <div class="pagenation">
+                                        <button><img src="../resources/images/sub/prev_all.png" alt="맨앞으로 이동"></button>
+                                        <button><img src="../resources/images/sub/prev.png" alt="이전"></button>
+                                        <ul>
+                                            <li class="active"><button>1</button></li>
+                                            <li><button>2</button></li>
+                                            <li><button>3</button></li>
+                                            <li><button>4</button></li>
+                                            <li><button>5</button></li>
+                                        </ul>
+                                        <button><img src="../resources/images/sub/next.png" alt="이후"></button>
+                                        <button><img src="../resources/images/sub/next_all.png" alt="맨뒤로 이동"></button>
+                                    </div>
+                                    <!--// 하단 페이지버튼 -->
+                                </div>
+
+                                <div class="category_box"><!-- 학기별 성적/졸업기준 이수학점/장학내역 -->
+                                    <h3 class="ico_blue">학기별 성적</h3>
+                                    <div class="scroll_box">
+                                        <table class="common_table scroll_table">
+                                            <colgroup>
+                                                <col width="14.28%">
+                                                <col width="14.28%">
+                                                <col width="14.28%">
+                                                <col width="14.28%">
+                                                <col width="14.28%">
+                                                <col width="14.28%">
+                                                <col width="14.28%">
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th>년도</th>
+                                                    <th>학기</th>
+                                                    <th>신청학점</th>
+                                                    <th>취득학점</th>
+                                                    <th>총 평점(4.5만점 기준)</th>
+                                                    <th>학사경고여부</th>
+                                                    <th>상세보기</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>2021년도</td>
+                                                    <td>1학기</td>
+                                                    <td>9</td>
+                                                    <td>9</td>
+                                                    <td>4.3</td>
+                                                    <td>O</td>
+                                                    <td>
+                                                        <button class="btn2 full link">보기</button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2021년도</td>
+                                                    <td>2학기</td>
+                                                    <td>9</td>
+                                                    <td>9</td>
+                                                    <td>4.3</td>
+                                                    <td>x</td>
+                                                    <td>
+                                                        <button class="btn2 full link">보기</button>
+                                                    </td>
+                                                </tr>
+                                                <tr class="no_result"><!-- 결과값이 없을때 -->
+                                                    <th></th>
+                                                    <td colspan="15">
+                                                        내역이 없습니다.
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="scroll_back"> <!-- 클릭시 display:none -->
+                                            <img src="../resources/images/sub/scroll_ico.png" alt="">
+                                            <p>화면을 터치한 후에 <br> 좌우로 스크롤하여 확인하세요.</p>
+                                        </div>
+                                    </div>
+                                    <!-- 하단 페이지버튼 -->
+                                    <div class="pagenation">
+                                        <button><img src="../resources/images/sub/prev_all.png" alt="맨앞으로 이동"></button>
+                                        <button><img src="../resources/images/sub/prev.png" alt="이전"></button>
+                                        <ul>
+                                            <li class="active"><button>1</button></li>
+                                            <li><button>2</button></li>
+                                            <li><button>3</button></li>
+                                            <li><button>4</button></li>
+                                            <li><button>5</button></li>
+                                        </ul>
+                                        <button><img src="../resources/images/sub/next.png" alt="이후"></button>
+                                        <button><img src="../resources/images/sub/next_all.png" alt="맨뒤로 이동"></button>
+                                    </div>
+                                    <!--// 하단 페이지버튼 -->
+
+
+                                    <h3 class="ico_blue">졸업기준 이수학점</h3>
+                                    <div class="scroll_box">
+                                        <table class="common_table scroll_table">
+                                            <colgroup>
+                                                <col width="25%">
+                                                <col width="25%">
+                                                <col width="25%">
+                                                <col width="25%">
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th>구분</th>
+                                                    <th>졸업기준학점</th>
+                                                    <th>이수학점</th>
+                                                    <th>잔여학점</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th>전공</th>
+                                                    <td>-</td>
+                                                    <td>수급필요</td>
+                                                    <td>수급필요</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>교양</th>
+                                                    <td>-</td>
+                                                    <td>수급필요</td>
+                                                    <td>수급필요</td>
+                                                </tr>
+                                                <tr class="sum">
+                                                    <th>합계</th>
+                                                    <td>0</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr class="no_result"><!-- 결과값이 없을때 -->
+                                                    <th></th>
+                                                    <td colspan="15">
+                                                        내역이 없습니다.
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="scroll_back"> <!-- 클릭시 display:none -->
+                                            <img src="../resources/images/sub/scroll_ico.png" alt="">
+                                            <p>화면을 터치한 후에 <br> 좌우로 스크롤하여 확인하세요.</p>
+                                        </div>
+                                    </div>
+                                    <!-- 하단 페이지버튼 -->
+                                    <div class="pagenation">
+                                        <button><img src="../resources/images/sub/prev_all.png" alt="맨앞으로 이동"></button>
+                                        <button><img src="../resources/images/sub/prev.png" alt="이전"></button>
+                                        <ul>
+                                            <li class="active"><button>1</button></li>
+                                            <li><button>2</button></li>
+                                            <li><button>3</button></li>
+                                            <li><button>4</button></li>
+                                            <li><button>5</button></li>
+                                        </ul>
+                                        <button><img src="../resources/images/sub/next.png" alt="이후"></button>
+                                        <button><img src="../resources/images/sub/next_all.png" alt="맨뒤로 이동"></button>
+                                    </div>
+                                    <!--// 하단 페이지버튼 -->
+
+
+                                    <h3 class="ico_blue">장학내역</h3>
+                                    <div class="scroll_box">
+                                        <table class="common_table scroll_table">
+                                            <colgroup>
+                                                <col width="20%">
+                                                <col width="20%">
+                                                <col width="20%">
+                                                <col width="20%">
+                                                <col width="20%">
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th>번호</th>
+                                                    <th>년도</th>
+                                                    <th>학기</th>
+                                                    <th>장학금이름</th>
+                                                    <th>장학수혜현황</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th>1</th>
+                                                    <td>2022년</td>
+                                                    <td>1학기</td>
+                                                    <td>우수장학금</td>
+                                                    <td>지급완료</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>1</th>
+                                                    <td>2022년</td>
+                                                    <td>1학기</td>
+                                                    <td>우수장학금</td>
+                                                    <td>지급완료</td>
+                                                </tr>
+                                                <tr class="no_result"><!-- 결과값이 없을때 -->
+                                                    <th></th>
+                                                    <td colspan="15">
+                                                        내역이 없습니다.
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="scroll_back"> <!-- 클릭시 display:none -->
+                                            <img src="../resources/images/sub/scroll_ico.png" alt="">
+                                            <p>화면을 터치한 후에 <br> 좌우로 스크롤하여 확인하세요.</p>
+                                        </div>
+                                    </div>
+                                    <!-- 하단 페이지버튼 -->
+                                    <div class="pagenation">
+                                        <button><img src="../resources/images/sub/prev_all.png" alt="맨앞으로 이동"></button>
+                                        <button><img src="../resources/images/sub/prev.png" alt="이전"></button>
+                                        <ul>
+                                            <li class="active"><button>1</button></li>
+                                            <li><button>2</button></li>
+                                            <li><button>3</button></li>
+                                            <li><button>4</button></li>
+                                            <li><button>5</button></li>
+                                        </ul>
+                                        <button><img src="../resources/images/sub/next.png" alt="이후"></button>
+                                        <button><img src="../resources/images/sub/next_all.png" alt="맨뒤로 이동"></button>
+                                    </div>
+                                    <!--// 하단 페이지버튼 -->
+                                </div>
+
+                                <div class="category_box"><!-- 교내비교과/외부비교과 -->
+                                    <h3 class="ico_blue">교내비교과</h3>
+                                    <div class="scroll_box">
+                                        <table class="common_table scroll_table">
+                                            <colgroup>
+                                                <col width="25%">
+                                                <col width="25%">
+                                                <col width="25%">
+                                                <col width="25%">
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th>프로그램명</th>
+                                                    <th>상태</th>
+                                                    <th>출석</th>
+                                                    <th>신청일</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th>디밸롭필요</th>
+                                                    <td>디밸롭필요</td>
+                                                    <td>디밸롭필요</td>
+                                                    <td>디밸롭필요</td>
+                                                </tr>
+                                                <tr class="no_result"><!-- 결과값이 없을때 -->
+                                                    <th></th>
+                                                    <td colspan="15">
+                                                        내역이 없습니다.
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="scroll_back"> <!-- 클릭시 display:none -->
+                                            <img src="../resources/images/sub/scroll_ico.png" alt="">
+                                            <p>화면을 터치한 후에 <br> 좌우로 스크롤하여 확인하세요.</p>
+                                        </div>
+                                    </div>
+                                    <!-- 하단 페이지버튼 -->
+                                    <div class="pagenation">
+                                        <button><img src="../resources/images/sub/prev_all.png" alt="맨앞으로 이동"></button>
+                                        <button><img src="../resources/images/sub/prev.png" alt="이전"></button>
+                                        <ul>
+                                            <li class="active"><button>1</button></li>
+                                            <li><button>2</button></li>
+                                            <li><button>3</button></li>
+                                            <li><button>4</button></li>
+                                            <li><button>5</button></li>
+                                        </ul>
+                                        <button><img src="../resources/images/sub/next.png" alt="이후"></button>
+                                        <button><img src="../resources/images/sub/next_all.png" alt="맨뒤로 이동"></button>
+                                    </div>
+                                    <!--// 하단 페이지버튼 -->
+
+                                    <h3 class="ico_blue">외부비교과</h3>
+                                    <div class="scroll_box">
+                                        <table class="common_table scroll_table">
+                                            <colgroup>
+                                                <col width="16.66%">
+                                                <col width="16.66%">
+                                                <col width="16.66%">
+                                                <col width="16.66%">
+                                                <col width="16.66%">
+                                                <col width="16.66%">
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th>신청일</th>
+                                                    <th>외부비교과 구분</th>
+                                                    <th>활동유형1</th>
+                                                    <th>활동유형2</th>
+                                                    <th>활동명</th>
+                                                    <th>상태</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>디밸롭필요</td>
+                                                    <td>디밸롭필요</td>
+                                                    <td>디밸롭필요</td>
+                                                    <td>디밸롭필요</td>
+                                                    <td>디밸롭필요</td>
+                                                    <td>디밸롭필요</td>
+                                                </tr>
+                                                <tr class="no_result"><!-- 결과값이 없을때 -->
+                                                    <th></th>
+                                                    <td colspan="15">
+                                                        내역이 없습니다.
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="scroll_back"> <!-- 클릭시 display:none -->
+                                            <img src="../resources/images/sub/scroll_ico.png" alt="">
+                                            <p>화면을 터치한 후에 <br> 좌우로 스크롤하여 확인하세요.</p>
+                                        </div>
+                                    </div>
+                                    <!-- 하단 페이지버튼 -->
+                                    <div class="pagenation">
+                                        <button><img src="../resources/images/sub/prev_all.png" alt="맨앞으로 이동"></button>
+                                        <button><img src="../resources/images/sub/prev.png" alt="이전"></button>
+                                        <ul>
+                                            <li class="active"><button>1</button></li>
+                                            <li><button>2</button></li>
+                                            <li><button>3</button></li>
+                                            <li><button>4</button></li>
+                                            <li><button>5</button></li>
+                                        </ul>
+                                        <button><img src="../resources/images/sub/next.png" alt="이후"></button>
+                                        <button><img src="../resources/images/sub/next_all.png" alt="맨뒤로 이동"></button>
+                                    </div>
+                                    <!--// 하단 페이지버튼 -->
+                                </div>
+
+                                <div class="category_box"><!-- 마일리지/마일리지내역 -->
+                                    <h3 class="ico_blue">마일리지</h3>
+                                    <div class="scroll_box">
+                                        <table class="common_table scroll_table">
+                                            <colgroup>
+                                                <col width="14.33%">
+                                                <col width="19%">
+                                                <col width="14.33%">
+                                                <col width="19%">
+                                                <col width="14.33%">
+                                                <col width="19%">
+                                            </colgroup>
+                                            <tbody>
+                                                <tr>
+                                                    <th>총 획득 마일리지</th>
+                                                    <td>-</td>
+                                                    <th>기 사용 마일리지</th>
+                                                    <td>-</td>
+                                                    <th>잔여마일리지</th>
+                                                    <td>-</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="scroll_back"> <!-- 클릭시 display:none -->
+                                            <img src="../resources/images/sub/scroll_ico.png" alt="">
+                                            <p>화면을 터치한 후에 <br> 좌우로 스크롤하여 확인하세요.</p>
+                                        </div>
+                                    </div>
+
+                                    <h3 class="ico_blue">마일리지내역</h3>
+                                    <div class="scroll_box">
+                                        <table class="common_table scroll_table">
+                                            <colgroup>
+                                                <col width="10%">
+                                                <col width="16%">
+                                                <col width="26%">
+                                                <col width="16%">
+                                                <col width="16%">
+                                                <col width="16%">
+                                            </colgroup>
+                                            <thead>
+                                                <tr>
+                                                    <th>번호</th>
+                                                    <th>일자</th>
+                                                    <th>내용</th>
+                                                    <th>적립구분</th>
+                                                    <th>마일리지</th>
+                                                    <th>등록자</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>YYYY.MM.DD</td>
+                                                    <td>역량진단진행</td>
+                                                    <td>적립</td>
+                                                    <td>100</td>
+                                                    <td>홍길동</td>
+                                                </tr>
+                                                <tr class="no_result"><!-- 결과값이 없을때 -->
+                                                    <th></th>
+                                                    <td colspan="15">
+                                                        내역이 없습니다.
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="scroll_back"> <!-- 클릭시 display:none -->
+                                            <img src="../resources/images/sub/scroll_ico.png" alt="">
+                                            <p>화면을 터치한 후에 <br> 좌우로 스크롤하여 확인하세요.</p>
+                                        </div>
+                                    </div>
+                                    <!-- 하단 페이지버튼 -->
+                                    <div class="pagenation">
+                                        <button><img src="../resources/images/sub/prev_all.png" alt="맨앞으로 이동"></button>
+                                        <button><img src="../resources/images/sub/prev.png" alt="이전"></button>
+                                        <ul>
+                                            <li class="active"><button>1</button></li>
+                                            <li><button>2</button></li>
+                                            <li><button>3</button></li>
+                                            <li><button>4</button></li>
+                                            <li><button>5</button></li>
+                                        </ul>
+                                        <button><img src="../resources/images/sub/next.png" alt="이후"></button>
+                                        <button><img src="../resources/images/sub/next_all.png" alt="맨뒤로 이동"></button>
+                                    </div>
+                                    <!--// 하단 페이지버튼 -->
+                                </div>
+
+                                <div class="category_box"><!-- Q&A 이력 -->
+                                    <h3 class="ico_blue">Q&A 이력</h3>
+
+                                    <!-- 상세검색 -->
+                                    <div class="detail_search_area qna_search_area">
+                                        <div class="detail_search">
+                                            <div class="type03">
+                                                <select>
+                                                    <option>기간 전체</option>
+                                                </select>
+                                                <div class="calendar_box">
+                                                    <input type="" />
+                                                </div>
+                                                <span>-</span>
+                                                <div class="calendar_box">
+                                                    <input type="" />
+                                                </div>
+                                            </div>
+                                            <div class="type_bar"></div>
+                                            <div class="type02">
+                                                <select>
+                                                    <option>전체 분야</option>
+                                                </select>
+                                                <select>
+                                                    <option>답변채널 전체</option>
+                                                </select>
+                                                <select>
+                                                    <option>문의자 신분 전체</option>
+                                                </select>
+                                                <select>
+                                                    <option>답변유무 전체</option>
+                                                </select>
+                                            </div>
+                                            <div class="type_bar"></div>
+                                            <div class="type01">
+                                                <input placeholder="검색어를 입력해주세요." />
+                                                <button class="searchbtn">검색</button>
+                                                <button class="resethbtn">리셋</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--// 상세검색 -->
+
+
+                                    <div class="qna_table">
+                                        <table class="common_table scroll_table">
+                                            <caption>게시판 리스트</caption>
+                                            <colgroup>
+                                                <col width="3%">
+                                                <col width="6%">
+                                                <col width="6%">
+                                                <col width="6%">
+                                                <col width="6.84%">
+                                                <col width="15%">
+                                                <col width="6%">
+                                                <col width="8%">
+                                                <col width="6.42%">
+                                                <col width="4.42%">
+                                                <col width="6.42%">
+                                                <col width="6.42%">
+                                                <col width="6.42%">
+                                                <col width="6.42%">
+                                                <col width="6.42%">
+                                            </colgroup>
+                                            <thead>
+                                                <tr><!-- 오름차순(ascending),내림차순(descending) -->
+                                                    <th>번호</th>
+                                                    <th>문의상세</th>
+                                                    <th>문의일시</th>
+                                                    <th><button class="ascending order_btn">문의채널</button></th>
+                                                    <th><button class="descending order_btn">문의주제</button></th>
+                                                    <th><button class="ascending order_btn">문의제목</button></th>
+                                                    <th>문의자 신분</th>
+                                                    <th>문의자</th>
+                                                    <th>문의자소속</th>
+                                                    <th>답변유무</th>
+                                                    <th><button class="ascending order_btn">답변채널</button></th>
+                                                    <th>답변자</th>
+                                                    <th>이관자</th>
+                                                    <th><button class="ascending order_btn">이관일시</button></th>
+                                                    <th>이관 이전 문의주제</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td class="check_btn">
+                                                        <a href="javascript:;" class="full link">조회</a>
+                                                    </td>
+                                                    <td>2022.10.13 <br> 16:40 </td>
+                                                    <td>이메일</td>
+                                                    <td>인증로그인</td>
+                                                    <td>안녕하세요</td>
+                                                    <td>학생</td>
+                                                    <td>최상상 <br> (H123456789)</td>
+                                                    <td>중국어학과</td>
+                                                    <td>Y</td>
+                                                    <td>문자발송</td>
+                                                    <td>김상상 <br> (정보운영팀)</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr class="no_result"><!-- 결과값이 없을때 -->
+                                                    <th></th>
+                                                    <td colspan="15"><!-- 합치는 행의 값 -->
+                                                        내역이없습니다.
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <div class="scroll_back"> <!-- 클릭시 display:none -->
+                                            <img src="../resources/images/sub/scroll_ico.png" alt="">
+                                            <p>화면을 터치한 후에 <br> 좌우로 스크롤하여 확인하세요.</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- 하단 페이지버튼 -->
+                                    <div class="pagenation">
+                                        <button><img src="../resources/images/sub/prev_all.png" alt="맨앞으로 이동"></button>
+                                        <button><img src="../resources/images/sub/prev.png" alt="이전"></button>
+                                        <ul>
+                                            <li class="active"><button>1</button></li>
+                                            <li><button>2</button></li>
+                                            <li><button>3</button></li>
+                                            <li><button>4</button></li>
+                                            <li><button>5</button></li>
+                                        </ul>
+                                        <button><img src="../resources/images/sub/next.png" alt="이후"></button>
+                                        <button><img src="../resources/images/sub/next_all.png" alt="맨뒤로 이동"></button>
+                                    </div>
+                                    <!--// 하단 페이지버튼 -->
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="popup2_btn">
+                            <button class="ask">신청</button>
+                            <button class="close">닫기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--// 팝업 -->
+
+        <!-- 팝업 container 밖에 생성 --> <!-- 20230322 수정/추가 -->
+        <div class="popup" style="display:none;"> <!-- display:none 처리되어있습니다 -->
+            <div class="popup_wrap">
+                <div class="top">
+                    <h2 class="ico_wh">자기소개서 첨삭</h2>
+                    <button><img src="../resources/images/common/popup_close.png" alt="팝업닫기"></button>
+                </div>
+
+                <div class="popup_cont">
+                    <div class="popup_cont_wrap">
+                        <!-- 팝업내용 -->
+                        <div class="sec1">
+                            <div class="board_write_title no_border">
+                                <p>홍길동 자기소개서입니다.</p>
+                            </div>
+
+                            <div class="write_cont edit_cont">
+
+                                <div class="add_cont">
+                                    <div class="write_tit">
+                                        <p>성장과정</p>
+                                    </div>
+                                    <p>홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정
+                                        내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서
+                                        성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동
+                                        자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정
+                                        내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서
+                                        성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.</p>
+                                </div>
+                                <div class="add_cont">
+                                    <div class="write_tit">
+                                        <p>성장과정</p>
+                                    </div>
+                                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                                </div>
+
+                                <div class="add_cont">
+                                    <div class="write_tit">
+                                        <p>성격 및 장단점</p>
+                                    </div>
+                                    <p>홍길동 자기소개서 성격 및 장단점 작성 내용입니다.홍길동 자기소개서 성격 및 장단점 작성 내용입니다.</p>
+                                </div>
+
+                                <div class="add_cont">
+                                    <div class="write_tit">
+                                        <p>성격 및 장단점</p>
+                                    </div>
+                                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--// 팝업내용 -->
+
+                        <a href="javasciprt:;" class="btn">저장</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--// 프로필 팝업 -->
+
+        <!-- 팝업 container 밖에 생성 --> <!-- 20230322 수정/추가 -->
+        <div class="popup" style="display:none;"> <!-- display:none 처리되어있습니다 -->
+            <div class="popup_wrap">
+                <div class="top">
+                    <h2 class="ico_wh">자기소개서 첨삭</h2>
+                    <button><img src="../resources/images/common/popup_close.png" alt="팝업닫기"></button>
+                </div>
+
+                <div class="popup_cont">
+                    <div class="popup_cont_wrap">
+                        <!-- 팝업내용 -->
+                        <div class="sec1">
+                            <div class="board_write_title no_border">
+                                <p>홍길동 자기소개서입니다.</p>
+                            </div>
+
+                            <div class="write_cont edit_cont">
+
+                                <div class="add_cont">
+                                    <div class="write_tit">
+                                        <p>성장과정</p>
+                                    </div>
+                                    <p>홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정
+                                        내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서
+                                        성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동
+                                        자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정
+                                        내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서
+                                        성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.</p>
+                                </div>
+                                <div class="add_cont">
+                                    <div class="write_tit">
+                                        <p>성장과정</p>
+                                    </div>
+                                    <p class="feedback">
+                                        피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다
+                                        피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다
+                                    </p>
+                                </div>
+
+                                <div class="add_cont">
+                                    <div class="write_tit">
+                                        <p>성격 및 장단점</p>
+                                    </div>
+                                    <p>홍길동 자기소개서 성격 및 장단점 작성 내용입니다.홍길동 자기소개서 성격 및 장단점 작성 내용입니다.</p>
+                                </div>
+
+                                <div class="add_cont">
+                                    <div class="write_tit">
+                                        <p>성격 및 장단점</p>
+                                    </div>
+                                    <p class="feedback">
+                                        피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다
+                                        피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다 피드백입니다
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--// 팝업내용 -->
+
+                        <a href="javasciprt:;" class="btn">수정</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--// 프로필 팝업 -->
+
+
+
+
+
+
+
+
+        <!-- footer -->
+        <footer>
+            <a href="#" class="f_logo"><img src="../resources/images/common/f_logo.png" alt="hyuc 한양사이버대학교"></a>
+            <div class="f_cont">
+                <ul class="fnav">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                </ul>
+                <address><span>04763 서울시 성동구 왕십리로 220 한양사이버대학교</span><span>대표전화. 02-2290-0114</span><span>FAX.
+                        050-2290-0605</span></address>
+                <span class="copy">Copyright © HANYANG CYBER UNIVERSITY. All rights reserved</span>
+            </div>
+            <div class="family_site">
+                <select>
+                    <option value="" disabled selected>Family site</option>
+                    <option value="한양학원">한양학원</option>
+                    <option value="한양사이버대학교 대학원">한양사이버대학교 대학원</option>
+                    <option value="한양대학교">한양대학교</option>
+                    <option value="한양여자대학">한양여자대학</option>
+                    <option value="한양대학교의료원">한양대학교의료원</option>
+                </select>
+            </div>
+        </footer>
+        <!--// footer -->
+
+
+    </div>
+
+    <script type="text/javascript">
+        const swiper = new Swiper('.swiper-container', {
+            //기본 셋팅
+            //방향 셋팅 vertical 수직, horizontal 수평 설정이 없으면 수평
+            direction: 'horizontal',
+            //한번에 보여지는 페이지 숫자
+            slidesPerView: 1,
+            //페이지와 페이지 사이의 간격
+            spaceBetween: 30,
+            //드레그 기능 true 사용가능 false 사용불가
+            debugger: true,
+            //마우스 휠기능 true 사용가능 false 사용불가
+            mousewheel: false,
+            //반복 기능 true 사용가능 false 사용불가
+            loop: true,
+            //선택된 슬라이드를 중심으로 true 사용가능 false 사용불가 djqt
+            centeredSlides: true,
+            // 페이지 전환효과 slidesPerView효과와 같이 사용 불가
+            // effect: 'fade',
+
+
+            //페이징
+            pagination: {
+                //페이지 기능
+                el: '.swiper-pagination',
+                //클릭 가능여부
+                clickable: true,
+            },
+
+            //방향표
+            navigation: {
+                //다음페이지 설정
+                nextEl: '.swiper-button-next',
+                //이전페이지 설정
+                prevEl: '.swiper-button-prev',
+            },
+
+        });
+    </script>
+
+</body>
+
+</html>

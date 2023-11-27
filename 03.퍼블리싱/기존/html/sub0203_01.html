@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="../resources/css/font.css">
+    <link rel="stylesheet" href="../resources/css/reset.css">
+    <link rel="stylesheet" href="../resources/css/common.css">
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="../resources/css/main.css">
+    <link rel="stylesheet" href="../resources/css/sub.css">
+
+    <!-- 공통 js -->
+    <script type="text/javascript" src="../resources/js/common.js"></script>
+    <!-- 공통 js --> 
+    <script type="text/javascript" src="../resources/js/sub.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- skipNav -->
+    <div id="skipNav">
+        <a href="#nav">주메뉴 바로가기</a>
+        <a href="#contents">본문 바로가기</a>
+    </div>
+    <!-- skipNav -->
+
+<!-- header -->
+<header class="common_header header" id="header"> 
+    <hgroup>
+        <h1><a href="#"><img src="../resources/images/common/logo.png" alt="한양사이버대학교 www.hycu.ac.kr"></a></h1>
+        <div class="menu_btn"><button><img src="../resources/images/common/menu_ico.png" alt="메뉴열기"></button></div>
+        
+        <nav class="nav">
+            <ul>
+                <li><a href="#">포트폴리오</a>
+                    <ul>
+                        <li><a href="#">이력서</a></li>
+                        <li><a href="#">자기소개서</a></li>
+                        <li><a href="#">나의 포트폴리오</a></li>
+                        <li><a href="#">우수 포트폴리오</a></li>
+                        <li><a href="#">Digital Badge</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">학습분석정보</a>
+                    <ul>
+                        <li><a href="#">학습분석 정보</a></li>
+                        <li><a href="#">학생통계 조회</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">역량-학습진단</a>
+                    <ul>
+                        <li><a href="#">나의 역량현황</a></li>
+                        <li><a href="#">핵심역량안내</a></li>
+                        <li><a href="#">역량-학습진단 검사</a></li>
+                        <li><a href="#">졸업자가진단</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">학습활동</a>
+                    <ul>
+                        <li><a href="#">배움 클래스</a></li>
+                        <li><a href="#">채움 클래스</a></li>
+                        <li><a href="#">이음 클래스</a></li>
+                        <li><a href="#">마일리지</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">진로/취업 </a>
+                    <ul>
+                        <li><a href="#">진로목표</a></li>
+                        <li><a href="#">로드맵</a></li>
+                        <li><a href="#">채용정보</a></li>
+                        <li><a href="#">취업자료실</a></li>
+                        <li><a href="#">진로/직무적성검사</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">통합상담</a>
+                    <ul>
+                        <li><a href="#">Q&amp;A</a></li>
+                        <li><a href="#">교수상담</a></li>
+                        <li><a href="#">심리상담</a></li>
+                        <li><a href="#">법률상담</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">커뮤니티</a>
+                    <ul>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">자료실</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="header_right">
+            <button class="user_change">관리자변환</button>
+            <p class="user_name">홍길동(106003)</p>
+            <button class="user_ico"><img src="../resources/images/common/user_ico.png" alt="프로필관리"></button>
+            <button class="user_exit"><img src="../resources/images/common/user_exit.png" alt="로그아웃하기"></button>
+        </div>
+    </hgroup>
+
+    <!-- 모바일 네비게이션 -->
+    <div class="mobile_nav">
+        <div class="mnav_top">
+            <img src="../resources/images/common/m_logo.png" alt="">
+            <button class="close"><img src="../resources/images/common/menu_bk.png" alt="메뉴닫기"></button>
+        </div>
+        <ul class="drop_down">
+            <li class="dep2"><a href="javascript:;">교수활동지원</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            
+            <li class="dep2"><a href="javascript:;">학생기본정보</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">학습활동</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">역량-학습진단</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">진로/취업</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">포트폴리오</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">통합상담</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="dep2"><a href="javascript:;">커뮤니티</a>
+                <ul>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="dep3"><a href="javascript:;">2차메뉴</a>
+                        <ul>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                            <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+           
+        </ul>
+    </div>
+    <!--// 모바일 네비게이션 -->
+    <div class="header_back"></div>
+</header>
+<!--// header -->
+
+
+
+
+<div id="contents" class="sub sub02">
+    <!-- container -->
+	<div class="container">
+         <!-- 레프트네비 -->
+         <div class="lnb">
+            <div class="lnb_name">
+                <h2>1차 메뉴</h2>
+            </div>
+            <ul class="lnb_wrap">
+                <li class="lnb_lst active"><a href="javascript:;">2차 메뉴</a><!-- 클래스명 active로 제어 -->
+                    <ul>
+                        <li class="active"><a href="javascript:;">- 3차 메뉴</a></li><!-- 클래스명 active로 제어 -->
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                    <ul>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                    <ul>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                    <ul>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="no_depth"><a href="javascript:;">2차 메뉴</a></li>
+                <li class="lnb_lst"><a href="javascript:;">2차 메뉴</a>
+                    <ul>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                        <li><a href="javascript:;">- 3차 메뉴</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--//레프트 네비 -->
+
+        <div class="cont_wrap">
+            <!-- 페이지 상단 네비 -->
+            <div class="page_nav">
+                <ul>
+                    <li><a href="javascript:;">포트폴리오</a></li>
+                    <li><a href="javascript:;">나의 포트폴리오</a></li>
+                </ul>
+            </div>
+            <!--// 페이지 상단 네비 -->
+
+            <!-- 페이지 제목 -->
+            <h3 class="sub_title">나의 포트폴리오</h3>
+            <!--// 페이지 제목 -->
+
+            <!-- 탭버튼 -->
+            <div class="tab">
+                <ul>
+                    <li class="active"><button>제목/기본설정</button></li>
+                    <li><button>구성</button></li>                    
+                </ul>
+            </div>
+            <!--// 탭버튼 -->
+
+            <!-- 모바일 셀렉트 -->
+            <div class="mobile_select">
+                <span class="select_page"><button>제목/기본설정</button></span>
+                <ul class="mselect_lst">
+                    <li><a href="">제목/기본설정</a></li>
+                    <li><a href="">구성</a></li>                    
+                </ul>
+            </div>
+            <!--// 모바일 셀렉트 -->
+
+            <!-- 내용 시작 -->
+            <div class="section_wrap tap_has"><!-- 위에 탭이 있는 페이지는 tap_has 추가-->
+
+                <div class="board_write_title no_border">
+                    <input type="text" placeholder="제목을 입력해 주세요.(50자 이내)" class="text_input mgb0">
+                </div>
+
+                <div class="section">
+                    <ul class="table_ul">
+                        <li>
+                            <span>포트폴리오 설명</span>
+                            <div class="table_ul_cont">
+                                <textarea name="" id="" cols="30" rows="10" placeholder="포트폴리오 초기화면에 들어갈 문구를 작성해 주세요. (100자 이내)"></textarea>
+                            </div>
+                        </li>
+                        <li>
+                            <span>포트폴리오 ID</span>
+                            <div class="table_ul_cont">
+                                <div class="table_ul_input">
+                                    <input type="text" placeholder="포트폴리오 ID를 입력해주세요. ">
+                                    <button class="btn">중복확인</button>
+                                </div>
+                                <p>* 4~12자 까지 입력 가능. 희망하는 포트폴리오 주소(ID)를 입력합니다. (예시 : http://www.hycu.ac.kr/portfolio/포트폴리오 ID)</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 위에 셀렉트 선택시 나타나는 섹션 -->
+                <div class="section">
+                    <h4 class="ico_blu section_title2">공개 및 대표 선택</h4>
+                    <table class="common_table persnal_table">
+                        <caption>공개 및 대표 선택사항</caption>
+                        <colgroup>
+                            <col width="15%">
+                            <col width="35%">
+                            <col width="15%">
+                            <col width="35%">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th>공개여부</th>
+                                <td>
+                                    <input type="radio" name="radio1">
+                                    <label for="">공개</label>
+                                    <input type="radio" name="radio1">
+                                    <label for="">비공개</label>
+                                </td>
+                                <th>대표여부</th>
+                                <td>
+                                    <input type="radio" name="radio2">
+                                    <label for="">예</label>
+                                    <input type="radio" name="radio2">
+                                    <label for="">아니오</label>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <ul class="table_lst"> <!-- 모바일일때 -->
+                        <li>
+                            <span class="tit">공개여부</span>
+                            <div class="lst_cont">
+                                <ul class="flex50">
+                                    <li>
+                                        <input type="radio" name="radio1">
+                                        <label for="">공개</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="radio1">
+                                        <label for="">비공개</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="tit">대표여부</span>
+                            <div class="lst_cont">
+                                <ul class="flex50">
+                                    <li>
+                                        <input type="radio" name="radio2">
+                                        <label for="">예</label>
+                                    </li>
+                                    <li>
+                                        <input type="radio" name="radio2">
+                                        <label for="">아니오</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+                <!--// 위에 셀렉트 선택시 나타나는 섹션 -->
+
+                
+                <div class="btn_area btn_num2">
+                    <a href="javasciprt:;" class="list_btn">목록</a>
+                    <div class="right_box">
+                        <button class="ask">다음</button>
+                    </div>
+                </div>
+
+            </div>
+            <!--// 내용 끝 -->
+
+
+        </div>
+    </div> 
+    <!-- container -->
+
+
+    <!-- 팝업 container 밖에 생성 --><!-- 이력서 팝업 추가(20230214) -->
+    <div class="popup" style="display: none;"> <!-- display:none 처리되어있습니다 -->
+        <div class="popup_wrap"> 
+            <div class="top">
+                <h2 class="ico_wh">이력서</h2>
+                <button><img src="../resources/images/common/popup_close.png" alt="팝업닫기"></button>
+            </div>
+        
+            <div class="popup_cont">
+                <div class="popup_cont_wrap">
+                    <div class="board_write_title no_border">
+                        <p>안녕하세요. 홍길동 이력서입니다.</p>
+                    </div>
+                    <h3 class="ico_blue">기본 인적사항</h3>
+                    <!-- 기본인적사항 박스 -->
+                    
+                    <div class="personal_info">
+                        <!-- 사진영역 -->
+                        <div class="img_box">
+                            <div class="img">
+                                <div class="img_inner">
+                                    <div class="img_input">
+                                        <img src="" alt=""><!-- 사진 넣는 곳 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--// 사진영역 -->
+                        <div class="detial_info">
+                            <p class="personer_name">홍길동</p>
+                            <ul class="personer_lst">
+                                <li><span>대학/학부(과)</span> <p> 컴퓨터공학과</p></li>
+                                <li><span>연락처</span> <p>02-1234-5678</p></li>
+                                <li><span class="cell">휴대폰</span><p> 010-1234-5678</p></li>
+                                <li><span>이메일주소</span><p>Hong@naver.com</p></li>
+                                <li><span>주소</span> <p>(04763)서울시 성동구 왕십리로 220 한양사이버대학교</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--// 기본인적사항 박스 -->                    
+                    
+                    <!-- popup2_btn -->
+                    <div class="popup2_btn">
+                        <button class="ask">확인</button>
+                    </div>
+                    <!--// popup2_btn -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// 팝업 -->
+
+    <!-- 팝업 container 밖에 생성 --><!-- 자기소개서 팝업 추가(20230214) -->
+    <div class="popup" style="display: none;"> <!-- display:none 처리되어있습니다 -->
+        <div class="popup_wrap"> 
+            <div class="top">
+                <h2 class="ico_wh">자기소개서</h2>
+                <button><img src="../resources/images/common/popup_close.png" alt="팝업닫기"></button>
+            </div>
+        
+            <div class="popup_cont">
+                <div class="popup_cont_wrap">
+                    <div class="board_write_title no_border">
+                        
+                        <p>홍길동 자기소개서입니다.</p>
+                    </div>
+                    
+                    <div class="write_cont view_cont">
+                        <div class="uadate">최근 수정일 <span>2023.01.11</span></div>
+                        <div class="add_cont">
+                            <div class="write_tit">
+                                <p>성장과정 제목</p>
+                            </div>
+                            <p>홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.홍길동 자기소개서 성장과정 내용입니다.</p>
+                        </div>
+    
+                        <div class="add_cont">
+                            <div class="write_tit">
+                                <p>성격 및 장단점 작성 제목</p>
+                            </div>
+                            <p>홍길동 자기소개서 성격 및 장단점 작성 내용입니다.홍길동 자기소개서 성격 및 장단점 작성 내용입니다.</p>
+                        </div>
+    
+                        <div class="add_cont">
+                            <div class="write_tit">
+                                <p>주요경험 작성 제목</p>                            
+                            </div>
+                            <p>홍길동 자기소개서 주요경험 작성 내용입니다.홍길동 자기소개서 주요경험 작성 내용입니다.</p>                        
+                        </div>
+    
+                        <div class="add_cont">
+                            <p class="write_txt">안녕하세요.</p>
+                            <p class="write_txt">안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.안녕하세요.</p>
+                        </div>
+                        
+                    </div>                
+                    
+                    <!-- popup2_btn -->
+                    <div class="popup2_btn">
+                        <button class="ask">확인</button>
+                    </div>
+                    <!--// popup2_btn -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// 팝업 -->
+
+    <!-- 팝업 container 밖에 생성 --><!-- 교내비교과활동 팝업 추가(20230214) -->
+    <div class="popup2" style="display: block;"> <!-- display:none 처리되어있습니다 -->
+        <div class="popup_wrap"> 
+            <div class="top">
+                <h2 class="ico_wh">교내비교과활동</h2>
+                <button><img src="../resources/images/common/popup_close.png" alt="팝업닫기"></button>
+            </div>
+        
+            <div class="popup_cont">
+                <div class="popup_cont_wrap">
+                    <!-- 심리상담 -->
+                    <h3 class="ico_blue">심리상담</h3>
+                    <table class="popup_table mgb50">
+                        <colgroup>
+                            <col width="15%">
+                            <col width="35%">
+                            <col width="15%">
+                            <col width="35%">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th>운영조직</th>
+                                <td colspan="3">심리상담실</td>
+                            </tr>
+                            <tr>
+                                <th>프로그램 대분류</th>
+                                <td colspan="3">진로, 심리</td>
+                            </tr>
+                            <tr>
+                                <th>신청기간</th>
+                                <td>2021.06.23 00:00~2023.06.16 00:00 </td>
+                                <th>선정방법</th>
+                                <td>선착순선발</td>
+                            </tr>
+                            <tr>
+                                <th>신청대상</th>
+                                <td colspan="3">한양사이버대학교 학생</td>
+                            </tr>
+                            <tr>
+                                <th>정원/대기자</th>
+                                <td colspan="3">정원 400명/대기자 0명</td>
+                            </tr>
+                            <tr>
+                                <th>첨부파일</th>
+                                <td colspan="3">-</td>
+                            </tr>
+                            <tr>
+                                <th>수료 인증서</th>
+                                <td>X</td>
+                                <th>마일리지</th>
+                                <td>3,000점</td>
+                            </tr>
+                            <tr>
+                                <th>프로그램 주요내용</th>
+                                <td colspan="3">심리상담 및 처방</td>
+                            </tr>
+                        </tbody>
+                    </table>   
+
+                <!-- 강좌정보 -->
+                    <h3 class="ico_blue">강좌정보</h3>
+                    <table class="popup_table mgb30">
+                        <colgroup>
+                            <col width="15%">
+                            <col width="15%">
+                            <col width="70%">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th>운영년도 및 학기</th>
+                                <td>2021년 1학기</td>
+                            </tr>
+                            <tr>
+                                <th>출석관리</th>
+                                <td>N</td>
+                            </tr>
+                            <tr>
+                                <th>진행속성</th>
+                                <td>2회</td>
+                            </tr>
+                        </tbody>
+                    </table>  
+
+                    <!-- 회차 -->
+                    <table class="popup_table mgb30">
+                        <colgroup>
+                            <col width="15%">
+                            <col width="15%">
+                            <col width="70%">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th rowspan="5">1회차</th>
+                                <th>교육기간</th>
+                                <td>2021.06.23 00:00~2023.06.14 00:00</td>
+                            </tr>
+                            <tr>                          
+                                <th>교육장소/강사</th>
+                                <td>심리상담센터/김명화</td>
+                            </tr>
+                            <tr>                          
+                                <th>강좌명</th>
+                                <td>모의고사</td>
+                            </tr>
+                            <tr>                          
+                                <th>첨부파일</th>
+                                <td>-</td>
+                            </tr>
+                            <tr>                          
+                                <th>과제제출</th>
+                                <td>미제출</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="popup_table">
+                        <colgroup>
+                            <col width="15%">
+                            <col width="15%">
+                            <col width="70%">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th rowspan="5">2회차</th>
+                                <th>교육기간</th>
+                                <td>2021.06.23 00:00~2023.06.14 00:00</td>
+                            </tr>
+                            <tr>                          
+                                <th>교육장소/강사</th>
+                                <td>심리상담센터/김명화</td>
+                            </tr>
+                            <tr>                          
+                                <th>강좌명</th>
+                                <td>모의고사</td>
+                            </tr>
+                            <tr>                          
+                                <th>첨부파일</th>
+                                <td>-</td>
+                            </tr>
+                            <tr>                          
+                                <th>과제제출</th>
+                                <td>미제출</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <!-- popup2_btn -->
+                    <div class="popup2_btn">
+                        <button class="ask">확인</button>
+                    </div>
+                    <!--// popup2_btn -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// 팝업 -->
+
+    <!-- 팝업 container 밖에 생성 --><!-- 교외비교과활동 팝업 추가(20230214) -->
+    <div class="popup2" style="display: none;"> <!-- display:none 처리되어있습니다 -->
+        <div class="popup_wrap"> 
+            <div class="top">
+                <h2 class="ico_wh">교외비교과활동</h2>
+                <button><img src="../resources/images/common/popup_close.png" alt="팝업닫기"></button>
+            </div>
+        
+            <div class="popup_cont">
+                <div class="popup_cont_wrap">
+                    <!-- 개별활동 -->
+                    <h3 class="ico_blue">개별활동</h3>
+                    <table class="popup_table mgb50">
+                        <colgroup>
+                            <col width="20%">
+                            <col width="30%">
+                            <col width="20%">
+                            <col width="30%">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th>상태</th>
+                                <td colspan="3">신청</td>
+                            </tr>
+                            <tr>
+                                <th>활동명</th>
+                                <td colspan="3">자연보호 캠페인</td>
+                            </tr>
+                            <tr>
+                                <th>활동명칭</th>
+                                <td colspan="3">한강 줍깅</td>
+                            </tr>
+                            <tr>
+                                <th>활동장소</th>
+                                <td colspan="3">여의나루</td>
+                            </tr>
+                            <tr>
+                                <th>활동시작일자</th>
+                                <td>2023.01.01</td>
+                                <th>활동종료일자</th>
+                                <td>2023.01.02</td>
+                            </tr>
+                            <tr>
+                                <th>주간기관</th>
+                                <td colspan="3">한양사이버대학교</td>
+                            </tr>
+                            <tr>
+                                <th>세부내역</th>
+                                <td colspan="3">한양사이버대학교에서 진행했습니다.</td>
+                            </tr>
+                            <tr>
+                                <th>첨부파일</th>
+                                <td colspan="3"><a href="줍깅 캠페인 인증서.hwp" download="" class="link_must">줍깅 캠페인 인증서.hwp</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    <!-- popup2_btn -->
+                    <div class="popup2_btn">
+                        <button class="ask">확인</button>
+                    </div>
+                    <!--// popup2_btn -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// 팝업 -->
+
+    <!-- 팝업 container 밖에 생성 --><!-- 성적 팝업 추가(20230214) -->
+    <div class="popup2" style="display: none;"> <!-- display:none 처리되어있습니다 -->
+        <div class="popup_wrap"> 
+            <div class="top">
+                <h2 class="ico_wh">성적</h2>
+                <button><img src="../resources/images/common/popup_close.png" alt="팝업닫기"></button>
+            </div>
+        
+            <div class="popup_cont">
+                <div class="popup_cont_wrap">
+                    <div class="scroll_box">
+                        <table class="popup_table mgb50 scroll_table">
+                            <colgroup>
+                                <col width="8%">
+                                <col width="10%">
+                                <col width="10%">
+                                <col width="12%">
+                                <col width="15%">
+                                <col width="15%">
+                                <col width="10%">
+                                <col width="10%">
+                                <col width="10%">
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th>번호</th>
+                                    <th>학년도</th>
+                                    <th>학기</th>
+                                    <th>구분</th>
+                                    <th>과목코드</th>
+                                    <th>교과목명</th>
+                                    <th>과목학점</th>
+                                    <th>성적</th>
+                                    <th>교수명</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>1</th>
+                                    <td>2020</td>
+                                    <td>1학기</td>
+                                    <td>전공</td>
+                                    <td>C101</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>A</td>
+                                    <td>김상상</td>
+                                </tr>
+                                <tr>
+                                    <th>2</th>
+                                    <td>2020</td>
+                                    <td>2학기</td>
+                                    <td>교양</td>
+                                    <td>B101</td>
+                                    <td>3</td>
+                                    <td>2</td>
+                                    <td>B</td>
+                                    <td>박상상</td>
+                                </tr>
+                                <tr>
+                                    <th>3</th>
+                                    <td>2021</td>
+                                    <td>1학기</td>
+                                    <td>일반</td>
+                                    <td>A101</td>
+                                    <td>3</td>
+                                    <td>3</td>
+                                    <td>A</td>
+                                    <td>천상상</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="scroll_back"> <!-- 클릭시 display:none -->
+                            <img src="../resources/images/sub/scroll_ico.png" alt="">
+                            <p>화면을 터치한 후에 <br> 좌우로 스크롤하여 확인하세요.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- popup2_btn -->
+                    <div class="popup2_btn">
+                        <button class="ask">확인</button>
+                    </div>
+                    <!--// popup2_btn -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// 팝업 -->
+
+        
+    <!-- footer -->
+    <footer>
+        <a href="#" class="f_logo"><img src="../resources/images/common/f_logo.png" alt="hyuc 한양사이버대학교"></a>
+        <div class="f_cont">
+            <ul class="fnav">
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">이메일무단수집거부</a></li>
+                <li><a href="#">사이트맵</a></li>
+            </ul>
+            <address><span>04763 서울시 성동구 왕십리로 220 한양사이버대학교</span><span>대표전화. 02-2290-0114</span><span>FAX. 050-2290-0605</span></address>
+            <span class="copy">Copyright © HANYANG CYBER UNIVERSITY. All rights reserved</span>
+        </div>
+        <div class="family_site">
+            <select>
+                <option value="" disabled selected>Family site</option>
+                <option value="한양학원">한양학원</option>
+                <option value="한양사이버대학교 대학원">한양사이버대학교 대학원</option>
+                <option value="한양대학교">한양대학교</option>
+                <option value="한양여자대학">한양여자대학</option>
+                <option value="한양대학교의료원">한양대학교의료원</option>
+            </select>
+        </div>
+    </footer>
+    <!--// footer -->
+
+
+</div>
+</body>
+</html>
