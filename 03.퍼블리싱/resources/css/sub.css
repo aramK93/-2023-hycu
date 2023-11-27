@@ -1109,7 +1109,7 @@ ul.keyword_lst li {font-size: 1.6rem;color: #333333;padding: 1rem 1rem;min-width
 .result_bar span.all_average::after {content:'';width: 1px;height:9rem;margin: 0 auto ;display: block;border-left: 1px dashed #333333;}
 .result_bar span.my_average::before {content:'';width: 1px;height:9rem;margin: 0 auto ;display: block;border-left: 1px dashed #5B28BE;}
 
-.scroll_box3 {width: 100%;overflow-x: auto;margin: 2rem 0 3.5rem 0;padding: 2rem 0;}
+.scroll_box3 {width: 100%;overflow-x: auto;margin: 2rem 0 3.5rem 0;padding: 2rem 0;position: relative;}
 .scroll_box3 .result_bar {min-width: 65rem;}
 
 /* 학습활동 - 배움클래스 */
@@ -1390,6 +1390,7 @@ span.option_width {width: 8rem;}
 .notice_check .shoud_check span {color: #0DA2E9;}
 .agree_txt {font-size: 1.6rem;color: #333;margin-bottom: 1.5rem;line-height: 2.4rem;}
 .notice_scroll {padding: 3rem;border: 1px solid #ccc;margin-bottom: 1rem;height: 18rem;overflow-y: scroll;}
+.notice_scroll.ht_70 {max-height: 7rem;padding:  1.5rem 2.5rem;}
 .notice_scroll span {font-size: 1.6rem;font-weight: 600;line-height: 2.6rem;color: #333;}
 .notice_scroll p {font-size: 1.6rem;color: #333;line-height: 2.6rem;width: 100%;margin: 0 auto;}
 .notice_scroll ul {margin: 3rem auto;}
@@ -3010,6 +3011,17 @@ div.sub_title_area div.right {position: absolute; top: 0; right: 0px;}
 
 	.class_cont_wrap01 .cont_right .type_lst .cont {background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);} /* 20230425 수정/추가 */
 	.class_cont_wrap01 .cont_right .type_lst .cont .txt {font-size: 2.2rem;margin:  2.5rem 0;} /* 20230425 수정/추가 */
+
+	/* 공통팝업 */
+	.popup .pagenation {flex-wrap: nowrap;}
+	.popup .pagenation ul {margin: 0;flex-wrap: nowrap;}
+	.popup .pagenation ul li {margin: 0;}
+	.popup .pagenation > button {margin: 0;}
+	.popup .pagenation > button:nth-last-child(2) {margin: 0;}
+
+	.notice_scroll.ht_70 {padding: 1rem 2rem;}
+	.notice_scroll {padding: 1rem 2rem;}
+
 	
 }
 
