@@ -1640,9 +1640,11 @@ span.kind05 {background-color: #6926B5;}
 .bottom_reply button {padding: 0 3.62rem;height: 4.2rem;float: right;margin-top: 1rem;}
 
 .board_write_title {padding: 3rem 0 2rem 0;border-bottom: 1px solid #ccc;/*border-top: 1px solid #333;*/}
-.board_write_title .text_input {width: 100%;border: none;height: 3rem;resize: none;margin-bottom: 2rem;font-size: 2.4rem;line-height: 2.6rem;font-weight: 600;color: #333;}
+.board_write_title .text_input {width: 100%;border: none;height: 3rem;resize: none;margin-bottom: 2rem;line-height: 2.6rem;font-weight: 600;color: #333;}
 .board_write_title input.text_input:read-only::placeholder {color: #333;}
 .board_write_title input.text_input::placeholder {font-size: 2.4rem;line-height: 2.6rem;font-weight: 600;color: #999999;font-family: 'pretendard';}
+#contents .board_write_title .text_input {font-size: 2.4rem;}
+#contents .board_write_title input.text_input::placeholder {font-size: 2.4rem;}
 .board_write_title p {font-size: 2.4rem;line-height: 2.6rem;font-weight: 600;color: #333;text-align: center;}
 .board_write_title label {font-size: 1.6rem;color: #333333;font-weight: 600;}
 .board_write_title label input {}
