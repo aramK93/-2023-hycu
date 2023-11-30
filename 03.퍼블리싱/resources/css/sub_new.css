@@ -147,7 +147,7 @@
 
 .scroll_table3 {min-width: 110rem;position: relative;}
 .scroll_box3 {position: relative;margin-top: 1.25rem;margin-bottom: 4rem;overflow-x: auto;} 
-.scroll_back3 {width:100%;background: rgba(16,16,16,70%);position: absolute;left: 0;top:0;padding: 3rem;display:block;min-width: 110rem;}
+.scroll_back3 {width:100%;background: rgba(16,16,16,70%);position: absolute;left: 0;top:0;padding: 3rem;display:none;min-width: 110rem;}
 .scroll_back3 img {display: block;margin: 0 auto 1.3rem;width: auto;height: auto;}
 .scroll_back3 p {font-size: 1.4rem;color: #fff;text-align: center;line-height: 2.1rem;}
 
@@ -157,6 +157,8 @@
 .mentoring_pop .popup2_btn button {padding: 0;}
 
 .mentoring .canlendar_wrap {gap: 0.5rem;}
+.mentoring .canlendar_wrap.type2 {justify-content: flex-start;flex: inherit;}
+.mentoring .canlendar_wrap_inner {width: 100%;display: flex;gap: 1rem;align-items: center;flex-wrap: wrap;}
 div.calendar_time {display: inline-block;padding: 0 0 0 3rem;border: 1px solid #ccc;background: url(../images/new/common/ico_calendar_time.png) no-repeat left 1rem center #fff;box-sizing: border-box;}
 div.calendar_time input {width: 100%;height: 4.2rem;border: 0px !important;background-color: transparent;}
 div.calendar_time.wd_94 {max-width: 9.4rem;}
@@ -493,6 +495,14 @@ div.calendar_box.wd_130 {max-width: 13rem;}
 	.scroll_back3 {}
 	.scroll_back3 img {margin: 0 0 1.3rem 7%;}
 	.scroll_back3 p {text-align: left;margin-left:5%;}
+
+	.mentoring .canlendar_wrap.type2 {flex-direction: column;justify-content: flex-start;align-items: flex-start;}
+	.mentoring .canlendar_wrap_inner {width: 100%;justify-content: flex-start;}
+	.mentoring .canlendar_wrap_inner .calendar_box,
+	.mentoring .canlendar_wrap_inner .calendar_time {max-width: 100%;flex: 1 1 0;}
+	.mentoring .canlendar_wrap_inner:last-child {width: calc(100% - 2.7rem);}
+
+
 }
 
 @media screen and (max-width:1024px) {
@@ -502,6 +512,7 @@ div.calendar_box.wd_130 {max-width: 13rem;}
 	.mentoring .detail_search_area .detail_search div {font-size: 1.6rem;overflow: visible;}
 	.mentoring .canlendar_wrap span {width: auto;}
 	.detail_search_area .detail_search button.searchbtn {flex: none;}
+	.scroll_back3 {display: block;}
 
 
 	/* 멘토링 참여신청 */
@@ -525,7 +536,7 @@ div.calendar_box.wd_130 {max-width: 13rem;}
 
 	.mentoring_section .text_info_box.bg02 {background-position: top 2rem center;}
 
-	.btn_mgt {margin-top: 3rem;}
+	.btn_mgt {margin-top: 3rem;}	
 
 	/* 팝업 */
 	.wd_540 .popup_wrap {width: 80%;}
@@ -603,6 +614,9 @@ div.calendar_box.wd_130 {max-width: 13rem;}
 
 }
 @media screen and (max-width:565px){
+	/* 공통 */
+	.canlendar_wrap.type2 {flex-direction: column;}
+
 	/* 멘토링 참여신청 */
 	#contents .mentoring .page_info {align-items: baseline;}
 	.mentoring .page_info .all,
