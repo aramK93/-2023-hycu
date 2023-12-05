@@ -27,7 +27,7 @@
 .common_header .nav > ul > li:nth-child(4) {width: 14%}
 .common_header .nav > ul > li:nth-child(5) {width: 14%;}
 .common_header .nav > ul > li:nth-child(6) {width: 14%;}
-.common_header .nav > ul > li:nth-child(7) {width: 14%;}
+.common_header .nav > ul > li:nth-child(6) {width: 14%;}
 .common_header .nav > ul > li > a {font-size: 1.8rem;color: #fff;line-height: 1.5;padding: 4.15rem 1.5rem 4.15rem 0;text-align: center;display: inline-block;position: relative;}
 .common_header .nav > ul > li > a:after {
     content: '';width: 1rem;height: 1rem;display: block;background: url(../images/common/icon_blue.png) no-repeat center left;opacity: 0;
@@ -44,7 +44,7 @@
 .common_header.on .header_back {height:25rem;}
 .common_header.on .nav > ul > li > ul {height:25rem;}
 
-.common_header .header_right {display: flex;align-items: center;margin-right: 3%;}
+.common_header .header_right {display: flex;align-items: center;margin-right: 3%;min-width: 32rem;}
 .common_header .header_right .user_change {max-width: 120px;width:100%;padding: 6.5px 0;color: #fff;border:1px solid #fff;text-align: center;font-size: 1.6rem;margin-right: 5%;min-width: 10rem;}
 .common_header .header_right .user_name {font-size: 1.6rem;color: #fff;margin-right: 2%;min-width: 12rem;}
 .common_header .header_right .user_ico {margin-right: 2rem;}

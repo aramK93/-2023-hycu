@@ -56,6 +56,9 @@
     drop_down('.dep2');
     drop_down('.dep3');
     drop_down('.lnb_lst');
+    
+
+
 
 });
 
@@ -67,4 +70,5 @@ document.addEventListener("DOMContentLoaded", () => {
         notice.classList.toggle("on");
     });
 });
+
 
