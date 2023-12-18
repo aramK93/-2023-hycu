@@ -433,7 +433,7 @@
 }
 
 /* 대시보드 알림창 */
-.notice_window {position: fixed;right: -37rem;z-index: 8;height: 75rem;top: 50%;transition: all 0.3s;transform: translateY(-42.5%);}
+.notice_window {position: fixed;right: -37rem;z-index: 8;max-height: 75rem;top: 50%;transition: all 0.3s;transform: translateY(-48.6%);}
 .notice_window.on {right: 0;}
 .notice_window .notice_open {width: 7rem;height: 7rem;background-color: rgba(255,255,255,0.34);border-top-left-radius: 10px;border-bottom-left-radius: 10px;position: absolute;left: -7rem;top: 6%;}
 .notice_window .notice_open button {display: block;width: 100%;height: 100%;}
@@ -450,8 +450,9 @@
 .notice_cont > div.notice_cont01 ul li img {display: block;margin: 0 auto 1.2rem;}
 .notice_cont > div.notice_cont01 ul li p {text-align: center;font-size: 1.6rem;color: #fff;font-weight: 500;line-height: 2rem;}
 .notice_cont > div.notice_cont02 {position: relative;margin-bottom: 4rem;}
-.notice_cont > div.notice_cont03 {max-height: 37rem;overflow-y: auto;}
-.notice_cont > div.notice_cont03 .report_chart {margin-top: 2.4rem;}
+.notice_cont > div.notice_cont03 {}
+.notice_cont > div.notice_cont03 .report_chart {margin-top: 2.4rem;overflow-y: auto;}
+.notice_cont > div.notice_cont03 .report_chart ul {max-height: 35rem;}
 .notice_cont > div.notice_cont03 .activity_cont p {color: #fff;}
 .notice_cont > div.notice_cont03 .activity_cont span {}
 .notice_cont > div.notice_cont03 .activity_cont span b {color: #fff;}
